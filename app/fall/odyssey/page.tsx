@@ -3,8 +3,8 @@ import { FaCog, FaLightbulb } from "react-icons/fa"; // Import icons from react-
 export default function Home() {
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)] bg-gray-100">
-      <div className="flex flex-col text-center space-y-4 mt-4">
-        <h1 className="text-4xl font-bold text-gray-900">
+      <div>
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           The Duality of Odyssey: <br />
           <span className="relative">
             <span>Techn</span>
@@ -24,8 +24,8 @@ export default function Home() {
             <span>t</span>
           </span>
         </h1>
-        <p className="text-xl text-gray-600 max-w-2xl">
-          We rexamine the Odyssey though a lens focused on
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          We rexamine the Odyssey though a lens focused on<br />
           Odysseus' rhetoric, and that rhetoric's technological implications.
         </p>
       </div>
