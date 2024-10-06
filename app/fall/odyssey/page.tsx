@@ -115,12 +115,15 @@ export default function Home() {
 
         <div className="flex mt-6">
           <Timeline items={timelineData} imageSize={32} gap={16}></Timeline>
-          <p className="leading-7 ml-6">
-            Odyssey book 9 is one of four books transcribing the story that
-            Odysseus tells to the Phaeacians after landing on Scheria. 
-            Odysseus, although famous for his success in the Trojan War, is unknown to the Phaeacians.
-
-          </p>
+          <div className="ml-6">
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+              Odyssey book 9 is one of four books transcribing the story that
+              Odysseus tells to the Phaeacians after landing on Scheria. 
+              Odysseus, although famous for his success in the Trojan War, is unknown to the Phaeacians.
+            </p>
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+            </p>
+          </div>
         </div>
       </div>
     </div>
