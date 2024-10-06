@@ -79,7 +79,7 @@ export default function Home() {
 
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)] bg-gray-100">
-      <div className="mt-6 mx-4">
+      <div className="mt-6 mx-4 max-w-3xl">
         {/* Title */}
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           The Duality of Odyssey: <br />
@@ -117,7 +117,9 @@ export default function Home() {
           <Timeline items={timelineData} imageSize={32} gap={16}></Timeline>
           <p className="leading-7 ml-6">
             Odyssey book 9 is one of four books transcribing the story that
-            Odysseus tells to the Phaeacians after landing on Scheria.
+            Odysseus tells to the Phaeacians after landing on Scheria. 
+            Odysseus, although famous for his success in the Trojan War, is unknown to the Phaeacians.
+
           </p>
         </div>
       </div>
