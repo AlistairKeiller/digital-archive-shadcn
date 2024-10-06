@@ -2,9 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
-
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -12,7 +10,6 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 
 const quarters = [
@@ -79,54 +76,115 @@ const quarters = [
 ]
 
 export function Navbar() {
+  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false)
+
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        {quarters.map((quarter) => (
-          <NavigationMenuItem key={quarter.title}>
-            <NavigationMenuTrigger>{quarter.title}</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className="grid w-[200px] gap-3 p-4 md:w-[300px]">
-                {quarter.books.map((book) => (
-                  <ListItem
-                    key={book.title}
-                    title={book.title}
-                    href={book.href}
-                  >
-                    {book.description}
-                  </ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
-        ))}
-      </NavigationMenuList>
-    </NavigationMenu>
+    <header className="border-b">
+      <div className="container mx-auto flex items-center justify-between p-4">
+        {/* Placeholder logo */}
+        <Link href="/" className="flex items-center space-x-2">
+          <span className="text-xl font-bold">Logo</span>
+        </Link>
+
+        {/* Desktop Navigation Menu */}
+        <div className="hidden md:block">
+          <NavigationMenu>
+            <NavigationMenuList>
+              {quarters.map((quarter) => (
+                <NavigationMenuItem key={quarter.title}>
+                  <NavigationMenuTrigger>{quarter.title}</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid w-[200px] gap-3 p-4 md:w-[300px]">
+                      {quarter.books.map((book) => (
+                        <ListItem
+                          key={book.title}
+                          title={book.title}
+                          href={book.href}
+                        >
+                          {book.description}
+                        </ListItem>
+                      ))}
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              ))}
+            </NavigationMenuList>
+          </NavigationMenu>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="md:hidden"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle Menu"
+        >
+          {/* You can replace this with an actual icon */}
+          <span>☰</span>
+        </button>
+      </div>
+
+      {/* Mobile Navigation Menu */}
+      {mobileMenuOpen && (
+        <nav className="md:hidden">
+          <ul>
+            {quarters.map((quarter) => (
+              <li key={quarter.title}>
+                <div className="p-4 bg-gray-100">
+                  <span className="font-bold">{quarter.title}</span>
+                </div>
+                <ul>
+                  {quarter.books.map((book) => (
+                    <li key={book.title}>
+                      <Link href={book.href}>
+                        <a className="block p-4 border-b">
+                          <div className="font-medium">{book.title}</div>
+                          <div className="text-sm text-gray-600">
+                            {book.description}
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+    </header>
   )
 }
 
-const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
-  return (
-    <li>
-      <NavigationMenuLink asChild>
-        <a
-          ref={ref}
-          className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}
-        >
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-        </a>
-      </NavigationMenuLink>
-    </li>
-  )
-})
+interface ListItemProps {
+  className?: string;
+  title: string;
+  children: React.ReactNode;
+  href: string;
+}
+
+const ListItem = React.forwardRef<HTMLDivElement, ListItemProps>(
+  ({ className, title, children, href, ...props }, ref) => {
+    return (
+      <li>
+        <NavigationMenuLink asChild>
+          <Link href={href} passHref legacyBehavior>
+            <div
+              ref={ref}
+              className={cn(
+                "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-gray-100 focus:bg-gray-100",
+                className
+              )}
+              {...props}
+            >
+              <div className="text-sm font-medium leading-none">{title}</div>
+              <p className="line-clamp-2 text-sm leading-snug text-gray-600">
+                {children}
+              </p>
+            </div>
+          </Link>
+        </NavigationMenuLink>
+      </li>
+    )
+  }
+)
 ListItem.displayName = "ListItem"
