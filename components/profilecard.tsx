@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
+import profilePic from '@/components/profile.jpeg'
 
 export function ProfileCard() {
   return (
@@ -8,14 +9,14 @@ export function ProfileCard() {
         {/* Profile Header */}
         <CardHeader className="flex flex-col items-center p-6 border-b">
           <Image
-            src="/path/to/your-photo.jpg" // Replace with your image path
+            src={profilePic}
             alt="Profile Picture"
             width={120}
             height={120}
             className="rounded-full"
           />
-          <CardTitle className="text-2xl font-bold mt-4">Your Name</CardTitle>
-          <CardDescription className="text-gray-500">Your Title / Profession</CardDescription>
+          <CardTitle className="text-2xl font-bold mt-4">Alistair Keiller</CardTitle>
+          <CardDescription className="text-gray-500">UCI CS 2028 | Maker, hiker, and sailer</CardDescription>
         </CardHeader>
 
         {/* Profile Content - Split View */}
