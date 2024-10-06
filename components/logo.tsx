@@ -6,23 +6,23 @@ export function Logo() {
         <span className="relative">
           <span>Sp</span>
           <svg
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-            width="10"
-            height="20"
-            viewBox="0 0 10 20"
+            className="absolute top-1/2 left-[40%] transform -translate-x-1/2 -translate-y-1/2"
+            width="15"
+            height="30"
+            viewBox="0 0 15 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M5 0C4 5 6 7.5 5 10C4 12.5 6 15 5 20"
+              d="M7.5 0C6 7.5 9 11.25 7.5 15C6 18.75 9 22.5 7.5 30"
               stroke="#EF4444"
-              strokeWidth="1"
+              strokeWidth="2"
             />
           </svg>
-          <span className="ml-2">lit</span>
+          <span className="ml-3">lit</span>
         </span>
         <span> World</span>
       </div>
     </div>
-  );
-}
+  )
+}1
