@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { StaticImageData } from "next/image";
@@ -38,11 +39,7 @@ const Timeline: React.FC<TimelineProps> = ({ items, imageSize, gap }) => {
             <HoverCardContent>
               <div className="flex flex-col items-center">
                 {/* Full-size image */}
-                <img
-                  src={item.image.src}
-                  alt={item.title}
-                  className="w-full h-auto"
-                />
+                <Image src={item.image} alt={item.title} className="w-full h-auto" />
                 {/* Description */}
                 <p className="mt-2">{item.description}</p>
               </div>
