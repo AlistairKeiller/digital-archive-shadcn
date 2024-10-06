@@ -79,7 +79,7 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false)
 
   return (
-    <header className="border-b">
+    <header className="border-b sticky top-0 bg-white z-50">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Placeholder logo */}
         <Link href="/" className="flex items-center space-x-2">
@@ -135,14 +135,12 @@ export function Navbar() {
                 <ul>
                   {quarter.books.map((book) => (
                     <li key={book.title}>
-                      <Link href={book.href}>
-                        <a className="block p-4 border-b">
-                          <div className="font-medium">{book.title}</div>
-                          <div className="text-sm text-gray-600">
-                            {book.description}
-                          </div>
-                        </a>
-                      </Link>
+                        <Link href={book.href} className="block p-4 border-b">
+                        <div className="font-medium">{book.title}</div>
+                        <div className="text-sm text-gray-600">
+                          {book.description}
+                        </div>
+                        </Link>
                     </li>
                   ))}
                 </ul>
