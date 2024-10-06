@@ -1,7 +1,7 @@
 export function Logo() {
   return (
-    <div className="flex flex-col items-center justify-center p-2 bg-white">
-      <div className="text-2xl font-bold text-gray-800 font-mono">
+    <div className="flex flex-col items-center justify-center p-1 bg-white">
+      <div className="font-bold text-gray-800 font-mono text-xl">
         <span>Our </span>
         <span className="relative">
           <span>Sp</span>
@@ -24,5 +24,5 @@ export function Logo() {
         <span> World</span>
       </div>
     </div>
-  )
+  );
 }

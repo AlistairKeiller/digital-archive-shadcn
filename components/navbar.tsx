@@ -94,7 +94,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
           {/* <span className="text-xl font-bold">Logo</span> */}
-          {/* <Logo /> */}
+          <Logo />
         </Link>
 
         {/* Desktop Navigation Menu */}
