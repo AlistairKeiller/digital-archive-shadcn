@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
-import profilePic from '@/components/profile.jpeg'
+import profilePic from '@/components/profile.jpeg';
 
 export function ProfileCard() {
     return (
@@ -32,9 +32,9 @@ export function ProfileCard() {
                         </div>
 
                         {/* Red line separator */}
-                        <div className="relative flex items-center justify-center">
+                        <div className="relative flex items-center justify-center md:h-auto md:w-auto">
                             <svg
-                                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                                className="absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 md:rotate-0 rotate-90"
                                 width="15"
                                 height="100"
                                 viewBox="0 0 15 100"
@@ -47,7 +47,6 @@ export function ProfileCard() {
                                     strokeWidth="3"
                                 />
                             </svg>
-
                         </div>
 
                         {/* Personal Section */}
