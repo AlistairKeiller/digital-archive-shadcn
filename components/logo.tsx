@@ -25,4 +25,4 @@ export function Logo() {
       </div>
     </div>
   )
-}1
+}
