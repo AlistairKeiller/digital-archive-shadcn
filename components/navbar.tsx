@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
-import { ChevronDown, Menu } from "lucide-react"
+import { Menu } from "lucide-react"
 import {
   Accordion,
   AccordionContent,
@@ -88,20 +88,22 @@ export function Navbar() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <header className="border-b sticky top-0 bg-background z-50">
+    <header className="sticky top-0 z-50 border-b bg-background">
       <div className="container mx-auto flex items-center justify-between p-4">
-        {/* Placeholder logo */}
+        {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-xl font-bold">Logo</span>
         </Link>
 
         {/* Desktop Navigation Menu */}
-        <div className="hidden md:block">
+        <nav className="hidden md:block">
           <NavigationMenu>
             <NavigationMenuList>
               {quarters.map((quarter) => (
                 <NavigationMenuItem key={quarter.title}>
-                  <NavigationMenuTrigger>{quarter.title}</NavigationMenuTrigger>
+                  <NavigationMenuTrigger>
+                    {quarter.title}
+                  </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid w-[200px] gap-3 p-4 md:w-[300px]">
                       {quarter.books.map((book) => (
@@ -119,7 +121,7 @@ export function Navbar() {
               ))}
             </NavigationMenuList>
           </NavigationMenu>
-        </div>
+        </nav>
 
         {/* Mobile Menu Button */}
         <Sheet open={open} onOpenChange={setOpen}>
@@ -132,16 +134,16 @@ export function Navbar() {
           <SheetContent side="left" className="w-[300px] sm:w-[400px]">
             <nav className="flex flex-col gap-4">
               <Accordion type="single" collapsible className="w-full">
-                {quarters.map((quarter, index) => (
-                  <AccordionItem value={quarter.title} key={index}>
+                {quarters.map((quarter) => (
+                  <AccordionItem value={quarter.title} key={quarter.title}>
                     <AccordionTrigger>{quarter.title}</AccordionTrigger>
                     <AccordionContent>
                       <ul className="space-y-2">
-                        {quarter.books.map((book, bookIndex) => (
-                          <li key={bookIndex}>
+                        {quarter.books.map((book) => (
+                          <li key={book.title}>
                             <Link
                               href={book.href}
-                              className="block p-2 hover:bg-accent rounded-md"
+                              className="block rounded-md p-2 hover:bg-accent"
                               onClick={() => setOpen(false)}
                             >
                               <div className="font-medium">{book.title}</div>
@@ -164,35 +166,32 @@ export function Navbar() {
   )
 }
 
-interface ListItemProps {
-  className?: string
+interface ListItemProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   title: string
-  children: React.ReactNode
   href: string
+  children: React.ReactNode
 }
 
 const ListItem = React.forwardRef<HTMLAnchorElement, ListItemProps>(
-  ({ className, title, children, href, ...props }, ref) => {
-    return (
-      <li>
-        <NavigationMenuLink asChild>
-            <Link
-            href={href}
-            ref={ref}
-            className={cn(
-              "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent focus:bg-accent",
-              className
-            )}
-            {...props}
-            >
-            <div className="text-sm font-medium leading-none">{title}</div>
-            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-              {children}
-            </p>
-            </Link>
-        </NavigationMenuLink>
-      </li>
-    )
-  }
+  ({ title, href, children, ...props }, ref) => (
+    <li>
+      <NavigationMenuLink asChild>
+        <Link
+          href={href}
+          ref={ref}
+          className={cn(
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent focus:bg-accent",
+            props.className
+          )}
+          {...props}
+        >
+          <div className="text-sm font-medium leading-none">{title}</div>
+          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+            {children}
+          </p>
+        </Link>
+      </NavigationMenuLink>
+    </li>
+  )
 )
 ListItem.displayName = "ListItem"
