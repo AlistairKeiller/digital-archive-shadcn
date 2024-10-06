@@ -27,16 +27,15 @@ export function ProfileCard() {
                         <div className="w-full md:w-1/2">
                             <h3 className="text-lg font-semibold mb-2">Work</h3>
                             <p className="text-gray-700">
-                                I'm kinda obsessed with making things, which has lead me down countless rabbit holes in both academic and industry. I have a contrail of 73 (and counting) programming projects on github, I've taken a decent number of math, programming, and philosophy classes for fun (through duel enrollment programs), and I'm a part of a startup working on a device that helps with patient recovery (I wish I could say more, but NDAs and such are all <Image src={zipperMouth} alt="" height={25} width={25} className="inline-block"></Image> ).
+                                I'm kinda obsessed with making things, which has lead me down countless rabbit holes in both academic and industry. I have a contrail of 73 (and counting) programming projects on github, I've taken a decent number of math, programming, and philosophy classes for fun (through duel enrollment programs), and I'm a part of a startup working on a device that helps with patient recovery (I wish I could say more, but NDAs and such are all <Image src={zipperMouth} alt="" height={25} width={25} className="inline-block" /> ).
                             </p>
                         </div>
-
 
                         {/* Personal Section */}
                         <div className="w-full md:w-1/2">
                             <h3 className="text-lg font-semibold mb-2">Life</h3>
                             <p className="text-gray-700">
-                                I spend a lot of my free time on semi-academic stuff (I have a bit of a maker's spirit, so robotics and programming and very addictive), because I find them really fun. But when I do need a break, I love going hiking (I'm in UCI hiking club, which is an absolute blast, and I hiked a sizable chunk of the A.T.) and sailing hobie cats around bays (Mission Bay in san diego, and also the surrounding sea).
+                                I spend a lot of my free time on semi-academic stuff (I have a bit of a maker's spirit, so robotics and programming are very addictive), because I find them really fun. But when I do need a break, I love going hiking (I'm in UCI hiking club, which is an absolute blast, and I hiked a sizable chunk of the A.T.) and sailing hobie cats around bays (Mission Bay in San Diego, and also the surrounding sea).
                             </p>
                         </div>
                     </div>
