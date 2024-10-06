@@ -24,10 +24,9 @@ export function ProfileCard() {
                     <div className="flex flex-col md:flex-row gap-8">
                         {/* Academic Section */}
                         <div className="w-full md:w-1/2">
-                            <h3 className="text-lg font-semibold mb-2">Academic Life</h3>
+                            <h3 className="text-lg font-semibold mb-2">Work</h3>
                             <p className="text-gray-700">
-                                Brief description of your academic background. Highlight your degrees, universities, courses, and any key
-                                academic achievements. Include your interests in research, projects, or publications.
+                                I'm kinda obsessed with making things, which has lead me down countless rabbit holes in both academic and industry. I have a contrail of 73 (and counting) programming projects on github, I've taken a decent number of math, programming, and philosophy classes for fun (through duel enrollment programs), and I'm a part of a startup working on a device that helps with patient recovery (I wish I could say more, but NDAs and such are all 🤫).
                             </p>
                         </div>
 
@@ -70,11 +69,9 @@ export function ProfileCard() {
 
                         {/* Personal Section */}
                         <div className="w-full md:w-1/2">
-                            <h3 className="text-lg font-semibold mb-2">Personal Life</h3>
+                            <h3 className="text-lg font-semibold mb-2">Life</h3>
                             <p className="text-gray-700">
-                                Description of your personal life. Share your hobbies, interests, personal goals, or anything you'd like
-                                people to know about your life outside of academia. This is where you can showcase more of your
-                                personality and passions.
+                            I spend a lot of my free time on semi-academic stuff (I have a bit of a maker's spirit, so robotics and programming and very addictive), because I find them really fun. But when I do need a break, I love going hiking (I'm in UCI hiking club, which is an absolute blast, and I hiked a sizable chunk of the A.T.) and sailing hobie cats around bays (Mission Bay in san diego, and also the surrounding sea).
                             </p>
                         </div>
                     </div>
