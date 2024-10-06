@@ -20,6 +20,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { Logo } from "@/components/logo";
 
 const quarters = [
   {
@@ -92,7 +93,8 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-xl font-bold">Logo</span>
+          {/* <span className="text-xl font-bold">Logo</span> */}
+          <Logo />
         </Link>
 
         {/* Desktop Navigation Menu */}
