@@ -1,7 +1,19 @@
 import { FaCog, FaLightbulb } from "react-icons/fa"; // Import icons from react-icons
 import { HoverCard, HoverCardTrigger, HoverCardContent } from "@/components/ui/hover-card"; // Import HoverCard from shadcn
 import Timeline from "@/components/timeline"; // Import Timeline from shadcn
-import profilePic from '@/components/profile.jpeg';
+import Cicones from '@/images/Cicones.webp';
+import Lotus from '@/images/Lotus.jpg';
+import Polyphemus from '@/images/Polyphemus.png';
+import Winds from '@/images/Winds.jpg';
+import Laistrygones from '@/images/Laistrygones.jpg';
+import Circe from '@/images/Circe.jpg';
+import Sirens from '@/images/Sirens.jpg';
+import Scylla from '@/images/Scylla.jpg';
+import Cattle from '@/images/Cattle.jpg';
+import Zeus from '@/images/Zeus.jpg';
+import Calypso from '@/images/Calypso.jpg';
+
+
 
 export default function Home() {
   return (
@@ -39,13 +51,15 @@ export default function Home() {
           Burden of Proof
         </div>
 
-        <div className="flex">
-          <Timeline images={[profilePic, profilePic, profilePic]} imageSize={64} gap={64}></Timeline>
-          <p className="leading-7 mt-6 ml-6">
-            Odyssey book 9 transcribes the story that Odysseus tells to the Phaeacians after landing on Scheria.
+        <div className="flex mt-6">
+          <Timeline images={[Cicones, Lotus, Polyphemus, Winds, Laistrygones, Circe, Sirens, Scylla, Cattle, Zeus, Calypso]} imageSize={32} gap={16}></Timeline>
+          <p className="leading-7 ml-6">
+            Odyssey book 9 is one of four books transcribing the story that Odysseus tells to the Phaeacians after landing on Scheria.
           </p>
         </div>
       </div>
     </div>
   );
 }
+
+// credit https://www2.classics.upenn.edu/myth/php/homer/index.php?page=timelines
