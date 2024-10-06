@@ -36,10 +36,14 @@ const Timeline: React.FC<TimelineProps> = ({ items, imageSize, gap }) => {
                 <AvatarFallback>?</AvatarFallback>
               </Avatar>
             </HoverCardTrigger>
-            <HoverCardContent>
+            <HoverCardContent className="w-96"> {/* Added width class */}
               <div className="flex flex-col items-center">
                 {/* Full-size image */}
-                <Image src={item.image} alt={item.title} className="w-full h-auto" />
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-auto"
+                />
                 {/* Description */}
                 <p className="mt-2">{item.description}</p>
               </div>
