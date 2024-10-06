@@ -30,42 +30,6 @@ export function ProfileCard() {
                             </p>
                         </div>
 
-                        {/* Red line separator for larger screens */}
-                        <div className="relative hidden md:flex items-center justify-center md:h-auto md:w-auto">
-                            <svg
-                                className="absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2"
-                                width="15"
-                                height="100"
-                                viewBox="0 0 15 100"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M7.5 0C4 20 11 30 7.5 50C4 70 11 80 7.5 100"
-                                    stroke="#000000"
-                                    strokeWidth="3"
-                                />
-                            </svg>
-                        </div>
-
-                        {/* Longer squiggly line for smaller screens */}
-                        <div className="relative flex md:hidden items-center justify-center md:h-auto md:w-auto">
-                            <svg
-                                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-90"
-                                width="15"
-                                height="300"
-                                viewBox="0 0 15 300"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M7.5 0C4 75 11 100 7.5 150C4 200 11 225 7.5 300"
-                                    stroke="#000000"
-                                    strokeWidth="3"
-                                />
-                            </svg>
-                        </div>
-
 
                         {/* Personal Section */}
                         <div className="w-full md:w-1/2">

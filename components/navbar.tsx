@@ -27,9 +27,9 @@ const quarters = [
     title: "Fall",
     books: [
       {
-        title: "Book 1",
-        href: "/fall/book1",
-        description: "Description of Book 1",
+        title: "Odyssey Book 9",
+        href: "/fall/odyssey",
+        description: "Myth | Technology | Xenia",
       },
       {
         title: "Book 2",
