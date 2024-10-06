@@ -78,7 +78,7 @@ const quarters = [
   },
 ]
 
-export function NavigationMenuDemo() {
+export function Navbar() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
