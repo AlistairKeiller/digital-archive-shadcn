@@ -4,14 +4,6 @@ import {
   HoverCardTrigger,
   HoverCardContent,
 } from "@/components/ui/hover-card"; // Import HoverCard from shadcn
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
 import Timeline from "@/components/timeline"; // Import Timeline from shadcn
 import Cicones from "@/images/Cicones.webp";
 import Lotus from "@/images/Lotus.jpg";
@@ -113,9 +105,7 @@ export default function Home() {
         </h1>
 
         <p className="leading-7 mt-6">
-          We reexamine the Odyssey through a lens focused on
-          <br />
-          Odysseus' rhetoric, and that rhetoric's technological implications.
+          We reexamine the Odyssey through a lens focused on Odysseus&#39; rhetoric, and that rhetoric&#39;s technological implications.
         </p>
 
         {/* Timeline section */}
@@ -136,7 +126,7 @@ export default function Home() {
                 <HoverCardContent className="w-96">
                 <Image src={Begging} alt="Odysseus begging" className="h-48 object-cover rounded-md mx-auto" />
                 <p className="text-sm text-center mt-2">
-                      Odysseus begging for his safe return to Ithaca. Odysseus is on his knees, with his hands clasped together, and looked down upon by every Phaeacian. The child, the only one lower than Odysseus, refuses to look up at him. Odysseus has nothing to lose, and is willing to pull all the cards for his own ends.
+                      Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on his knees, with his hands clasped together, and looked down upon by every Phaeacian. The child, the only one lower than Odysseus, refuses to look up at him. To me, it feels like Odysseus has nothing to lose, and is willing to play all the cards for his own ends.
                     </p>
                   </HoverCardContent>
                 </HoverCard> from the Phaeacians with only stories, utilzing his cunning and rhetoric to convince the Phaeacians he was worthy of help.
