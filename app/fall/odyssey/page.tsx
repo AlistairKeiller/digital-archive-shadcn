@@ -114,23 +114,28 @@ export default function Home() {
           <div className="ml-6">
             <p className="leading-7 [&:not(:first-child)]:mt-6">
               Odyssey book 9 is one of four books transcribing the story
-              Odysseus tells to the Phaeacians after landing on Scheria. 
+              Odysseus tells to the Phaeacians after landing on Scheria.
               Odysseus had established a world-renowned reputation for his cunning and sucsess in the Trojan War,
               but he had a decade of time and countless lost solders since the Trojan War. He was stuck on Scheria,
               and needed both treasure and transport to return to Ithaca successfully. With no treasure or transport to his name, <HoverCard>
-              <HoverCardTrigger className="underline cursor-pointer">he begged for help</HoverCardTrigger>
+                <HoverCardTrigger className="underline cursor-pointer">he begged for help</HoverCardTrigger>
                 <HoverCardContent className="w-96">
-                <Image src={Begging} alt="Odysseus begging" className="h-48 object-cover rounded-md mx-auto" />
-                <p className="text-sm text-center mt-2">
-                      Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on his knees, with his hands clasped together, and looked down upon by every Phaeacian. The child, the only one lower than Odysseus, refuses to look up at him. To me, it feels like Odysseus has nothing to lose, and is willing to play all the cards for his own ends.
-                    </p>
-                  </HoverCardContent>
-                </HoverCard> from the Phaeacians with only stories, utilzing his cunning and rhetoric to convince the Phaeacians he was worthy of help.
+                  <Image src={Begging} alt="Odysseus begging" className="h-48 object-cover rounded-md mx-auto" />
+                  <p className="text-sm text-center mt-2">
+                    Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on his knees, with his hands clasped together, and looked down upon by every Phaeacian. The child, the only one lower than Odysseus, refuses to look up at him. To me, it feels like Odysseus has nothing to lose, and is willing to play all the cards for his own ends.
+                  </p>
+                </HoverCardContent>
+              </HoverCard> from the Phaeacians with only stories, utilzing his cunning and rhetoric to convince the Phaeacians he was worthy of help.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              I say this because my favorate point in Dr. Giannopoulou's lecture is that the truth of Odysseus's stories is irrevelant. Odysseus telling the stories is an exchange: Odysseus is offering enternamint, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
+              My favorate point in Dr. Giannopoulou's lecture is that the truth of Odysseus's stories is irrevelant.
+              Odysseus telling the stories is an exchange: Odysseus is offering entertainment, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
+              As you can see from the timeline of Odyssey books 9-12, Book 9 and Odysseus's encounter with Polyphemus is only a small introduction to the larger epic.
             </p>
-          </div>
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+              
+            </p>
+            </div>
         </div>
       </div>
     </div>
