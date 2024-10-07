@@ -86,7 +86,7 @@ export default function Home() {
         {/* Title */}
         <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
           The Duality of Odyssey: <br />
-          Hero <FaBalanceScale class="inline-block"></FaBalanceScale> Begger
+          Hero <FaBalanceScale className="inline-block"></FaBalanceScale> Begger
         </h1>
 
         {/* Timeline section */}
