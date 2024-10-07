@@ -83,7 +83,7 @@ export default function Home() {
     <div className="flex justify-center min-h-[calc(100vh-69px)] bg-gray-100">
       <div className="mt-6 mx-4 max-w-3xl">
         {/* Title */}
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
           The Duality of Odyssey: <br />
           <span className="relative">
             <span>Techn</span>
