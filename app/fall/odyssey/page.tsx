@@ -127,7 +127,7 @@ export default function Home() {
               
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Therefore, the truth of Odysseus' stories is irrelevant. Odysseus is offering that, in exchange for his stories, he should recieve transport and treasure. The stories are a means to an end, and the end is to get home.
+              Therefore, the truth of Odysseus' stories is irrelevant to both parties. Odysseus is offering that, in exchange for his stories, he should recieve transport and treasure. The stories are a means to an end, and the end is to get home.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
               
