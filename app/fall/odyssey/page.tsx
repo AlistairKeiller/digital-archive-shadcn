@@ -1,4 +1,5 @@
-import { FaCog, FaLightbulb } from "react-icons/fa"; // Import icons from react-icons
+// import { FaCog, FaLightbulb } from "react-icons/fa"; // Import icons from react-icons
+import { FaBalanceScale } from "react-icons/fa"; // Import icons from react-icons
 import {
   HoverCard,
   HoverCardTrigger,
@@ -85,23 +86,7 @@ export default function Home() {
         {/* Title */}
         <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
           The Duality of Odyssey: <br />
-          <span className="relative">
-            <span>Techn</span>
-            {/* Gear for "o" */}
-            <span className="inline-block">
-              <FaCog className="inline-block" />
-            </span>
-            <span>logy</span>
-          </span>
-          &nbsp;&&nbsp;
-          <span className="relative">
-            <span>W</span>
-            {/* Lightbulb for "i" */}
-            <span className="inline-block">
-              <FaLightbulb className="" />
-            </span>
-            <span>t</span>
-          </span>
+          Hero <FaBalanceScale class="inline-block"></FaBalanceScale> Begger
         </h1>
 
         {/* Timeline section */}
