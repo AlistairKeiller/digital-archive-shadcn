@@ -113,10 +113,8 @@ export default function Home() {
           <Timeline items={timelineData} imageSize={32} gap={16}></Timeline>
           <div className="ml-6">
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Let's just start by contextualizing Oddysseus's encounter with Polyphemus.
-              Oddysseus became world renowned for his success in the Trojan War, but, a decade later, he had become stranded on Scheria with nothing to his name.
-              He needed both transport and treasure so he could sucsessfully return to Ithica, and <HoverCard>
-                <HoverCardTrigger className="underline cursor-pointer">begging to the Phaeacians</HoverCardTrigger>
+              Let's just start by contextualizing Oddysseus's encounter with Polyphemus. Odysseus became world-renowned for his success in the Trojan War, but a decade later, he became stranded on Scheria with nothing to his name. He needed transport and treasure to successfully return to Ithica, and <HoverCard>
+                <HoverCardTrigger className="underline cursor-pointer">begging the Phaeacians</HoverCardTrigger>
                 <HoverCardContent className="w-96">
                   <Image src={Begging} alt="Odysseus begging" className="h-48 object-cover rounded-md mx-auto" />
                   <p className="text-sm text-center mt-2">
@@ -124,17 +122,17 @@ export default function Home() {
                   </p>
                 </HoverCardContent>
               </HoverCard>, using stories he constructed, was his only hope.
-              
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Therefore, the truth of Odysseus' stories is irrelevant to both parties. Odysseus is offering that, in exchange for his stories, he should recieve transport and treasure. The stories are a means to an end, and the end is to get home.
+              Therefore, the truth of Odysseus' stories is irrelevant to both parties. Odysseus is offering that, in exchange for his stories, he should receive transport and treasure. The stories are a means to an end, and the end is to get home.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Odysseus' stories don't only serve to entertain the Phaeacians into helping him; they also prove he us cunning enough to justify a gift, and embed parables that suggust that it is in the Phaeacians' best interest to help him.
-              The stories that Odysseus tells are transcribed as the Odyssey books 9-12, which constructivly tell the story of Odysseus' losing every ship, gift, and treasure he owns over his decade a sea.
-              
+              Odysseus' stories don't only serve to entertain the Phaeacians into helping him; they also prove he is cunning enough to justify a gift and embed parables that suggest that it is in the Phaeacians' best interest to help him. The stories that Odysseus tells are transcribed as the Odyssey books 9-12, which constructively tells the story of Odysseus losing every ship, gift, and treasure he owns over his decade at sea.
             </p>
-            </div>
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+              As you can see from the timeline on the left, Oddysseus' encounter with Polyphemus occurs quite early in the epic. At this point, Odysseus is still introducing his character to the Phaeacians and building the world and conflicts that the epic revolves around.
+            </p>
+          </div>
         </div>
       </div>
     </div>
