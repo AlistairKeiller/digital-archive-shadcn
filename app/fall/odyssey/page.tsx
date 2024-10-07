@@ -104,10 +104,6 @@ export default function Home() {
           </span>
         </h1>
 
-        <p className="leading-7 mt-6">
-          We reexamine the Odyssey through a lens focused on Odysseus&#39; rhetoric, and that rhetoric&#39;s technological implications.
-        </p>
-
         {/* Timeline section */}
         <div className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight">
           Burden of Proof
@@ -132,7 +128,7 @@ export default function Home() {
                 </HoverCard> from the Phaeacians with only stories, utilzing his cunning and rhetoric to convince the Phaeacians he was worthy of help.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              
+              I say this because my favorate point in Dr. Giannopoulou's lecture is that the truth of Odysseus's stories is irrevelant. Odysseus telling the stories is an exchange: Odysseus is offering enternamint, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
             </p>
           </div>
         </div>
