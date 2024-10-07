@@ -4,6 +4,14 @@ import {
   HoverCardTrigger,
   HoverCardContent,
 } from "@/components/ui/hover-card"; // Import HoverCard from shadcn
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 import Timeline from "@/components/timeline"; // Import Timeline from shadcn
 import Cicones from "@/images/Cicones.webp";
 import Lotus from "@/images/Lotus.jpg";
@@ -119,11 +127,23 @@ export default function Home() {
           <Timeline items={timelineData} imageSize={32} gap={16}></Timeline>
           <div className="ml-6">
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Odyssey book 9 is one of four books transcribing the story that
+              Odyssey book 9 is one of four books transcribing the story
               Odysseus tells to the Phaeacians after landing on Scheria. 
-              Odysseus, although famous for his success in the Trojan War, was unknown to the Phaeacians.
+              Odysseus had established a world-renowned reputation for his cunning and sucsess in the Trojan War,
+              but he had a decade of time and countless lost solders since the Trojan War. He was stuck on Scheria,
+              and needed both treasure and transport to return to Ithaca successfully. With no treasure or transport to his name,
+              he begged for help from the Phaeacians with only stories, utilzing his cunning and rhetoric to convince the Phaeacians he was worthy of help.
             </p>
-            <Image src={Begging} alt=""></Image>
+            <Card className="w-64 mx-auto">
+              <CardHeader>
+                <Image src={Begging} alt="Odysseus begging" className="h-32 object-cover rounded-md mx-auto" />
+              </CardHeader>
+              <CardContent className="text-center">
+              <p className="text-sm">
+                Odysseus disguised as a beggar upon his return to Ithaca.
+              </p>
+              </CardContent>
+            </Card>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
               
             </p>
