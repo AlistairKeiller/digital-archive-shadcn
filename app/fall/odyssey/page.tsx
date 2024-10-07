@@ -165,6 +165,10 @@ export default function Home() {
 // How were heros percived and treated by the public over time? Should they be provided respect and help, or should they be left to fend for themselves?
 // Talk about "The Boys," (evil hero that abuses the public) and "Batman" (where his entire life is helpign the public, and the public's support is nessesary for his success)
 
+// it's not equivilent exchange, it's more like a tip. It's almost socialist.
+
+// is there a basci kind of just living / being human?
+
 
 // Odysseus telling the stories is an exchange: Odysseus is offering entertainment, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
 // As you can see from the timeline of Odyssey books 9-12, Book 9 and Odysseus' encounter with Polyphemus is only a small introduction to the larger epic.
