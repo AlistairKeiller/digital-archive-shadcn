@@ -131,19 +131,16 @@ export default function Home() {
               Odysseus tells to the Phaeacians after landing on Scheria. 
               Odysseus had established a world-renowned reputation for his cunning and sucsess in the Trojan War,
               but he had a decade of time and countless lost solders since the Trojan War. He was stuck on Scheria,
-              and needed both treasure and transport to return to Ithaca successfully. With no treasure or transport to his name,
-              he begged for help from the Phaeacians with only stories, utilzing his cunning and rhetoric to convince the Phaeacians he was worthy of help.
+              and needed both treasure and transport to return to Ithaca successfully. With no treasure or transport to his name, <HoverCard>
+                <HoverCardTrigger className="underline cursor-pointer">he begged for help</HoverCardTrigger>
+                <HoverCardContent>
+                  <Image src={Begging} alt="Odysseus begging" className="h-32 object-cover rounded-md mx-auto" />
+                  <p className="text-sm text-center mt-2">
+                    Odysseus begging for his safe return to Ithaca. Odysseus is on his knees, with his hands clasped together, and looked down upon by every Phaeacian. The child, the only one lower than Odysseus, refuses to look up at him. Odysseus has nothing to lose, and is willing to pull all the cards for his own ends.
+                  </p>
+                </HoverCardContent>
+              </HoverCard> from the Phaeacians with only stories, utilzing his cunning and rhetoric to convince the Phaeacians he was worthy of help.
             </p>
-            <Card className="w-64 mx-auto">
-              <CardHeader>
-                <Image src={Begging} alt="Odysseus begging" className="h-32 object-cover rounded-md mx-auto" />
-              </CardHeader>
-              <CardContent className="text-center">
-              <p className="text-sm">
-                Odysseus disguised as a beggar upon his return to Ithaca.
-              </p>
-              </CardContent>
-            </Card>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
               
             </p>
