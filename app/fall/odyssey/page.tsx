@@ -1,4 +1,3 @@
-// import { FaCog, FaLightbulb } from "react-icons/fa"; // Import icons from react-icons
 import { FaBalanceScale } from "react-icons/fa"; // Import icons from react-icons
 import {
   HoverCard,
@@ -86,7 +85,7 @@ export default function Home() {
         {/* Title */}
         <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
           The Duality of Odyssey: <br />
-          Hero <FaBalanceScale className="inline-block"></FaBalanceScale> Begger
+          Hero <FaBalanceScale className="inline-block"></FaBalanceScale> Beggar
         </h1>
 
         {/* Timeline section */}
@@ -94,33 +93,68 @@ export default function Home() {
           Burden of Proof
         </div>
 
-        <div className="flex mt-6">
-          <Timeline items={timelineData} imageSize={32} gap={16}></Timeline>
-          <div className="ml-6">
+        <div className="mt-6">
+          <div className="float-left mr-6 mb-4">
+            <Timeline
+              items={timelineData}
+              imageSize={32}
+              gap={16}
+            ></Timeline>
+          </div>
+          <div>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Let&apos;s just start by contextualizing Oddysseus&apos;s encounter with Polyphemus. Odysseus became world-renowned for his success in the Trojan War, but a decade later, he became stranded on Scheria with nothing to his name. He needed transport and treasure to successfully return to Ithica, and <HoverCard>
-                <HoverCardTrigger className="underline cursor-pointer">begging the Phaeacians</HoverCardTrigger>
+              Let&apos;s just start by contextualizing Odysseus&apos;s encounter with Polyphemus.
+              Odysseus became world-renowned for his success in the Trojan War, but a decade later,
+              he became stranded on Scheria with nothing to his name. He needed transport and
+              treasure to successfully return to Ithaca, and{" "}
+              <HoverCard>
+                <HoverCardTrigger className="underline cursor-pointer">
+                  begging the Phaeacians
+                </HoverCardTrigger>
                 <HoverCardContent className="w-96">
-                  <Image src={Begging} alt="Odysseus begging" className="h-48 object-cover rounded-md mx-auto" />
+                  <Image
+                    src={Begging}
+                    alt="Odysseus begging"
+                    className="h-48 object-cover rounded-md mx-auto"
+                  />
                   <p className="text-sm text-center mt-2">
-                    Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on his knees, with his hands clasped together, and looked down upon by every Phaeacian. The child, the only one lower than Odysseus, refuses to look up at him. It feels like Odysseus has nothing to lose, and is willing to play all his cards for his own ends.
+                    Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on
+                    his knees, with his hands clasped together, and looked down upon by every
+                    Phaeacian. The child, the only one lower than Odysseus, refuses to look up at
+                    him. It feels like Odysseus has nothing to lose, and is willing to play all his
+                    cards for his own ends.
                   </p>
                 </HoverCardContent>
-              </HoverCard>, using stories he constructed, was his only hope.
+              </HoverCard>
+              , using stories he constructed, was his only hope.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Therefore, the truth of Odysseus&apos; stories is irrelevant to both parties. Odysseus is offering that, in exchange for his stories, he should receive transport and treasure. The stories are a means to an end, and the end is to get home.
+              Therefore, the truth of Odysseus&apos; stories is irrelevant to both parties. Odysseus
+              is offering that, in exchange for his stories, he should receive transport and
+              treasure. The stories are a means to an end, and the end is to get home.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Odysseus&apos; stories don&apos;t only serve to entertain the Phaeacians into helping him; they also prove he is cunning enough to justify a gift and embed parables that suggest that it is in the Phaeacians&apos; best interest to help him. The stories that Odysseus tells are transcribed as the Odyssey books 9-12, which constructively tells the story of Odysseus losing every ship, gift, and treasure he owns over his decade at sea.
+              Odysseus&apos; stories don&apos;t only serve to entertain the Phaeacians into helping
+              him; they also prove he is cunning enough to justify a gift and embed parables that
+              suggest that it is in the Phaeacians&apos; best interest to help him. The stories that
+              Odysseus tells are transcribed as the Odyssey books 9-12, which constructively tells
+              the story of Odysseus losing every ship, gift, and treasure he owns over his decade at
+              sea.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              As you can see from the timeline on the left, Oddysseus&apos; encounter with Polyphemus occurs quite early in the epic. At this point, Odysseus is still introducing his character to the Phaeacians and building the world and conflicts that the epic revolves around.
+              As you can see from the timeline on the left, Odysseus&apos; encounter with Polyphemus
+              occurs quite early in the epic. At this point, Odysseus is still introducing his
+              character to the Phaeacians and building the world and conflicts that the epic revolves
+              around.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Odysseus needs to resolve qiute a contradiction: How can a hero, cunning enough to take down a city, and resourceful enough to kill a cyclops with a pole, be so destitute and in need of help? How could the hero become the begger?
+              Odysseus needs to resolve quite a contradiction: How can a hero, cunning enough to take
+              down a city, and resourceful enough to kill a cyclops with a pole, be so destitute and
+              in need of help? How could the hero become the beggar?
             </p>
           </div>
+          {/* Clear the float */}
+          <div className="clear-both"></div>
         </div>
       </div>
     </div>

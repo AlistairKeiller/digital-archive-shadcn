@@ -22,7 +22,7 @@ interface TimelineProps {
 
 const Timeline: React.FC<TimelineProps> = ({ items, imageSize, gap }) => {
   return (
-    <div className="relative flex flex-col items-center w-min">
+    <div className="flex flex-col items-center w-min">
       {items.map((item, index) => (
         <div key={index} className="flex flex-col items-center">
           {/* HoverCard wrapping Avatar */}
