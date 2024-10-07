@@ -162,7 +162,8 @@ export default function Home() {
 }
 
 // TALK ABOUT THE EVOLUTION OF A HERO OVER TIME??? WHEN WOULD ODYSSEUS HAVE BEEN CONSIDERED A HERO? WHEN WOULD HE HAVE BEEN CONSIDERED A BEGGAR? HOW DOES HE USE HIS STORIES TO NAVIGATE BETWEEN THE TWO?
-// How were heros percived and treated by the public over time?
+// How were heros percived and treated by the public over time? Should they be provided respect and help, or should they be left to fend for themselves?
+// Talk about "The Boys," (evil hero that abuses the public) and "Batman" (where his entire life is helpign the public, and the public's support is nessesary for his success)
 
 
 // Odysseus telling the stories is an exchange: Odysseus is offering entertainment, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
