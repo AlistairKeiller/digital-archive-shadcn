@@ -54,8 +54,8 @@ export default function Home() {
     },
     {
       image: Sirens,
-      title: "Odysseus's ship passes the Sirens.",
-      description: "Odysseus's ship passes the Sirens.",
+      title: "Odysseus' ship passes the Sirens.",
+      description: "Odysseus' ship passes the Sirens.",
     },
     {
       image: Scylla,
@@ -113,24 +113,21 @@ export default function Home() {
           <Timeline items={timelineData} imageSize={32} gap={16}></Timeline>
           <div className="ml-6">
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Odyssey book 9 is one of four books transcribing the story
-              Odysseus tells to the Phaeacians after landing on Scheria.
-              Odysseus had established a world-renowned reputation for his cunning and sucsess in the Trojan War,
-              but he had a decade of time and countless lost solders since the Trojan War. He was stuck on Scheria,
-              and needed both treasure and transport to return to Ithaca successfully. With no treasure or transport to his name, <HoverCard>
-                <HoverCardTrigger className="underline cursor-pointer">he begged for help</HoverCardTrigger>
+              Let's just start by contextualizing Oddysseus's encounter with Polyphemus.
+              Oddysseus became world renowned for his success in the Trojan War, but, a decade later, he had become stranded on Scheria with nothing to his name.
+              He needed both transport and treasure so he could sucsessfully return to Ithica, and <HoverCard>
+                <HoverCardTrigger className="underline cursor-pointer">begging to the Phaeacians</HoverCardTrigger>
                 <HoverCardContent className="w-96">
                   <Image src={Begging} alt="Odysseus begging" className="h-48 object-cover rounded-md mx-auto" />
                   <p className="text-sm text-center mt-2">
-                    Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on his knees, with his hands clasped together, and looked down upon by every Phaeacian. The child, the only one lower than Odysseus, refuses to look up at him. To me, it feels like Odysseus has nothing to lose, and is willing to play all the cards for his own ends.
+                    Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on his knees, with his hands clasped together, and looked down upon by every Phaeacian. The child, the only one lower than Odysseus, refuses to look up at him. It feels like Odysseus has nothing to lose, and is willing to play all his cards for his own ends.
                   </p>
                 </HoverCardContent>
-              </HoverCard> from the Phaeacians with only stories, utilzing his cunning and rhetoric to convince the Phaeacians he was worthy of help.
+              </HoverCard>, using stories he constructed, was his only hope.
+              
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              My favorate point in Dr. Giannopoulou's lecture is that the truth of Odysseus's stories is irrevelant.
-              Odysseus telling the stories is an exchange: Odysseus is offering entertainment, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
-              As you can see from the timeline of Odyssey books 9-12, Book 9 and Odysseus's encounter with Polyphemus is only a small introduction to the larger epic.
+              Therefore, the truth of Odysseus' stories is irrelevant. Odysseus is offering that, in exchange for his stories, he should recieve transport and treasure. The stories are a means to an end, and the end is to get home.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
               
@@ -141,5 +138,23 @@ export default function Home() {
     </div>
   );
 }
+
+
+// Odysseus telling the stories is an exchange: Odysseus is offering entertainment, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
+// As you can see from the timeline of Odyssey books 9-12, Book 9 and Odysseus' encounter with Polyphemus is only a small introduction to the larger epic.
+// The stories Odysseus tells are also constructive. In the end he loses all his men and valuables, which only happens as a cominbation of all the devine entities he angers throughout all of his stories.
+// For example, in book 9, he only loses 2 men and to polyphemus, 
+
+// maybe make a quiz of Odysseus' actions, and have two bonus website depending on the users score?
+
+// Analysis of Odysseus' Storytelling Techniques: Explore how Odysseus crafts his narratives to captivate the Phaeacians. Discuss his use of vivid imagery, suspense, and emotional appeals that showcase his rhetorical prowess.
+// Specific Examples from Book 9: Incorporate direct quotations or specific passages where Odysseus' cunning and persuasive skills are evident. This will strengthen your points with textual evidence.
+// The Concept of Hospitality (Xenia): Delve into the Greek tradition of hospitality and how Odysseus leverages it. Explain how his stories not only entertain but also fulfill social expectations, prompting the Phaeacians to offer assistance.
+// Themes of Truth and Deception: Discuss the blurred lines between truth and fiction in Odysseus' tales. Analyze how the effectiveness of his stories does not depend on their factual accuracy but on their ability to achieve his goals.
+// Impact on the Phaeacians: Examine how the Phaeacians respond to Odysseus' narratives. Consider their emotions, reactions, and the eventual decision to help him, highlighting the success of his strategy.
+// Connection to the Larger Epic: Explain how Book 9 serves as an introduction to Odysseus' adventures recounted in Books 10-12. Discuss how this storytelling session builds anticipation and provides context for his journey.
+// Odysseus' Character Development: Analyze what his approach to storytelling reveals about his character traits, such as intelligence, resourcefulness, and understanding of human psychology.
+// Cultural and Moral Reflections: Reflect on what Odysseus' actions and the Phaeacians' reactions say about the values and morals of ancient Greek society.
+// Comparisons with Other Myths: If relevant, draw parallels between Odysseus' storytelling and similar motifs in other literary works or myths, enhancing the depth of your analysis.
 
 // credit https://www2.classics.upenn.edu/myth/php/homer/index.php?page=timelines
