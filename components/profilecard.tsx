@@ -27,7 +27,7 @@ export function ProfileCard() {
                         <div className="w-full md:w-1/2">
                             <h3 className="text-lg font-semibold mb-2">Work</h3>
                             <p className="text-gray-700">
-                                I&#39;m kinda obsessed with making things, which has lead me down countless rabbit holes in both academic and industry. I have a contrail of 73 (and counting) programming projects on github, I&#39;ve taken a decent number of math, programming, and philosophy classes for fun (through duel enrollment programs), and I&#39;m a part of a startup working on a device that helps with patient recovery (I wish I could say more, but NDAs and such are all <Image src={zipperMouth} alt="" height={25} width={25} className="inline-block" /> ).
+                                I&#39;m kinda obsessed with making things, which has lead me down countless rabbit holes in both academic and industry. I have a contrail of 73 (and counting) programming projects on github, I&#39;ve taken a decent number of math, programming, and philosophy classes for fun (through duel enrollment programs), and I&#39;m a part of a startup working on a device that helps with patient recovery (I wish I could say more, but NDAs and such are all <Image src={zipperMouth} alt="" height={25} width={25} className="inline-block" />).
                             </p>
                         </div>
 
