@@ -16,6 +16,8 @@ import Scylla from "@/images/Scylla.jpg";
 import Cattle from "@/images/Cattle.jpg";
 import Zeus from "@/images/Zeus.jpg";
 import Calypso from "@/images/Calypso.jpg";
+import Begging from "@/images/Begging.jpg";
+import Image from "next/image";
 
 export default function Home() {
   // Define the timeline data
@@ -119,9 +121,11 @@ export default function Home() {
             <p className="leading-7 [&:not(:first-child)]:mt-6">
               Odyssey book 9 is one of four books transcribing the story that
               Odysseus tells to the Phaeacians after landing on Scheria. 
-              Odysseus, although famous for his success in the Trojan War, is unknown to the Phaeacians.
+              Odysseus, although famous for his success in the Trojan War, was unknown to the Phaeacians.
             </p>
+            <Image src={Begging} alt=""></Image>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
+              
             </p>
           </div>
         </div>
