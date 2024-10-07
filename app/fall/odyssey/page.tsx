@@ -130,7 +130,7 @@ export default function Home() {
               Therefore, the truth of Odysseus' stories is irrelevant to both parties. Odysseus is offering that, in exchange for his stories, he should recieve transport and treasure. The stories are a means to an end, and the end is to get home.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              
+              Odysseus' stories don't only serve to entertain; they also prove he us cunning enough to justify a gift, and embed parables that suggust that it is in the Phaeacians' best interest to help him.
             </p>
             </div>
         </div>
