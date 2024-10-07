@@ -117,6 +117,9 @@ export default function Home() {
             <p className="leading-7 [&:not(:first-child)]:mt-6">
               As you can see from the timeline on the left, Oddysseus&apos; encounter with Polyphemus occurs quite early in the epic. At this point, Odysseus is still introducing his character to the Phaeacians and building the world and conflicts that the epic revolves around.
             </p>
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+              Odysseus needs to resolve qiute a contradiction: How can a hero, cunning enough to take down a city, and resourceful enough to kill a cyclops with a pole, be so destitute and in need of help? How could the hero become the begger?
+            </p>
           </div>
         </div>
       </div>
