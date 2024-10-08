@@ -156,7 +156,7 @@ export default function Home() {
             What is a Greek Hero?
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            What is a greek hero?
+            The most literal translation of hero, ήρωας, means a demigod (a mortal whom is half god, half human). This would include heros like Heracles and Achilles, but exclude heros like Odysseus and Ajax.
           </p>
         </div>
       </div>
