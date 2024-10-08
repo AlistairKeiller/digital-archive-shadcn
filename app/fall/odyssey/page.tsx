@@ -148,7 +148,7 @@ export default function Home() {
               around.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Odysseus needs to resolve quite a contradiction: How can a hero, cunning enough to take
+              Odysseus needs to resolve quite a contradiction: How can a Greek hero, cunning enough to take
               down a city, and resourceful enough to kill a cyclops with a pole, be so destitute and
               in need of help? How could the hero become the beggar?
             </p>
@@ -168,6 +168,10 @@ export default function Home() {
 // it's not equivilent exchange, it's more like a tip. It's almost socialist.
 
 // is there a basci kind of just living / being human?
+
+// the oddessey part is the least interesting part. How far can I take it while still focusing on the core values of the course (worldbuilding).
+
+// What recent cases ahve peoples been as accepted as oddessious for such an elaborate tale? What are hte real world impacts of such tails? Any other similar examples?
 
 
 // Odysseus telling the stories is an exchange: Odysseus is offering entertainment, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
