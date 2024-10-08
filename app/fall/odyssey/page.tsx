@@ -90,7 +90,7 @@ export default function Home() {
 
         {/* Timeline section */}
         <div className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight">
-          Burden of Proof
+          The Contradiction
         </div>
 
         <div className="mt-6">
@@ -148,9 +148,9 @@ export default function Home() {
               around.
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Odysseus needs to resolve quite a contradiction: How can a Greek hero, cunning enough to take
+              Throughout his tale, Odysseus needs to resolve quite a contradiction: How can a Greek hero, cunning enough to take
               down a city, and resourceful enough to kill a cyclops with a pole, be so destitute and
-              in need of help? How could the hero become the beggar?
+              in need of help? How could the hero also be the beggar?
             </p>
           </div>
           {/* Clear the float */}
