@@ -164,9 +164,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline">
                     ἥρως
-                  </a>{" "}
-                  Henry George Liddell, Robert Scott,
-                  <em>A Greek-English Lexicon</em>, on Perseus Digital Library.
+                  </a> Henry George Liddell, Robert Scott, <em>A Greek-English Lexicon</em>, on Perseus Digital Library.
                 </p>
               </PopoverContent>
             </Popover> to English as a person of divine ancestry or later given divine honors.
