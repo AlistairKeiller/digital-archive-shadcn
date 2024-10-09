@@ -152,9 +152,9 @@ export default function Home() {
             What is a Greek Hero?
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            <Popover>
-              <PopoverTrigger>
-                  Hero, or <span className="italic">hērōs</span> is Greek, can most simply be translated back to English as a person of divine ancestry or later given divine honors.
+          Hero, or <span className="italic">hērōs</span> is Greek, can <Popover>
+              <PopoverTrigger className="underline cursor-pointer">
+                  most simply be translated back
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <p className="text-sm text-gray-600">
@@ -169,7 +169,7 @@ export default function Home() {
                   <em>A Greek-English Lexicon</em>, on Perseus Digital Library.
                 </p>
               </PopoverContent>
-            </Popover>
+            </Popover> to English as a person of divine ancestry or later given divine honors.
           </p>
         </div>
       </div>
