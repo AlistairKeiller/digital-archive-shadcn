@@ -3,10 +3,10 @@ import React from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { StaticImageData } from "next/image";
 import {
-  HoverCard,
-  HoverCardTrigger,
-  HoverCardContent,
-} from "@/components/ui/hover-card";
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+} from "@/components/ui/popover";
 
 interface TimelineItem {
   image: StaticImageData; // Image data
@@ -25,9 +25,9 @@ const Timeline: React.FC<TimelineProps> = ({ items, imageSize, gap }) => {
     <div className="flex flex-col items-center w-min">
       {items.map((item, index) => (
         <div key={index} className="flex flex-col items-center">
-          {/* HoverCard wrapping Avatar */}
-          <HoverCard>
-            <HoverCardTrigger>
+          {/* Popover wrapping Avatar */}
+          <Popover>
+            <PopoverTrigger>
               <Avatar
                 className="rounded-full overflow-hidden border-2 border-white"
                 style={{ width: imageSize, height: imageSize }}
@@ -35,8 +35,8 @@ const Timeline: React.FC<TimelineProps> = ({ items, imageSize, gap }) => {
                 <AvatarImage src={item.image.src} alt={item.title} />
                 <AvatarFallback>?</AvatarFallback>
               </Avatar>
-            </HoverCardTrigger>
-            <HoverCardContent className="w-96"> {/* Added width class */}
+            </PopoverTrigger>
+            <PopoverContent className="w-96"> {/* Updated width class */}
               <div className="flex flex-col items-center">
                 {/* Full-size image */}
                 <Image
@@ -47,8 +47,8 @@ const Timeline: React.FC<TimelineProps> = ({ items, imageSize, gap }) => {
                 {/* Description */}
                 <p className="mt-2">{item.description}</p>
               </div>
-            </HoverCardContent>
-          </HoverCard>
+            </PopoverContent>
+          </Popover>
 
           {/* Line below the image, except for the last image */}
           {index !== items.length - 1 && (

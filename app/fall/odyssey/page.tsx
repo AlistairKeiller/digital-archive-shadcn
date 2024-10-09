@@ -1,9 +1,5 @@
 import { FaBalanceScale } from "react-icons/fa"; // Import icons from react-icons
-import {
-  HoverCard,
-  HoverCardTrigger,
-  HoverCardContent,
-} from "@/components/ui/hover-card"; // Import HoverCard from shadcn
+import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
 import Timeline from "@/components/timeline"; // Import Timeline from shadcn
 import Cicones from "@/images/Cicones.webp";
 import Lotus from "@/images/Lotus.jpg";
@@ -106,11 +102,11 @@ export default function Home() {
             Odysseus became world-renowned for his success in the Trojan War, but a decade later,
             he became stranded on Scheria with nothing to his name. He needed transport and
             treasure to successfully return to Ithaca, and{" "}
-            <HoverCard>
-              <HoverCardTrigger className="underline cursor-pointer">
+            <Popover>
+              <PopoverTrigger className="underline cursor-pointer">
                 begging the Phaeacians
-              </HoverCardTrigger>
-              <HoverCardContent className="w-96">
+              </PopoverTrigger>
+              <PopoverContent className="w-96">
                 <Image
                   src={Begging}
                   alt="Odysseus begging"
@@ -123,8 +119,8 @@ export default function Home() {
                   him. It feels like Odysseus has nothing to lose, and is willing to play all his
                   cards for his own ends.
                 </p>
-              </HoverCardContent>
-            </HoverCard>
+              </PopoverContent>
+            </Popover>
             , using stories he constructed, was his only hope.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -156,11 +152,11 @@ export default function Home() {
             What is a Greek Hero?
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            <HoverCard>
-              <HoverCardTrigger>
+            <Popover>
+              <PopoverTrigger>
                   Hero, or <span className="italic">hērōs</span> is Greek, can most simply be translated back to English as a person of divine ancestry or later given divine honors.
-              </HoverCardTrigger>
-              <HoverCardContent className="w-64 p-4">
+              </PopoverTrigger>
+              <PopoverContent className="w-64 p-4">
                 <p className="text-sm text-gray-600">
                   <a
                     href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dh%28%2Frws"
@@ -172,16 +168,14 @@ export default function Home() {
                   Henry George Liddell, Robert Scott,
                   <em>A Greek-English Lexicon</em>, on Perseus Digital Library.
                 </p>
-              </HoverCardContent>
-            </HoverCard>
+              </PopoverContent>
+            </Popover>
           </p>
         </div>
       </div>
     </div>
   );
 }
-
-// replace all hovercards with popovers
 
 // have a button "help me", that will have a bunch of modern superheros land right under the modern superheros section
 
