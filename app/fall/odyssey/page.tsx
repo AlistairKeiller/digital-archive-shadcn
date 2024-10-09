@@ -151,25 +151,43 @@ export default function Home() {
           <h2 className="clear-both mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
             What is a Greek Hero?
           </h2>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Hero, or <span className="italic">hērōs</span> is Greek, can <Popover>
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+            Hero, or <span className="italic">hērōs</span> is Greek, can <Popover>
               <PopoverTrigger className="underline cursor-pointer">
-                  most simply be translated back
+                most simply be translated back
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
-                <p className="text-sm text-gray-600">
-                  <a
-                    href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dh%28%2Frws"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline">
-                    ἥρως
-                  </a> Henry George Liddell, Robert Scott, <em>A Greek-English Lexicon</em>, on Perseus Digital Library.
-                </p>
+              <p className="text-sm text-gray-600">
+                <a
+                href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dh%28%2Frws"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline">
+                ἥρως
+                </a> Henry George Liddell, Robert Scott, <em>A Greek-English Lexicon</em>, on Perseus Digital Library.
+              </p>
               </PopoverContent>
             </Popover> to English as a person of divine ancestry or later given divine honors.
-            This is a convient and simple defintion, but one with countless contradictions. For example, Odysseus is widely
-          </p>
+            This is a convenient and simple definition, but one with countless contradictions, including Odysseus the "<Popover>
+              <PopoverTrigger className="underline cursor-pointer">
+              ingenious hero
+              </PopoverTrigger>
+              <PopoverContent className="w-64 p-4">
+              <p className="text-sm text-gray-600">
+                <a
+                href="https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline">
+                "ingenious hero"
+                </a> from Homer's Odyssey, translated by Samuel Butler, on Project Gutenberg.
+              </p>
+              </PopoverContent>
+            </Popover>" himself. Odysseus is a widely renowned hero, with no devine blood or specific devine honors to attribute his title to (Athena is his patreon, which helps his ends, but isn't a specific enough award to justify the heroic title by divine definition).
+            </p>
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
+              Instead, I will turn to "The Ancient Greek Hero in 24 Hours" for a more complete picture: Gregory Nagy posits that ™
+            </p>
         </div>
       </div>
     </div>
