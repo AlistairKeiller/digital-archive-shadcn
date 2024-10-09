@@ -156,7 +156,24 @@ export default function Home() {
             What is a Greek Hero?
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            The most literal translation of hero, ήρωας, means a demigod (a mortal whom is half god, half human). This would include heros like Heracles and Achilles, but exclude heros like Odysseus and Ajax.
+            <HoverCard>
+              <HoverCardTrigger>
+                  Hero, or <span className="italic">hērōs</span> is Greek, can most simply be translated back to English as a person of divine ancestry or later given divine honors.
+              </HoverCardTrigger>
+              <HoverCardContent className="w-64 p-4">
+                <p className="text-sm text-gray-600">
+                  <a
+                    href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dh%28%2Frws"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline">
+                    ἥρως
+                  </a>{" "}
+                  Henry George Liddell, Robert Scott,
+                  <em>A Greek-English Lexicon</em>, on Perseus Digital Library.
+                </p>
+              </HoverCardContent>
+            </HoverCard>
           </p>
         </div>
       </div>
