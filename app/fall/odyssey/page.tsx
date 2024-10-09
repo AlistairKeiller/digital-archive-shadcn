@@ -168,6 +168,7 @@ export default function Home() {
                 </p>
               </PopoverContent>
             </Popover> to English as a person of divine ancestry or later given divine honors.
+            This is a convient and simple defintion, but one with countless contradictions. For example, Odysseus is widely
           </p>
         </div>
       </div>
