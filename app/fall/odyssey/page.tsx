@@ -74,8 +74,8 @@ export default function Home() {
           </div>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Let&apos;s start by contextualizing Odysseus&apos; encounter with Polyphemus.
-            Odysseus became world-renowned for his success in the Trojan War, but a decade later,
-            he was stranded on Scheria with nothing to his name. He needed transport and
+            Odysseus becomes world-renowned for his success in the Trojan War, but a decade later,
+            he is stranded on Scheria with nothing to his name. He needs transport and
             treasure to return to Ithaca successfully;{" "}
             <Popover>
               <PopoverTrigger asChild>
@@ -90,7 +90,7 @@ export default function Home() {
                   className="h-48 object-cover rounded-md mx-auto"
                 />
                 <p className="text-sm text-center mt-2">
-                  Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on
+                  Odysseus begs for his safe return to Ithaca. This image depicts Odysseus on
                   his knees, with his hands clasped together, and looked down upon by every
                   Phaeacian. The child, the only one lower than Odysseus, refuses to look up at
                   him. It feels like Odysseus has nothing to lose and is willing to play all his
@@ -98,7 +98,7 @@ export default function Home() {
                 </p>
               </PopoverContent>
             </Popover>
-            , using stories he constructed, was his only hope.
+            , using stories he constructs, is his only hope.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Therefore, the truth of Odysseus&apos; stories is irrelevant to both parties. Odysseus
@@ -109,13 +109,13 @@ export default function Home() {
             Odysseus&apos; stories not only entertain the Phaeacians into helping
             him; they also prove he is cunning enough to justify a gift and embed parables that
             suggest it is in the Phaeacians&apos; best interest to help him. The stories that
-            Odysseus told are transcribed as the Odyssey books 9-12, which constructively told
-            the story of Odysseus losing every ship, gift, and treasure he owned over his decade at
+            Odysseus tells are transcribed as the Odyssey books 9-12, which constructively tell
+            the story of Odysseus losing every ship, gift, and treasure he owns over his decade at
             sea.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             As you can see from the timeline on the left, Odysseus&apos; encounter with Polyphemus
-            occurred quite early in the epic. At this point, Odysseus is still introducing his character to the Phaeacians and building the world and conflicts the epic revolves around.
+            occurs quite early in the epic. At this point, Odysseus is still introducing his character to the Phaeacians and building the world and conflicts the epic revolves around.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Throughout his tale, Odysseus crafts a tragic tale of a wicked smart troy-destroying mastermind facing the world and losing everything. But this feels like a contradiction: How can a hero, cunning enough to take
@@ -189,7 +189,7 @@ export default function Home() {
                 </p>
               </PopoverContent>
             </Popover>
-            . According to Nagy, Greece was a song culture emphasizing sorrow and death. So, a hero&apos;s kleos was proportional to the song's impact, representing their death, also known as their{" "}
+            . According to Nagy, Greece is a song culture emphasizing sorrow and death. So, a hero&apos;s kleos is proportional to the song's impact, representing their death, also known as their{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -203,13 +203,13 @@ export default function Home() {
                   className="h-48 object-cover rounded-md mx-auto"
                 />
                 <p className="text-sm text-gray-600 text-center mt-2">
-                  In Greek mythology, swans were believed to sing a beautiful song just before they died, symbolizing a poignant and memorable end. The &quot;swan song&quot; of a person is considered their &quot;The Living Word,&quot; or the last words that a person perpetuates.
+                  In Greek mythology, swans are believed to sing a beautiful song just before they die, symbolizing a poignant and memorable end. The &quot;swan song&quot; of a person is considered their &quot;The Living Word,&quot; or the last words that a person perpetuates.
                 </p>
               </PopoverContent>
             </Popover>
             .
             In fact, according to Nagy, &quot;the precise moment when everything comes together for the hero is the moment of death.&quot;
-            So, there was massive pressure to &quot;
+            So, there is massive pressure to &quot;
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -254,10 +254,10 @@ export default function Home() {
           Solving the contradiction
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          To most simply solve the contradiction of Odysseus being a hero and a beggar, we can say that Odysseus wasn&apos;t a hero when he was begging the Phaeacians; he only became a hero when he returned to Ithaca (which created his <span className="italic">nostos</span>, and therefore his <span className="italic">hērōs</span>).
+          To most simply solve the contradiction of Odysseus being a hero and a beggar, we can say that Odysseus isn&apos;t a hero when he is begging the Phaeacians; he only becomes a hero when he returns to Ithaca (which creates his <span className="italic">nostos</span>, and therefore his <span className="italic">hērōs</span>).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          But I feel like that sidesteps the more fundamental issue. My immediate thought was: &quot;Odysseus is a hero, therefore he cannot be a desperate beggar.&quot;
+          But I feel like that sidesteps the more fundamental issue. My immediate thought is: &quot;Odysseus is a hero, therefore he cannot be a desperate beggar.&quot;
           I think that&apos;s a bias coming from the Western construction of a hero, which is grounded in a hero&apos;s moral, and often physical/mental, superiority to the general population.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
@@ -287,11 +287,11 @@ export default function Home() {
           The Greek hero is a tragic figure remembered for their death. In contrast the Western hero is a moral compass driven by the media&apos;s representation of the superhero protecting society from death, who is remembered for their life.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This helps explain why I felt so off-put by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be superhuman, morally true, a savior of others, and in no need of help from mere civilians.
+          This helps explain why I feel so off-put by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be superhuman, morally true, a savior of others, and in no need of help from mere civilians.
           In reality, the Phaeacians are powerful and wealthy people whom Odysseus needs for his return (a return that will actually make him a hero).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Whereas a famous Western hero/superhero would have been treated as an idol figure, a mere token of gratitude for their service, Odysseus may have been on a hero&apos;s journey but was relying on{" "}
+          Whereas a famous Western hero/superhero would have been treated as an idol figure, a mere token of gratitude for their service, Odysseus may have been on a hero&apos;s journey but relies on{" "}
           <Popover>
             <PopoverTrigger asChild>
               <span className="underline cursor-pointer">Xenia</span>
