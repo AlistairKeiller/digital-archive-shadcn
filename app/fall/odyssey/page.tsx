@@ -189,7 +189,7 @@ export default function Home() {
             </Popover>" himself. Odysseus is a widely renowned hero, with no devine blood or specific devine honors to attribute his title to (Athena is his patreon, which helps his ends, but isn't a specific enough award to justify the heroic title by divine definition).
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Instead, I will turn to "The Ancient Greek Hero in 24 Hours" for a more complete picture: Gregory Nagy posits that a hero is defined by their "<Popover>
+            Instead, I will turn to "The Ancient Greek Hero in 24 Hours" for a more complete picture: Gregory Nagy posits that a hero is defined by their <Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 kleos
               </PopoverTrigger>
@@ -203,7 +203,7 @@ export default function Home() {
                   kleos is a Greek word often translated to "glory" or "fame." It is the concept of what others hear about you, and how you are remembered after you die.
                 </p>
               </PopoverContent>
-            </Popover>." According to Nagy, Greece was a song culture, with a emphasis on sorrow and death. So a hero's kleos was proportional to the impact of the song representing their death, also known as their "<Popover>
+            </Popover>. According to Nagy, Greece was a song culture, with a emphasis on sorrow and death. So a hero's kleos was proportional to the impact of the song representing their death, also known as their <Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 swan song
               </PopoverTrigger>
@@ -217,7 +217,7 @@ export default function Home() {
                   In Greek mythology, swans were believed to sing a beautiful song just before they died, symbolizing a poignant and memorable end. The "swan song" of a person is considered their "The Living Word," or the last words that a person perpetuates.
                 </p>
               </PopoverContent>
-            </Popover>."
+            </Popover>.
             In fact, according to Nagy, "the precise moment when everything comes together for the hero is the moment of death."
             So there was a massive amount of pressure to "<Popover>
               <PopoverTrigger className="underline cursor-pointer">
@@ -231,7 +231,7 @@ export default function Home() {
             </Popover>" one's dying words to create a lasting legacy, and immortalize themselves as a hero.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Although Greek kleos is often derived from their swan song, Odysseus' is remembered by his "<Popover>
+            Although Greek kleos is often derived from their swan song, Odysseus' perpetuated song is his <Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 nostos
               </PopoverTrigger>
@@ -245,8 +245,9 @@ export default function Home() {
                   Nostos is a Greek word meaning "homecoming" or "return." It refers to the hero's journey back home after a long adventure, often filled with trials and tribulations.
                 </p>
               </PopoverContent>
-            </Popover>."
+            </Popover>:
           </p>
+          <iframe className="mx-auto [&:not(:first-child)]:mt-6" width="560" height="315" src="https://www.youtube.com/embed/G5ujW4tTRxw?si=Od8p0GqLijoF8Ibz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </div>
     </div>
