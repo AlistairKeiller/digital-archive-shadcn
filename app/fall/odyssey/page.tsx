@@ -87,6 +87,7 @@ export default function Home() {
   const [showHero, setShowHero] = useState<"Batman" | "Superman" | null>(null);
 
   const handleDamselClick = () => {
+    if (showHero) return; // Prevent action if animation is running
     const randomHero = Math.random() < 0.5 ? "Batman" : "Superman";
     setShowHero(randomHero);
     setTimeout(() => {
@@ -277,7 +278,7 @@ export default function Home() {
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-01">
           What is a Western Hero?
         </h2>
-        <Button className="mx-auto mt-6 flex items-center" onClick={handleDamselClick}>
+        <Button className="mx-auto mt-6 flex items-center" onClick={handleDamselClick} disabled={!!showHero}>
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 mr-2" /> I am damsel in distress
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
         </Button>
