@@ -106,7 +106,7 @@ export default function Home() {
             treasure. The stories are a means to an end, and the end is to get home.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Odysseus&apos; stories do not only serve to entertain the Phaeacians into helping
+            Odysseus&apos; stories not only entertain the Phaeacians into helping
             him; they also prove he is cunning enough to justify a gift and embed parables that
             suggest it is in the Phaeacians&apos; best interest to help him. The stories that
             Odysseus told are transcribed as the Odyssey books 9-12, which constructively told
@@ -115,9 +115,7 @@ export default function Home() {
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             As you can see from the timeline on the left, Odysseus&apos; encounter with Polyphemus
-            occurred quite early in the epic. At this point, Odysseus was still introducing his
-            character to the Phaeacians and building the world and conflicts that the epic revolved
-            around.
+            occurred quite early in the epic. At this point, Odysseus is still introducing his character to the Phaeacians and building the world and conflicts the epic revolves around.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Throughout his tale, Odysseus crafts a tragic tale of a wicked smart troy-destroying mastermind facing the world and losing everything. But this feels like a contradiction: How can a hero, cunning enough to take
@@ -150,7 +148,7 @@ export default function Home() {
               </PopoverContent>
             </Popover>{" "}
             to English as a person of divine ancestry or later given divine honors.
-            This is a convenient and simple definition, but one with countless contradictions, including Odysseus the &quot;
+            This is a convenient and simple definition, but one with countless contradictions, including Odysseus, the &quot;
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -170,7 +168,7 @@ export default function Home() {
                 </p>
               </PopoverContent>
             </Popover>
-            &quot; himself. Odysseus is a widely renowned hero, with no divine blood or specific divine honors to attribute his title to (Athena is his patron, which helps his ends, but isn&apos;t a specific enough award to justify the heroic title by divine definition).
+            &quot; himself. Odysseus is a renowned hero with no divine blood or specific divine honors to attribute his title to (Athena is his patron, which helps his ends but isn&apos;t a specific enough award to justify the heroic title by divine definition).
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Instead, I will turn to &quot;The Ancient Greek Hero in 24 Hours&quot; for a more complete picture: Gregory Nagy posits that a hero is defined by their{" "}
@@ -191,7 +189,7 @@ export default function Home() {
                 </p>
               </PopoverContent>
             </Popover>
-            . According to Nagy, Greece was a song culture, with an emphasis on sorrow and death. So a hero&apos;s kleos was proportional to the impact of the song representing their death, also known as their{" "}
+            . According to Nagy, Greece was a song culture emphasizing sorrow and death. So, a hero&apos;s kleos was proportional to the song's impact, representing their death, also known as their{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -211,7 +209,7 @@ export default function Home() {
             </Popover>
             .
             In fact, according to Nagy, &quot;the precise moment when everything comes together for the hero is the moment of death.&quot;
-            So there was a massive amount of pressure to &quot;
+            So, there was massive pressure to &quot;
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -224,7 +222,7 @@ export default function Home() {
                 </p>
               </PopoverContent>
             </Popover>
-            &quot; one&apos;s dying words to create a lasting legacy, and immortalize themselves as a hero.
+            &quot; one&apos;s dying words to create a lasting legacy and immortalize oneself as a hero.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Although Greek kleos is often derived from their swan song, Odysseus&apos; perpetuated song is his{" "}
@@ -256,11 +254,11 @@ export default function Home() {
           Solving the contradiction
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          To most simply solve the contradiction of Odysseus being a hero and a beggar, we can say that Odysseus wasn&apos;t a hero when he was begging the Phaeacians, he only became a hero when he returned to Ithaca (which created his <span className="italic">nostos</span>, and therefore his <span className="italic">hērōs</span>).
+          To most simply solve the contradiction of Odysseus being a hero and a beggar, we can say that Odysseus wasn&apos;t a hero when he was begging the Phaeacians; he only became a hero when he returned to Ithaca (which created his <span className="italic">nostos</span>, and therefore his <span className="italic">hērōs</span>).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           But I feel like that sidesteps the more fundamental issue. My immediate thought was: &quot;Odysseus is a hero, therefore he cannot be a desperate beggar.&quot;
-          I think that&apos;s a bias coming from the western construction of a hero, which is grounded in a hero&apos;s moral, and often physical/mental, superiority to the general population.
+          I think that&apos;s a bias coming from the Western construction of a hero, which is grounded in a hero&apos;s moral, and often physical/mental, superiority to the general population.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           What is a Western Hero?
@@ -270,14 +268,14 @@ export default function Home() {
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
         </Button>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          First, let&apos;s differentiate between hero and superhero. Since Greece, the media has shifted from real people and their legacy as a hero (such as those portrayed in the Iliad and the Odyssey), to fictional characters that embody the concept of a hero and act as an object of idolization and moral compass.
+          First, let&apos;s differentiate between hero and superhero. Since Greece, the media has shifted from real people and their legacy as a hero (such as those portrayed in the Iliad and the Odyssey) to fictional characters that embody the concept of a hero and act as an object of idolization and moral compass.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          My favorite interpretation of western superheroes is by David A. Lewis, who claims <a href="https://www.proquest.com/docview/1852703066?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American superheroes are an expression of the American denial of death</a>.
+          My favorite interpretation of Western superheroes is by David A. Lewis, who claims <a href="https://www.proquest.com/docview/1852703066?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American superheroes are an expression of the American denial of death</a>.
           This really resonates with me: superheroes have an ironclad moral compass, with the sole goal of protecting society and saving civilians from the claws of death. Further, they often contend and fight against death in the form of supervillains, often come out on top, and rarely does the story end by way of death (RIP Iron Man).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          In order to fight with death itself, and be the guardian/protector of society, superheroes are often placed on a pedestal for being inherently superior (often physically, mentally, morally, and financially) to the general population.
+          To fight with death itself, and be the guardian/protector of society, superheroes are often placed on a pedestal for being inherently superior (often physically, mentally, morally, and financially) to the general population.
           This gap in power between superheroes and civilians acts as a metaphor for society, which instills trust in idol figures for protection while still not asking its citizens to become something so impossibly perfect or superhuman.
         </p>
         <iframe className="mx-auto w-full [&:not(:first-child)]:mt-6" height="315" src="https://www.youtube.com/embed/rsWGdZoo1xY?si=PS4NUw0Q4kX_scnE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -285,11 +283,11 @@ export default function Home() {
           Conclusion
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          I find it surprising that the Western hero can be derived from the Greek hero, even though they are so fundamentally different.
-          The Greek hero is a tragic figure who is remembered for their death, while the Western hero is a moral compass, driven by the media&apos;s representation of the superhero protecting society from death, who is remembered for their life.
+          I find it surprising that the Western hero can be derived from the Greek hero, even though they are fundamentally different.
+          The Greek hero is a tragic figure remembered for their death. In contrast the Western hero is a moral compass driven by the media&apos;s representation of the superhero protecting society from death, who is remembered for their life.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This helps explain why I felt so off-put by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be superhuman, morally true, a savior of others, and in no need for help from mere civilians.
+          This helps explain why I felt so off-put by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be superhuman, morally true, a savior of others, and in no need of help from mere civilians.
           In reality, the Phaeacians are powerful and wealthy people whom Odysseus needs for his return (a return that will actually make him a hero).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -317,7 +315,7 @@ export default function Home() {
               </p>
             </PopoverContent>
           </Popover>
-          , the universal protocol between all civilians, in order to get home.
+          , the universal protocol between all civilians, to get home.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Citations
