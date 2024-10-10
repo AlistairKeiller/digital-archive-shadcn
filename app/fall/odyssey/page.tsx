@@ -68,17 +68,15 @@ export default function Home() {
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           The Contradiction
         </h2>
-
-
         <div className="mt-6">
           <div className="float-left mr-6 mb-4">
             <Timeline items={timelineData} imageSize={32} gap={16} />
           </div>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Let&apos;s just start by contextualizing Odysseus&apos;s encounter with Polyphemus.
+            Let&apos;s start by contextualizing Odysseus&apos; encounter with Polyphemus.
             Odysseus became world-renowned for his success in the Trojan War, but a decade later,
-            he became stranded on Scheria with nothing to his name. He needed transport and
-            treasure to successfully return to Ithaca;{" "}
+            he was stranded on Scheria with nothing to his name. He needed transport and
+            treasure to return to Ithaca successfully;{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -95,7 +93,7 @@ export default function Home() {
                   Odysseus begging for his safe return to Ithaca. This image depicts Odysseus on
                   his knees, with his hands clasped together, and looked down upon by every
                   Phaeacian. The child, the only one lower than Odysseus, refuses to look up at
-                  him. It feels like Odysseus has nothing to lose, and is willing to play all his
+                  him. It feels like Odysseus has nothing to lose and is willing to play all his
                   cards for his own ends.
                 </p>
               </PopoverContent>
@@ -104,29 +102,28 @@ export default function Home() {
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Therefore, the truth of Odysseus&apos; stories is irrelevant to both parties. Odysseus
-            is offering that, in exchange for his stories, he should receive transport and
+            offers that, in exchange for his stories, he should receive transport and
             treasure. The stories are a means to an end, and the end is to get home.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Odysseus&apos; stories don&apos;t only serve to entertain the Phaeacians into helping
+            Odysseus&apos; stories do not only serve to entertain the Phaeacians into helping
             him; they also prove he is cunning enough to justify a gift and embed parables that
-            suggest that it is in the Phaeacians&apos; best interest to help him. The stories that
+            suggest it is in the Phaeacians&apos; best interest to help him. The stories that
             Odysseus told are transcribed as the Odyssey books 9-12, which constructively told
-            the story of Odysseus losing every ship, gift, and treasure he owns over his decade at
+            the story of Odysseus losing every ship, gift, and treasure he owned over his decade at
             sea.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             As you can see from the timeline on the left, Odysseus&apos; encounter with Polyphemus
-            occured quite early in the epic. At this point, Odysseus was still introducing his
+            occurred quite early in the epic. At this point, Odysseus was still introducing his
             character to the Phaeacians and building the world and conflicts that the epic revolved
             around.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Throughout his tale, Odysseus crafts a tragic tale of a wicked smart troy-destroying mastermind facing the world and losing everything. But this feels like a contradiction: How can a hero, cunning enough to take
-            down a city, and resourceful enough to kill a cyclops with a pole, be so destitute and
+            down a city and resourceful enough to kill a cyclops with a pole, be so destitute and
             in need of help? How could the hero also be the beggar?
           </p>
-          <div className=""></div>
           <h2 className="clear-both mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
             What is a Greek Hero?
           </h2>
@@ -273,31 +270,30 @@ export default function Home() {
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
         </Button>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          First, let&apos;s differentiate between hero and superhero. Since greece, the media has shifted from real people and their legacy as a hero (such as those portrayed in the Illiad and the Oddessey), to fictional characters that emobdy the concept of a hero and act as a object of idolization and moral compass.
+          First, let&apos;s differentiate between hero and superhero. Since Greece, the media has shifted from real people and their legacy as a hero (such as those portrayed in the Iliad and the Odyssey), to fictional characters that embody the concept of a hero and act as an object of idolization and moral compass.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           My favorite interpretation of western superheroes is by David A. Lewis, who claims <a href="https://www.proquest.com/docview/1852703066?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American superheroes are an expression of the American denial of death</a>.
-          This really ressonates with me: superheros have a iron clad moral compass, with the sole goal of protecting society and saving civilians from the claws of death. Fruther, they themselves often contend and fight against death in the form of supervillians, and often come out on top, and rarely ever does they story end by way of death (rip iron man).
+          This really resonates with me: superheroes have an ironclad moral compass, with the sole goal of protecting society and saving civilians from the claws of death. Further, they often contend and fight against death in the form of supervillains, often come out on top, and rarely does the story end by way of death (RIP Iron Man).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          In order to fight with death itself, and be the gardian / proector of society, superheros are often placed on a pedistal for being inharently superior (often physically, mentally, morally, and financially) to the general population.
-          This gap in power between superheros and civiilians acts as a metiphor for society, which insights trust in idol figures for protection, while still not asking it&apos;s citizens to become something so impossibly perfect or superhuman.
+          In order to fight with death itself, and be the guardian/protector of society, superheroes are often placed on a pedestal for being inherently superior (often physically, mentally, morally, and financially) to the general population.
+          This gap in power between superheroes and civilians acts as a metaphor for society, which instills trust in idol figures for protection while still not asking its citizens to become something so impossibly perfect or superhuman.
         </p>
         <iframe className="mx-auto w-full [&:not(:first-child)]:mt-6" height="315" src="https://www.youtube.com/embed/rsWGdZoo1xY?si=PS4NUw0Q4kX_scnE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Conclusion
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          If find it suprising the that Western hero can be derived from the Greek hero, even though they are so fundamentally different.
-          The Greek hero is a tragic figure, who is remembered for their death, while the Western hero is a moral compass, driven by the media&apos;s representation of the superhero protecing society from death, who is remembered for their life.
+          I find it surprising that the Western hero can be derived from the Greek hero, even though they are so fundamentally different.
+          The Greek hero is a tragic figure who is remembered for their death, while the Western hero is a moral compass, driven by the media&apos;s representation of the superhero protecting society from death, who is remembered for their life.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This helps explain why I felt so offput by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be a superhuman, morally true, a savior of others, and in no need for help from mere civilians.
-          In reality, the Phaeacians are powerful and wealthy people that Odysseus needs for his return (a return that will actually make him a hero).
-
+          This helps explain why I felt so off-put by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be superhuman, morally true, a savior of others, and in no need for help from mere civilians.
+          In reality, the Phaeacians are powerful and wealthy people whom Odysseus needs for his return (a return that will actually make him a hero).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Whereas a famous western hero/superhero would have been treated like a idol figure, a mere token of graditue for their service, Odysseus may have been on a hero&apos;s journey, but was releying on{" "}
+          Whereas a famous Western hero/superhero would have been treated as an idol figure, a mere token of gratitude for their service, Odysseus may have been on a hero&apos;s journey but was relying on{" "}
           <Popover>
             <PopoverTrigger asChild>
               <span className="underline cursor-pointer">Xenia</span>
@@ -309,7 +305,7 @@ export default function Home() {
                   alt="Xenia"
                   className="h-48 object-cover rounded-md mx-auto"
                 />
-                Xenia dictates how Greeks should treat guests with respect and dignity, and is enforeced by Zeus (via Zeus Xenios).
+                Xenia dictates how Greeks should treat guests with respect and dignity, and is enforced by Zeus (via Zeus Xenios).
                 The 5 steps of Xenia:
                 <ol className="list-decimal pl-4 mt-2">
                   <li>Invite the guest in</li>
@@ -321,7 +317,7 @@ export default function Home() {
               </p>
             </PopoverContent>
           </Popover>
-          , the universial proticol between all civilians, in order to get home.
+          , the universal protocol between all civilians, in order to get home.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Citations
