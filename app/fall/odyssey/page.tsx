@@ -105,7 +105,7 @@ export default function Home() {
         </h1>
 
         {/* Timeline section */}
-        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-01">
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           The Contradiction
         </h2>
 
@@ -119,8 +119,10 @@ export default function Home() {
             he became stranded on Scheria with nothing to his name. He needed transport and
             treasure to successfully return to Ithaca, and{" "}
             <Popover>
-              <PopoverTrigger className="underline cursor-pointer">
-                begging the Phaeacians
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  begging the Phaeacians
+                </span>
               </PopoverTrigger>
               <PopoverContent className="w-96">
                 <Image
@@ -168,9 +170,12 @@ export default function Home() {
             What is a Greek Hero?
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Hero, or <span className="italic">hērōs</span> in Greek, can <Popover>
-              <PopoverTrigger className="underline cursor-pointer">
-                most simply be translated back
+            Hero, or <span className="italic">hērōs</span> in Greek, can{" "}
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  most simply be translated back
+                </span>
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <p className="text-sm text-gray-600">
@@ -180,13 +185,19 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline">
                     ἥρως
-                  </a> Henry George Liddell, Robert Scott, <em>A Greek-English Lexicon</em>, on Perseus Digital Library.
+                  </a>{" "}
+                  Henry George Liddell, Robert Scott, <em>A Greek-English Lexicon</em>, on Perseus
+                  Digital Library.
                 </p>
               </PopoverContent>
-            </Popover> to English as a person of divine ancestry or later given divine honors.
-            This is a convenient and simple definition, but one with countless contradictions, including Odysseus the &quot;<Popover>
-              <PopoverTrigger className="underline cursor-pointer">
-                ingenious hero
+            </Popover>{" "}
+            to English as a person of divine ancestry or later given divine honors.
+            This is a convenient and simple definition, but one with countless contradictions, including Odysseus the &quot;
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  ingenious hero
+                </span>
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <p className="text-sm text-gray-600">
@@ -196,15 +207,20 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline">
                     &quot;ingenious hero&quot;
-                  </a> from Homer&apos;s Odyssey, translated by Samuel Butler, on Project Gutenberg.
+                  </a>{" "}
+                  from Homer&apos;s Odyssey, translated by Samuel Butler, on Project Gutenberg.
                 </p>
               </PopoverContent>
-            </Popover>&quot; himself. Odysseus is a widely renowned hero, with no divine blood or specific divine honors to attribute his title to (Athena is his patron, which helps his ends, but isn&apos;t a specific enough award to justify the heroic title by divine definition).
+            </Popover>
+            &quot; himself. Odysseus is a widely renowned hero, with no divine blood or specific divine honors to attribute his title to (Athena is his patron, which helps his ends, but isn&apos;t a specific enough award to justify the heroic title by divine definition).
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Instead, I will turn to &quot;The Ancient Greek Hero in 24 Hours&quot; for a more complete picture: Gregory Nagy posits that a hero is defined by their <Popover>
-              <PopoverTrigger className="underline cursor-pointer">
-                kleos
+            Instead, I will turn to &quot;The Ancient Greek Hero in 24 Hours&quot; for a more complete picture: Gregory Nagy posits that a hero is defined by their{" "}
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  kleos
+                </span>
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <Image
@@ -216,9 +232,13 @@ export default function Home() {
                   kleos is a Greek word often translated to &quot;glory&quot; or &quot;fame.&quot; It is the concept of what others hear about you, and how you are remembered after you die.
                 </p>
               </PopoverContent>
-            </Popover>. According to Nagy, Greece was a song culture, with an emphasis on sorrow and death. So a hero&apos;s kleos was proportional to the impact of the song representing their death, also known as their <Popover>
-              <PopoverTrigger className="underline cursor-pointer">
-                swan song
+            </Popover>
+            . According to Nagy, Greece was a song culture, with an emphasis on sorrow and death. So a hero&apos;s kleos was proportional to the impact of the song representing their death, also known as their{" "}
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  swan song
+                </span>
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <Image
@@ -230,23 +250,31 @@ export default function Home() {
                   In Greek mythology, swans were believed to sing a beautiful song just before they died, symbolizing a poignant and memorable end. The &quot;swan song&quot; of a person is considered their &quot;The Living Word,&quot; or the last words that a person perpetuates.
                 </p>
               </PopoverContent>
-            </Popover>.
+            </Popover>
+            .
             In fact, according to Nagy, &quot;the precise moment when everything comes together for the hero is the moment of death.&quot;
-            So there was a massive amount of pressure to &quot;<Popover>
-              <PopoverTrigger className="underline cursor-pointer">
-                Script
+            So there was a massive amount of pressure to &quot;
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  Script
+                </span>
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <p className="text-sm text-gray-600">
                   A hero is considered <span className="italic">unseasonal</span> for their entire lifetime, so &quot;scripting&quot; their death is all about nailing the timing to have a <span className="italic">seasonal</span>/heroic death. The underlying etymology of <span className="italic">hērōs</span> that justify this fact is unbelievably insightful, but also beyond the scope of this post, but I deeply encourage you to read Hero in 24 Hours!!
                 </p>
               </PopoverContent>
-            </Popover>&quot; one&apos;s dying words to create a lasting legacy, and immortalize themselves as a hero.
+            </Popover>
+            &quot; one&apos;s dying words to create a lasting legacy, and immortalize themselves as a hero.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Although Greek kleos is often derived from their swan song, Odysseus&apos; perpetuated song is his <Popover>
-              <PopoverTrigger className="underline cursor-pointer">
-                nostos
+            Although Greek kleos is often derived from their swan song, Odysseus&apos; perpetuated song is his{" "}
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  nostos
+                </span>
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <Image
@@ -258,24 +286,25 @@ export default function Home() {
                   Nostos is a Greek word meaning &quot;homecoming&quot; or &quot;return.&quot; It refers to the hero&apos;s journey back home after a long adventure, often filled with trials and tribulations.
                 </p>
               </PopoverContent>
-            </Popover>:
+            </Popover>
+            :
           </p>
-          <div className="flex mx-auto justify-center [&:not(:first-child)]:mt-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/G5ujW4tTRxw?si=Od8p0GqLijoF8Ibz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xGZ4vLNmGAU?si=1ejzKUP5DcVGal6I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          </div>
+            <div className="flex flex-col lg:flex-row [&:not(:first-child)]:mt-6">
+            <iframe className="mx-auto" width="500" height="315" src="https://www.youtube.com/embed/G5ujW4tTRxw?si=Od8p0GqLijoF8Ibz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe className="mx-auto" width="500" height="315" src="https://www.youtube.com/embed/xGZ4vLNmGAU?si=1ejzKUP5DcVGal6I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
         </div>
-        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-01">
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Solving the contradiction
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           To most simply solve the contradiction of Odysseus being a hero and a beggar, we can say that Odysseus wasn&apos;t a hero when he was begging the Phaeacians, he only became a hero when he returned to Ithaca (which created his <span className="italic">nostos</span>, and therefore his <span className="italic">hērōs</span>).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          But I feel like that sidesteps the more fundemental issue. My immediate thought was: &quot;Odysseus is a hero, therefore he cannot be a desperate begger.&quot;
+          But I feel like that sidesteps the more fundamental issue. My immediate thought was: &quot;Odysseus is a hero, therefore he cannot be a desperate beggar.&quot;
           I think that&apos;s a bias coming from the western construction of a hero, which is grounded in a hero&apos;s moral, and often physical/mental, superiority to the general population.
         </p>
-        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-01">
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           What is a Western Hero?
         </h2>
         <Button className="mx-auto mt-6 flex items-center" onClick={handleDamselClick} disabled={!!showHero}>
@@ -284,12 +313,12 @@ export default function Home() {
         </Button>
 
       </div>
-        {showHero && (
-          <div className={`fixed bottom-0 left-0 animate-${showHero.toLowerCase()}`}>
-            <Image src={showHero === "Batman" ? Batman : Superman} alt={showHero} className="h-32 w-auto" />
-          </div>
-        )}
-        <style jsx>{`
+      {showHero && (
+        <div className={`fixed bottom-0 left-0 animate-${showHero.toLowerCase()}`}>
+          <Image src={showHero === "Batman" ? Batman : Superman} alt={showHero} className="h-32 w-auto" />
+        </div>
+      )}
+      <style jsx>{`
         @keyframes batmanRun {
           from {
             transform: translateX(-100%);
