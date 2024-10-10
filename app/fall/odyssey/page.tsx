@@ -53,8 +53,8 @@ export default function Home() {
     },
     {
       image: Sirens,
-      title: "Odysseus&apos; ship passes the Sirens.",
-      description: "Odysseus&apos; ship passes the Sirens.",
+      title: "Odysseus' ship passes the Sirens.",
+      description: "Odysseus' ship passes the Sirens.",
     },
     {
       image: Scylla,
@@ -63,8 +63,8 @@ export default function Home() {
     },
     {
       image: Cattle,
-      title: "The crew slaughters Helios&apos; cattle.",
-      description: "The crew slaughters Helios&apos; cattle.",
+      title: "The crew slaughters Helios' cattle.",
+      description: "The crew slaughters Helios' cattle.",
     },
     {
       image: Zeus,
@@ -73,8 +73,8 @@ export default function Home() {
     },
     {
       image: Calypso,
-      title: "Odysseus arrives on Calypso&apos;s island.",
-      description: "Odysseus arrives on Calypso&apos;s island.",
+      title: "Odysseus arrives on Calypso's island.",
+      description: "Odysseus arrives on Calypso's island.",
     },
   ];
 
@@ -167,7 +167,7 @@ export default function Home() {
                 </p>
               </PopoverContent>
             </Popover> to English as a person of divine ancestry or later given divine honors.
-            This is a convenient and simple definition, but one with countless contradictions, including Odysseus the "<Popover>
+            This is a convenient and simple definition, but one with countless contradictions, including Odysseus the &quot;<Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 ingenious hero
               </PopoverTrigger>
@@ -178,7 +178,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline">
-                    "ingenious hero"
+                    &quot;ingenious hero&quot;
                   </a> from Homer&apos;s Odyssey, translated by Samuel Butler, on Project Gutenberg.
                 </p>
               </PopoverContent>
