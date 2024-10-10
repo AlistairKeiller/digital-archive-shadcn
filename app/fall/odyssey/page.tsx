@@ -21,9 +21,7 @@ import Swan from "@/images/Swan.jpg";
 import Nostos from "@/images/Nostos.jpg";
 import Damsel from "@/images/Damsel.gif";
 import Batman from "@/images/Batman.gif";
-import Ironman from "@/images/Ironman.gif";
 import Superman from "@/images/Superman.gif";
-import Spiderman from "@/images/Spiderman.gif";
 import Image from "next/image";
 
 export default function Home() {
