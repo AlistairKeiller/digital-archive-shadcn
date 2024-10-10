@@ -312,8 +312,20 @@ export default function Home() {
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
         </Button>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-
+          First, let's differentiate between hero and superhero. Since greece, the media has shifted from real people and their legacy as a hero (such as those portrayed in the Illiad and the Oddessey), to fictional characters that emobdy the concept of a hero and act as a object of idolization and moral compass.
         </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          My favorite interpretation of western superheroes is by David A. Lewis, who claims <a href="https://www.proquest.com/docview/1852703066?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American superheroes are an expression of the American denial of death</a>.
+          This really ressonates with me: superheros have a iron clad moral compass, with the sole goal of protecting society and saving civilians from the claws of death. Fruther, they themselves often contend and fight against death in the form of supervillians, and often come out on top, and rarely ever does they story end by way of death (rip iron man).
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          In order to fight with death itself, and be the gardian / proector of society, superheros are often placed on a pedistal for being inharently superior (often physically, mentally, morally, and financially) to the general population.
+          This gap in power between superheros and civiilians acts as a metiphor for society, which insights trust in idol figures for protection, while still not asking it's citizens to become something so impossibly perfect or superhuman.
+          This superhero=anti-death is quite the polar opposite to the Greek hero=remebered by death.
+        </p>
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+          Conclusion
+        </h2>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Citations
         </h2>
