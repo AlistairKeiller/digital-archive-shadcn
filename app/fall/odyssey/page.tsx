@@ -249,8 +249,16 @@ export default function Home() {
           </div>
         </div>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-01">
-          The Contradiction
+          Solving the contradiction
         </h2>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          The simple solution to the contradiction is that Odysseus wasn't a hero when he was begging the Phaeacians, he only became a hero when he returned to Ithaca (which created his <span className="italic">nostos</span>, and therefore his <span className="italic">hērōs</span>).
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          But I feel like that sidesteps the more fundemental issue. My immediate thought was: "Odysseus is a hero, therefore he cannot be a desperate begger, because he is strong, smart, and powerful enough."
+          I think that's a bias coming from the western construction of a hero/superhero, in which after achiving their powers (ie. after Odysseus concers troy, becomes famous and poweful), they should forever be a hero and never fall to the same level as a civilian/begger.
+          This would be similar to a greek hero achiving devine status, and then never being able to fall from grace. However, as we saw, kleos is indifferent to people's status or inherent superiority to the average population; it only concers legacy and remembrance.
+        </p>
       </div>
     </div>
   );
