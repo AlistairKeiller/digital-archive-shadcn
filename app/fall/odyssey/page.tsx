@@ -1,3 +1,5 @@
+"use client"
+import { useState } from "react";
 import { FaBalanceScale } from "react-icons/fa"; // Import icons from react-icons
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
@@ -18,6 +20,10 @@ import Kleos from "@/images/Kleos.jpg";
 import Swan from "@/images/Swan.jpg";
 import Nostos from "@/images/Nostos.jpg";
 import Damsel from "@/images/Damsel.gif";
+import Batman from "@/images/Batman.gif";
+import Ironman from "@/images/Ironman.gif";
+import Superman from "@/images/Superman.gif";
+import Spiderman from "@/images/Spiderman.gif";
 import Image from "next/image";
 
 export default function Home() {
@@ -79,6 +85,15 @@ export default function Home() {
       description: "Odysseus arrives on Calypso's island.",
     },
   ];
+
+  const [showBatman, setShowBatman] = useState(false);
+
+  const handleDamselClick = () => {
+    setShowBatman(true);
+    setTimeout(() => {
+      setShowBatman(false);
+    }, 3000); // Adjust time for animation to complete
+  };
 
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)] bg-gray-100">
@@ -263,10 +278,30 @@ export default function Home() {
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-01">
           What is a Western Hero?
         </h2>
-        <Button className="mx-auto mt-6 flex items-center">
-          <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 mr-2" /> I am damsel in distress <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
+        <Button className="mx-auto mt-6 flex items-center" onClick={handleDamselClick}>
+          <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 mr-2" /> I am damsel in distress
+          <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
         </Button>
+
       </div>
+        {showBatman && (
+          <div className="fixed bottom-0 left-0 animate-batman">
+            <Image src={Batman} alt="Batman" className="h-32 w-auto" />
+          </div>
+        )}
+        <style jsx>{`
+        @keyframes batmanRun {
+          from {
+            transform: translateX(-100%);
+          }
+          to {
+            transform: translateX(100vw);
+          }
+        }
+        .animate-batman {
+          animation: batmanRun 3s linear;
+        }
+      `}</style>
     </div>
   );
 }
