@@ -255,8 +255,8 @@ export default function Home() {
           To most simply solve the contradiction of Odysseus being a hero and a beggar, we can say that Odysseus wasn&apos;t a hero when he was begging the Phaeacians, he only became a hero when he returned to Ithaca (which created his <span className="italic">nostos</span>, and therefore his <span className="italic">hērōs</span>).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          But I feel like that sidesteps the more fundemental issue. My immediate thought was: "Odysseus is a hero, therefore he cannot be a desperate begger."
-          I think that's a bias coming from the western construction of a hero, which is grounded in a hero's moral, and often physical/mental, superiority to the general population.
+          But I feel like that sidesteps the more fundemental issue. My immediate thought was: &quot;Odysseus is a hero, therefore he cannot be a desperate begger.&quot;
+          I think that&apos;s a bias coming from the western construction of a hero, which is grounded in a hero&apos;s moral, and often physical/mental, superiority to the general population.
         </p>
       </div>
     </div>
