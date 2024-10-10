@@ -217,13 +217,14 @@ export default function Home() {
               </p>
               </PopoverContent>
             </Popover>."
+            In fact, according to Nagy, "the precise moment when everything comes together for the hero is the moment of death."
             So there was a massive amount of pressure to "<Popover>
               <PopoverTrigger className="underline cursor-pointer">
               Script
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
               <p className="text-sm text-gray-600">
-                In this context, "Script" refers to the deliberate crafting of one's final words or actions to ensure they leave a lasting and memorable legacy.
+                A hero is considered <span className="italic">unseasonal</span> for their entire lifetime, so "scripting" their death is all about nailing the timing to have a <span className="italic">seasonal</span>/heroic death. The underlying etymology of <span className="italic">hērōs</span> that justify this fact is unbelievably insightful, but also beyond the scope of this post, but I deeply encurage you to read Hero in 24 Hours!!
               </p>
               </PopoverContent>
             </Popover>" one's dying words to create a lasting legacy, and immortalize themselves as a hero.
