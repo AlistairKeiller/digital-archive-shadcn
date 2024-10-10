@@ -289,10 +289,10 @@ export default function Home() {
             </Popover>
             :
           </p>
-            <div className="flex flex-col lg:flex-row [&:not(:first-child)]:mt-6">
-              <iframe className="mx-auto w-full" height="315" src="https://www.youtube.com/embed/G5ujW4tTRxw?si=Od8p0GqLijoF8Ibz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-              <iframe className="mx-auto w-full" height="315" src="https://www.youtube.com/embed/xGZ4vLNmGAU?si=1ejzKUP5DcVGal6I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            </div>
+          <div className="flex flex-col lg:flex-row [&:not(:first-child)]:mt-6">
+            <iframe className="mx-auto w-full" height="315" src="https://www.youtube.com/embed/G5ujW4tTRxw?si=Od8p0GqLijoF8Ibz" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe className="mx-auto w-full" height="315" src="https://www.youtube.com/embed/xGZ4vLNmGAU?si=1ejzKUP5DcVGal6I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          </div>
         </div>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Solving the contradiction
@@ -311,7 +311,50 @@ export default function Home() {
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 mr-2" /> I am damsel in distress
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
         </Button>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
 
+        </p>
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+          Citations
+        </h2>
+        <ul className="mt-6 list-disc pl-6">
+          <li>
+            <a
+              href="https://www2.classics.upenn.edu/myth/php/homer/index.php?page=timelines"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline">
+              Timelines of Homeric Epic
+            </a> - University of Pennsylvania, Classics Department
+          </li>
+          <li>
+            <a
+              href="https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline">
+              The Odyssey
+            </a> - Translated by Samuel Butler, Project Gutenberg
+          </li>
+          <li>
+            <a
+              href="https://chs.harvard.edu/book/nagy-gregory-the-ancient-greek-hero-in-24-hours/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline">
+              The Ancient Greek Hero in 24 Hours
+            </a> - Gregory Nagy, Center for Hellenic Studies, Harvard University
+          </li>
+          <li>
+            <a
+              href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dh%28%2Frws"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline">
+              ἥρως
+            </a> - Henry George Liddell, Robert Scott, *A Greek-English Lexicon*, Perseus Digital Library
+          </li>
+        </ul>
       </div>
       {showHero && (
         <div className={`fixed bottom-0 left-0 animate-${showHero.toLowerCase()}`}>
