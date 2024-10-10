@@ -78,7 +78,7 @@ export default function Home() {
             Let&apos;s just start by contextualizing Odysseus&apos;s encounter with Polyphemus.
             Odysseus became world-renowned for his success in the Trojan War, but a decade later,
             he became stranded on Scheria with nothing to his name. He needed transport and
-            treasure to successfully return to Ithaca, and{" "}
+            treasure to successfully return to Ithaca;{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
