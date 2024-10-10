@@ -22,6 +22,7 @@ import Nostos from "@/images/Nostos.jpg";
 import Damsel from "@/images/Damsel.gif";
 import Batman from "@/images/Batman.gif";
 import Superman from "@/images/Superman.gif";
+import Xenia from "@/images/Xenia.jpg";
 import Image from "next/image";
 
 export default function Home() {
@@ -332,7 +333,34 @@ export default function Home() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           This helps explain why I felt so offput by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be a superhuman, morally true, a savior of others, and in no need for help from mere civilians.
           In reality, the Phaeacians are powerful and wealthy people that Odysseus needs for his return (a return that will actually make him a hero).
-          Whereas a famous western hero/superhero would have been treated like a idol figure, a mere token of graditue for their service, Odysseus may have been on a hero's journey, but was releying on xenia, the universial proticol between all civilians, in order to get home.
+
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Whereas a famous western hero/superhero would have been treated like a idol figure, a mere token of graditue for their service, Odysseus may have been on a hero's journey, but was releying on{" "}
+          <Popover>
+            <PopoverTrigger asChild>
+              <span className="underline cursor-pointer">Xenia</span>
+            </PopoverTrigger>
+            <PopoverContent className="w-64 p-4">
+              <p className="text-sm text-gray-600">
+                <Image
+                  src={Xenia}
+                  alt="Xenia"
+                  className="h-48 object-cover rounded-md mx-auto"
+                />
+                Xenia dictates how Greeks should treat guests with respect and dignity, and is enforeced by Zeus (via Zeus Xenios).
+                The 5 steps of Xenia:
+                <ol className="list-decimal pl-4 mt-2">
+                  <li>Invite the guest in</li>
+                  <li>Offer them a meal</li>
+                  <li>Ask for their name</li>
+                  <li>Exchange of gifts</li>
+                  <li>Offer the guest a safe escort home</li>
+                </ol>
+              </p>
+            </PopoverContent>
+          </Popover>
+          , the universial proticol between all civilians, in order to get home.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Citations
