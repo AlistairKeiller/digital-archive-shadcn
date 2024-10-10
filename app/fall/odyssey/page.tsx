@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import { useState } from "react";
-import { FaBalanceScale } from "react-icons/fa"; // Import icons from react-icons
+import { FaBalanceScale } from "react-icons/fa";
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
-import Timeline from "@/components/timeline"; // Import Timeline from shadcn
+import Timeline from "@/components/timeline";
 import Cicones from "@/images/Cicones.webp";
 import Lotus from "@/images/Lotus.jpg";
 import Polyphemus from "@/images/Polyphemus.png";
@@ -26,89 +26,42 @@ import Xenia from "@/images/Xenia.jpg";
 import Image from "next/image";
 
 export default function Home() {
-  // Define the timeline data
   const timelineData = [
-    {
-      image: Cicones,
-      title: "Odysseus and his men raid the Cicones.",
-      description: "Odysseus and his men raid the Cicones.",
-    },
-    {
-      image: Lotus,
-      title: "They arrive at the Land of the Lotus Eaters.",
-      description: "They arrive at the Land of the Lotus Eaters.",
-    },
-    {
-      image: Polyphemus,
-      title: "Odysseus blinds Polyphemus.",
-      description: "Odysseus blinds Polyphemus.",
-    },
-    {
-      image: Winds,
-      title: "Aiolos gives Odysseus the bag of winds.",
-      description: "Aiolos gives Odysseus the bag of winds.",
-    },
-    {
-      image: Laistrygones,
-      title: "The Laistrygones destroy 11 ships.",
-      description: "The Laistrygones destroy 11 ships.",
-    },
-    {
-      image: Circe,
-      title: "Circe turns the crew into swine.",
-      description: "Circe turns the crew into swine.",
-    },
-    {
-      image: Sirens,
-      title: "Odysseus' ship passes the Sirens.",
-      description: "Odysseus' ship passes the Sirens.",
-    },
-    {
-      image: Scylla,
-      title: "Odysseus passes between Scylla and Charybdis.",
-      description: "Odysseus passes between Scylla and Charybdis.",
-    },
-    {
-      image: Cattle,
-      title: "The crew slaughters Helios' cattle.",
-      description: "The crew slaughters Helios' cattle.",
-    },
-    {
-      image: Zeus,
-      title: "Zeus kills everyone but Odysseus.",
-      description: "Zeus kills everyone but Odysseus.",
-    },
-    {
-      image: Calypso,
-      title: "Odysseus arrives on Calypso's island.",
-      description: "Odysseus arrives on Calypso's island.",
-    },
+    { image: Cicones, title: "Odysseus and his men raid the Cicones.", description: "Odysseus and his men raid the Cicones." },
+    { image: Lotus, title: "They arrive at the Land of the Lotus Eaters.", description: "They arrive at the Land of the Lotus Eaters." },
+    { image: Polyphemus, title: "Odysseus blinds Polyphemus.", description: "Odysseus blinds Polyphemus." },
+    { image: Winds, title: "Aiolos gives Odysseus the bag of winds.", description: "Aiolos gives Odysseus the bag of winds." },
+    { image: Laistrygones, title: "The Laistrygones destroy 11 ships.", description: "The Laistrygones destroy 11 ships." },
+    { image: Circe, title: "Circe turns the crew into swine.", description: "Circe turns the crew into swine." },
+    { image: Sirens, title: "Odysseus' ship passes the Sirens.", description: "Odysseus' ship passes the Sirens." },
+    { image: Scylla, title: "Odysseus passes between Scylla and Charybdis.", description: "Odysseus passes between Scylla and Charybdis." },
+    { image: Cattle, title: "The crew slaughters Helios' cattle.", description: "The crew slaughters Helios' cattle." },
+    { image: Zeus, title: "Zeus kills everyone but Odysseus.", description: "Zeus kills everyone but Odysseus." },
+    { image: Calypso, title: "Odysseus arrives on Calypso's island.", description: "Odysseus arrives on Calypso's island." },
   ];
 
   const [showHero, setShowHero] = useState<"Batman" | "Superman" | null>(null);
 
   const handleDamselClick = () => {
-    if (showHero) return; // Prevent action if animation is running
+    if (showHero) return;
     const randomHero = Math.random() < 0.5 ? "Batman" : "Superman";
     setShowHero(randomHero);
     setTimeout(() => {
       setShowHero(null);
-    }, 3000); // Adjust time for animation to complete
+    }, 3000);
   };
 
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)] bg-gray-100">
       <div className="mt-6 mx-4 max-w-3xl">
-        {/* Title */}
         <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
           The Duality of Odyssey: <br />
           Hero <FaBalanceScale className="inline-block" /> Beggar
         </h1>
-
-        {/* Timeline section */}
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           The Contradiction
         </h2>
+
 
         <div className="mt-6">
           <div className="float-left mr-6 mb-4">
