@@ -182,10 +182,10 @@ export default function Home() {
                   </a> from Homer&apos;s Odyssey, translated by Samuel Butler, on Project Gutenberg.
                 </p>
               </PopoverContent>
-            </Popover>" himself. Odysseus is a widely renowned hero, with no divine blood or specific divine honors to attribute his title to (Athena is his patron, which helps his ends, but isn&apos;t a specific enough award to justify the heroic title by divine definition).
+            </Popover>&quot; himself. Odysseus is a widely renowned hero, with no divine blood or specific divine honors to attribute his title to (Athena is his patron, which helps his ends, but isn&apos;t a specific enough award to justify the heroic title by divine definition).
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Instead, I will turn to "The Ancient Greek Hero in 24 Hours" for a more complete picture: Gregory Nagy posits that a hero is defined by their <Popover>
+            Instead, I will turn to &quot;The Ancient Greek Hero in 24 Hours&quot; for a more complete picture: Gregory Nagy posits that a hero is defined by their <Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 kleos
               </PopoverTrigger>
@@ -196,7 +196,7 @@ export default function Home() {
                   className="h-48 object-cover rounded-md mx-auto"
                 />
                 <p className="text-sm text-gray-600 text-center mt-2">
-                  kleos is a Greek word often translated to "glory" or "fame." It is the concept of what others hear about you, and how you are remembered after you die.
+                  kleos is a Greek word often translated to &quot;glory&quot; or &quot;fame.&quot; It is the concept of what others hear about you, and how you are remembered after you die.
                 </p>
               </PopoverContent>
             </Popover>. According to Nagy, Greece was a song culture, with an emphasis on sorrow and death. So a hero&apos;s kleos was proportional to the impact of the song representing their death, also known as their <Popover>
@@ -210,21 +210,21 @@ export default function Home() {
                   className="h-48 object-cover rounded-md mx-auto"
                 />
                 <p className="text-sm text-gray-600 text-center mt-2">
-                  In Greek mythology, swans were believed to sing a beautiful song just before they died, symbolizing a poignant and memorable end. The "swan song" of a person is considered their "The Living Word," or the last words that a person perpetuates.
+                  In Greek mythology, swans were believed to sing a beautiful song just before they died, symbolizing a poignant and memorable end. The &quot;swan song&quot; of a person is considered their &quot;The Living Word,&quot; or the last words that a person perpetuates.
                 </p>
               </PopoverContent>
             </Popover>.
-            In fact, according to Nagy, "the precise moment when everything comes together for the hero is the moment of death."
-            So there was a massive amount of pressure to "<Popover>
+            In fact, according to Nagy, &quot;the precise moment when everything comes together for the hero is the moment of death.&quot;
+            So there was a massive amount of pressure to &quot;<Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 Script
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <p className="text-sm text-gray-600">
-                  A hero is considered <span className="italic">unseasonal</span> for their entire lifetime, so "scripting" their death is all about nailing the timing to have a <span className="italic">seasonal</span>/heroic death. The underlying etymology of <span className="italic">hērōs</span> that justify this fact is unbelievably insightful, but also beyond the scope of this post, but I deeply encourage you to read Hero in 24 Hours!!
+                  A hero is considered <span className="italic">unseasonal</span> for their entire lifetime, so &quot;scripting&quot; their death is all about nailing the timing to have a <span className="italic">seasonal</span>/heroic death. The underlying etymology of <span className="italic">hērōs</span> that justify this fact is unbelievably insightful, but also beyond the scope of this post, but I deeply encourage you to read Hero in 24 Hours!!
                 </p>
               </PopoverContent>
-            </Popover>" one&apos;s dying words to create a lasting legacy, and immortalize themselves as a hero.
+            </Popover>&quot; one&apos;s dying words to create a lasting legacy, and immortalize themselves as a hero.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Although Greek kleos is often derived from their swan song, Odysseus&apos; perpetuated song is his <Popover>
@@ -238,7 +238,7 @@ export default function Home() {
                   className="h-48 object-cover rounded-md mx-auto"
                 />
                 <p className="text-sm text-center text-gray-600">
-                  Nostos is a Greek word meaning "homecoming" or "return." It refers to the hero&apos;s journey back home after a long adventure, often filled with trials and tribulations.
+                  Nostos is a Greek word meaning &quot;homecoming&quot; or &quot;return.&quot; It refers to the hero&apos;s journey back home after a long adventure, often filled with trials and tribulations.
                 </p>
               </PopoverContent>
             </Popover>:
