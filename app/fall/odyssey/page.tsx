@@ -321,7 +321,6 @@ export default function Home() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           In order to fight with death itself, and be the gardian / proector of society, superheros are often placed on a pedistal for being inharently superior (often physically, mentally, morally, and financially) to the general population.
           This gap in power between superheros and civiilians acts as a metiphor for society, which insights trust in idol figures for protection, while still not asking it's citizens to become something so impossibly perfect or superhuman.
-          This superhero=anti-death is quite the polar opposite to the Greek hero=remebered by death.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Conclusion
@@ -365,6 +364,15 @@ export default function Home() {
               className="text-blue-600 hover:underline">
               ἥρως
             </a> - Henry George Liddell, Robert Scott, *A Greek-English Lexicon*, Perseus Digital Library
+          </li>
+          <li>
+            <a
+              href="https://www.proquest.com/docview/1852703066?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline">
+              American superheroes are an expression of the American denial of death
+            </a> - David A. Lewis, ProQuest
           </li>
         </ul>
       </div>
