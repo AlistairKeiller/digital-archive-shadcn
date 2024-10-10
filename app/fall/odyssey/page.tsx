@@ -284,7 +284,7 @@ export default function Home() {
                   className="h-48 object-cover rounded-md mx-auto"
                 />
                 <p className="text-sm text-center text-gray-600">
-                  Nostos is a Greek word meaning &quot;homecoming&quot; or &quot;return.&quot; It refers to the hero&apos;s journey back home after a long adventure, often filled with trials and tribulations. In this case, it is also the termination of his journey, and a "death" in a non literal sense of the word.
+                  Nostos is a Greek word meaning &quot;homecoming&quot; or &quot;return.&quot; It refers to the hero&apos;s journey back home after a long adventure, often filled with trials and tribulations. In this case, it is also the termination of his journey, and a &quot;death&quot; in a non literal sense of the word.
                 </p>
               </PopoverContent>
             </Popover>
@@ -313,7 +313,7 @@ export default function Home() {
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
         </Button>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          First, let's differentiate between hero and superhero. Since greece, the media has shifted from real people and their legacy as a hero (such as those portrayed in the Illiad and the Oddessey), to fictional characters that emobdy the concept of a hero and act as a object of idolization and moral compass.
+          First, let&apos;s differentiate between hero and superhero. Since greece, the media has shifted from real people and their legacy as a hero (such as those portrayed in the Illiad and the Oddessey), to fictional characters that emobdy the concept of a hero and act as a object of idolization and moral compass.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           My favorite interpretation of western superheroes is by David A. Lewis, who claims <a href="https://www.proquest.com/docview/1852703066?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American superheroes are an expression of the American denial of death</a>.
@@ -321,14 +321,14 @@ export default function Home() {
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           In order to fight with death itself, and be the gardian / proector of society, superheros are often placed on a pedistal for being inharently superior (often physically, mentally, morally, and financially) to the general population.
-          This gap in power between superheros and civiilians acts as a metiphor for society, which insights trust in idol figures for protection, while still not asking it's citizens to become something so impossibly perfect or superhuman.
+          This gap in power between superheros and civiilians acts as a metiphor for society, which insights trust in idol figures for protection, while still not asking it&apos;s citizens to become something so impossibly perfect or superhuman.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Conclusion
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           If find it suprising the that Western hero can be derived from the Greek hero, even though they are so fundamentally different.
-          The Greek hero is a tragic figure, who is remembered for their death, while the Western hero is a moral compass, driven by the media's representation of the superhero protecing society from death, who is remembered for their life.
+          The Greek hero is a tragic figure, who is remembered for their death, while the Western hero is a moral compass, driven by the media&apos;s representation of the superhero protecing society from death, who is remembered for their life.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           This helps explain why I felt so offput by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be a superhuman, morally true, a savior of others, and in no need for help from mere civilians.
@@ -336,7 +336,7 @@ export default function Home() {
 
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Whereas a famous western hero/superhero would have been treated like a idol figure, a mere token of graditue for their service, Odysseus may have been on a hero's journey, but was releying on{" "}
+          Whereas a famous western hero/superhero would have been treated like a idol figure, a mere token of graditue for their service, Odysseus may have been on a hero&apos;s journey, but was releying on{" "}
           <Popover>
             <PopoverTrigger asChild>
               <span className="underline cursor-pointer">Xenia</span>
