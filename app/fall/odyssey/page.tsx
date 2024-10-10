@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { FaBalanceScale } from "react-icons/fa";
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
@@ -41,11 +41,17 @@ export default function Home() {
   ];
 
   const [showHero, setShowHero] = useState<"Batman" | "Superman" | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const handleDamselClick = () => {
     if (showHero) return;
     const randomHero = Math.random() < 0.5 ? "Batman" : "Superman";
     setShowHero(randomHero);
+
+    if (randomHero === "Superman" && audioRef.current) {
+      audioRef.current.play();
+    }
+
     setTimeout(() => {
       setShowHero(null);
     }, 3000);
@@ -53,6 +59,7 @@ export default function Home() {
 
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)] bg-gray-100">
+      <audio ref={audioRef} src="/Superman.mp3" />
       <div className="mt-6 mx-4 max-w-3xl">
         <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
           The Duality of Odyssey: <br />
