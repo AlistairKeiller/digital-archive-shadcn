@@ -13,6 +13,7 @@ import Cattle from "@/images/Cattle.jpg";
 import Zeus from "@/images/Zeus.jpg";
 import Calypso from "@/images/Calypso.jpg";
 import Begging from "@/images/Begging.jpg";
+import Kleos from "@/images/Kleos.jpg";
 import Image from "next/image";
 
 export default function Home() {
@@ -186,7 +187,24 @@ export default function Home() {
             </Popover>" himself. Odysseus is a widely renowned hero, with no devine blood or specific devine honors to attribute his title to (Athena is his patreon, which helps his ends, but isn't a specific enough award to justify the heroic title by divine definition).
             </p>
             <p className="leading-7 [&:not(:first-child)]:mt-6">
-              Instead, I will turn to "The Ancient Greek Hero in 24 Hours" for a more complete picture: Gregory Nagy posits that ™
+              Instead, I will turn to "The Ancient Greek Hero in 24 Hours" for a more complete picture: Gregory Nagy posits that a hero is defined by their "<Popover>
+              <PopoverTrigger className="underline cursor-pointer">
+                Kleos
+              </PopoverTrigger>
+              <PopoverContent className="w-64 p-4">
+                <p className="text-sm text-gray-600">
+                  <Image
+                    src={Kleos}
+                    alt="Kleos"
+                    className="h-48 object-cover rounded-md mx-auto"
+                  />
+                  <p className="text-sm text-center mt-2">
+                    Kleos is a Greek word often translated to "glory" or "fame." It is the concept of what others hear about you, and how you are remembered after you die.
+                  </p>
+                </p>
+              </PopoverContent>
+              </Popover>." According to Nagy, Greece was a song culture, with a emphasis on sorrow and death. So a hero's Kleos was proportial to the impact of the song represeting their death, also known as their "swan song".
+              So there was a massive amount of pressure to "Script" one's death and dying word to create a lasting legacy, and immortalize themselves as a hero.
             </p>
         </div>
       </div>
