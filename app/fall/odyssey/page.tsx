@@ -187,38 +187,47 @@ export default function Home() {
               </PopoverContent>
             </Popover>" himself. Odysseus is a widely renowned hero, with no devine blood or specific devine honors to attribute his title to (Athena is his patreon, which helps his ends, but isn't a specific enough award to justify the heroic title by divine definition).
           </p>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            <p className="leading-7 [&:not(:first-child)]:mt-6">
             Instead, I will turn to "The Ancient Greek Hero in 24 Hours" for a more complete picture: Gregory Nagy posits that a hero is defined by their "<Popover>
               <PopoverTrigger className="underline cursor-pointer">
-                Kleos
+              Kleos
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
-                <Image
-                  src={Kleos}
-                  alt="Kleos"
-                  className="h-48 object-cover rounded-md mx-auto"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2">
-                  Kleos is a Greek word often translated to "glory" or "fame." It is the concept of what others hear about you, and how you are remembered after you die.
-                </p>
+              <Image
+                src={Kleos}
+                alt="Kleos"
+                className="h-48 object-cover rounded-md mx-auto"
+              />
+              <p className="text-sm text-gray-600 text-center mt-2">
+                Kleos is a Greek word often translated to "glory" or "fame." It is the concept of what others hear about you, and how you are remembered after you die.
+              </p>
               </PopoverContent>
             </Popover>." According to Nagy, Greece was a song culture, with a emphasis on sorrow and death. So a hero's Kleos was proportional to the impact of the song representing their death, also known as their "<Popover>
               <PopoverTrigger className="underline cursor-pointer">
-                swan song
+              swan song
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
-                <Image
-                  src={Swan}
-                  alt="Swan"
-                  className="h-48 object-cover rounded-md mx-auto"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2">
-                  In Greek mythology, swans were believed to sing a beautiful song just before they died, symbolizing a poignant and memorable end. The "swan song" of a person is considered their "The Living Word," or the last words that a person perpetuates.
-                </p>
+              <Image
+                src={Swan}
+                alt="Swan"
+                className="h-48 object-cover rounded-md mx-auto"
+              />
+              <p className="text-sm text-gray-600 text-center mt-2">
+                In Greek mythology, swans were believed to sing a beautiful song just before they died, symbolizing a poignant and memorable end. The "swan song" of a person is considered their "The Living Word," or the last words that a person perpetuates.
+              </p>
               </PopoverContent>
             </Popover>."
-            So there was a massive amount of pressure to "Script" one's dying words to create a lasting legacy, and immortalize themselves as a hero.
-          </p>
+            So there was a massive amount of pressure to "<Popover>
+              <PopoverTrigger className="underline cursor-pointer">
+              Script
+              </PopoverTrigger>
+              <PopoverContent className="w-64 p-4">
+              <p className="text-sm text-gray-600">
+                In this context, "Script" refers to the deliberate crafting of one's final words or actions to ensure they leave a lasting and memorable legacy.
+              </p>
+              </PopoverContent>
+            </Popover>" one's dying words to create a lasting legacy, and immortalize themselves as a hero.
+            </p>
         </div>
       </div>
     </div>
