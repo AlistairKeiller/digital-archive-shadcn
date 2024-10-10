@@ -276,6 +276,7 @@ export default function Home() {
           In order to fight with death itself, and be the gardian / proector of society, superheros are often placed on a pedistal for being inharently superior (often physically, mentally, morally, and financially) to the general population.
           This gap in power between superheros and civiilians acts as a metiphor for society, which insights trust in idol figures for protection, while still not asking it&apos;s citizens to become something so impossibly perfect or superhuman.
         </p>
+        <iframe className="mx-auto w-full [&:not(:first-child)]:mt-6" height="315" src="https://www.youtube.com/embed/rsWGdZoo1xY?si=PS4NUw0Q4kX_scnE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Conclusion
         </h2>
