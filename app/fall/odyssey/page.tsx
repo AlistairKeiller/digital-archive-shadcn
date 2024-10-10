@@ -41,24 +41,19 @@ export default function Home() {
   ];
 
   const [showHero, setShowHero] = useState<"Batman" | "Superman" | null>(null);
-  const supermanAudioRef = useRef<HTMLAudioElement | null>(null);
-  const batmanAudioRef = useRef<HTMLAudioElement | null>(null);
+  const supermanAudioRef = useRef<HTMLAudioElement>(null);
+  const batmanAudioRef = useRef<HTMLAudioElement>(null);
 
   const handleDamselClick = () => {
     if (showHero) return;
+
     const randomHero = Math.random() < 0.5 ? "Batman" : "Superman";
     setShowHero(randomHero);
 
-    if (randomHero === "Superman" && supermanAudioRef.current) {
-      supermanAudioRef.current.play();
-    }
-    if (randomHero === "Batman" && batmanAudioRef.current) {
-      batmanAudioRef.current.play();
-    }
+    const audioRef = randomHero === "Superman" ? supermanAudioRef : batmanAudioRef;
+    audioRef.current?.play();
 
-    setTimeout(() => {
-      setShowHero(null);
-    }, 3000);
+    setTimeout(() => setShowHero(null), 3000);
   };
 
   return (
