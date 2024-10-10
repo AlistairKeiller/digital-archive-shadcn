@@ -117,7 +117,7 @@ export default function Home() {
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             As you can see from the timeline on the left, Odysseus&apos; encounter with Polyphemus
-            occurs quite early in the epic. At this point, Odysseus is still introducing his
+            occured quite early in the epic. At this point, Odysseus was still introducing his
             character to the Phaeacians and building the world and conflicts that the epic revolves
             around.
           </p>
