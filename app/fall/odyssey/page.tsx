@@ -189,7 +189,7 @@ export default function Home() {
                 </p>
               </PopoverContent>
             </Popover>
-            . According to Nagy, Greece is a song culture emphasizing sorrow and death. So, a hero&apos;s kleos is proportional to the song's impact, representing their death, also known as their{" "}
+            . According to Nagy, Greece is a song culture emphasizing sorrow and death. So, a hero&apos;s kleos is proportional to the song&apos;s impact, representing their death, also known as their{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
