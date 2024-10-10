@@ -53,8 +53,8 @@ export default function Home() {
     },
     {
       image: Sirens,
-      title: "Odysseus' ship passes the Sirens.",
-      description: "Odysseus' ship passes the Sirens.",
+      title: "Odysseus&apos; ship passes the Sirens.",
+      description: "Odysseus&apos; ship passes the Sirens.",
     },
     {
       image: Scylla,
@@ -63,8 +63,8 @@ export default function Home() {
     },
     {
       image: Cattle,
-      title: "The crew slaughters Helios' cattle.",
-      description: "The crew slaughters Helios' cattle.",
+      title: "The crew slaughters Helios&apos; cattle.",
+      description: "The crew slaughters Helios&apos; cattle.",
     },
     {
       image: Zeus,
@@ -73,8 +73,8 @@ export default function Home() {
     },
     {
       image: Calypso,
-      title: "Odysseus arrives on Calypso's island.",
-      description: "Odysseus arrives on Calypso's island.",
+      title: "Odysseus arrives on Calypso&apos;s island.",
+      description: "Odysseus arrives on Calypso&apos;s island.",
     },
   ];
 
@@ -84,7 +84,7 @@ export default function Home() {
         {/* Title */}
         <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
           The Duality of Odyssey: <br />
-          Hero <FaBalanceScale className="inline-block"></FaBalanceScale> Beggar
+          Hero <FaBalanceScale className="inline-block" /> Beggar
         </h1>
 
         {/* Timeline section */}
@@ -94,11 +94,7 @@ export default function Home() {
 
         <div className="mt-6">
           <div className="float-left mr-6 mb-4">
-            <Timeline
-              items={timelineData}
-              imageSize={32}
-              gap={16}
-            ></Timeline>
+            <Timeline items={timelineData} imageSize={32} gap={16} />
           </div>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Let&apos;s just start by contextualizing Odysseus&apos;s encounter with Polyphemus.
@@ -155,7 +151,7 @@ export default function Home() {
             What is a Greek Hero?
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Hero, or <span className="italic">hērōs</span> is Greek, can <Popover>
+            Hero, or <span className="italic">hērōs</span> in Greek, can <Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 most simply be translated back
               </PopoverTrigger>
@@ -183,10 +179,10 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline">
                     "ingenious hero"
-                  </a> from Homer's Odyssey, translated by Samuel Butler, on Project Gutenberg.
+                  </a> from Homer&apos;s Odyssey, translated by Samuel Butler, on Project Gutenberg.
                 </p>
               </PopoverContent>
-            </Popover>" himself. Odysseus is a widely renowned hero, with no devine blood or specific devine honors to attribute his title to (Athena is his patreon, which helps his ends, but isn't a specific enough award to justify the heroic title by divine definition).
+            </Popover>" himself. Odysseus is a widely renowned hero, with no divine blood or specific divine honors to attribute his title to (Athena is his patron, which helps his ends, but isn&apos;t a specific enough award to justify the heroic title by divine definition).
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Instead, I will turn to "The Ancient Greek Hero in 24 Hours" for a more complete picture: Gregory Nagy posits that a hero is defined by their <Popover>
@@ -203,7 +199,7 @@ export default function Home() {
                   kleos is a Greek word often translated to "glory" or "fame." It is the concept of what others hear about you, and how you are remembered after you die.
                 </p>
               </PopoverContent>
-            </Popover>. According to Nagy, Greece was a song culture, with a emphasis on sorrow and death. So a hero's kleos was proportional to the impact of the song representing their death, also known as their <Popover>
+            </Popover>. According to Nagy, Greece was a song culture, with an emphasis on sorrow and death. So a hero&apos;s kleos was proportional to the impact of the song representing their death, also known as their <Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 swan song
               </PopoverTrigger>
@@ -225,13 +221,13 @@ export default function Home() {
               </PopoverTrigger>
               <PopoverContent className="w-64 p-4">
                 <p className="text-sm text-gray-600">
-                  A hero is considered <span className="italic">unseasonal</span> for their entire lifetime, so "scripting" their death is all about nailing the timing to have a <span className="italic">seasonal</span>/heroic death. The underlying etymology of <span className="italic">hērōs</span> that justify this fact is unbelievably insightful, but also beyond the scope of this post, but I deeply encurage you to read Hero in 24 Hours!!
+                  A hero is considered <span className="italic">unseasonal</span> for their entire lifetime, so "scripting" their death is all about nailing the timing to have a <span className="italic">seasonal</span>/heroic death. The underlying etymology of <span className="italic">hērōs</span> that justify this fact is unbelievably insightful, but also beyond the scope of this post, but I deeply encourage you to read Hero in 24 Hours!!
                 </p>
               </PopoverContent>
-            </Popover>" one's dying words to create a lasting legacy, and immortalize themselves as a hero.
+            </Popover>" one&apos;s dying words to create a lasting legacy, and immortalize themselves as a hero.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Although Greek kleos is often derived from their swan song, Odysseus' perpetuated song is his <Popover>
+            Although Greek kleos is often derived from their swan song, Odysseus&apos; perpetuated song is his <Popover>
               <PopoverTrigger className="underline cursor-pointer">
                 nostos
               </PopoverTrigger>
@@ -242,7 +238,7 @@ export default function Home() {
                   className="h-48 object-cover rounded-md mx-auto"
                 />
                 <p className="text-sm text-center text-gray-600">
-                  Nostos is a Greek word meaning "homecoming" or "return." It refers to the hero's journey back home after a long adventure, often filled with trials and tribulations.
+                  Nostos is a Greek word meaning "homecoming" or "return." It refers to the hero&apos;s journey back home after a long adventure, often filled with trials and tribulations.
                 </p>
               </PopoverContent>
             </Popover>:
@@ -265,31 +261,5 @@ export default function Home() {
 // TALK ABOUT THE EVOLUTION OF A HERO OVER TIME??? WHEN WOULD ODYSSEUS HAVE BEEN CONSIDERED A HERO? WHEN WOULD HE HAVE BEEN CONSIDERED A BEGGAR? HOW DOES HE USE HIS STORIES TO NAVIGATE BETWEEN THE TWO?
 // How were heros percived and treated by the public over time? Should they be provided respect and help, or should they be left to fend for themselves?
 // Talk about "The Boys," (evil hero that abuses the public) and "Batman" (where his entire life is helpign the public, and the public's support is nessesary for his success)
-
-// it's not equivilent exchange, it's more like a tip. It's almost socialist.
-
-// is there a basci kind of just living / being human?
-
-// the oddessey part is the least interesting part. How far can I take it while still focusing on the core values of the course (worldbuilding).
-
-// What recent cases ahve peoples been as accepted as oddessious for such an elaborate tale? What are hte real world impacts of such tails? Any other similar examples?
-
-
-// Odysseus telling the stories is an exchange: Odysseus is offering entertainment, proof that he is witty and cunning enough to justfiy a gift, and includes embedded messages that fruther suggust that he should recive gifts, for the end of getting transport and treasure.
-// As you can see from the timeline of Odyssey books 9-12, Book 9 and Odysseus' encounter with Polyphemus is only a small introduction to the larger epic.
-// The stories Odysseus tells are also constructive. In the end he loses all his men and valuables, which only happens as a cominbation of all the devine entities he angers throughout all of his stories.
-// For example, in book 9, he only loses 2 men and to polyphemus, 
-
-// maybe make a quiz of Odysseus' actions, and have two bonus website depending on the users score?
-
-// Analysis of Odysseus' Storytelling Techniques: Explore how Odysseus crafts his narratives to captivate the Phaeacians. Discuss his use of vivid imagery, suspense, and emotional appeals that showcase his rhetorical prowess.
-// Specific Examples from Book 9: Incorporate direct quotations or specific passages where Odysseus' cunning and persuasive skills are evident. This will strengthen your points with textual evidence.
-// The Concept of Hospitality (Xenia): Delve into the Greek tradition of hospitality and how Odysseus leverages it. Explain how his stories not only entertain but also fulfill social expectations, prompting the Phaeacians to offer assistance.
-// Themes of Truth and Deception: Discuss the blurred lines between truth and fiction in Odysseus' tales. Analyze how the effectiveness of his stories does not depend on their factual accuracy but on their ability to achieve his goals.
-// Impact on the Phaeacians: Examine how the Phaeacians respond to Odysseus' narratives. Consider their emotions, reactions, and the eventual decision to help him, highlighting the success of his strategy.
-// Connection to the Larger Epic: Explain how Book 9 serves as an introduction to Odysseus' adventures recounted in Books 10-12. Discuss how this storytelling session builds anticipation and provides context for his journey.
-// Odysseus' Character Development: Analyze what his approach to storytelling reveals about his character traits, such as intelligence, resourcefulness, and understanding of human psychology.
-// Cultural and Moral Reflections: Reflect on what Odysseus' actions and the Phaeacians' reactions say about the values and morals of ancient Greek society.
-// Comparisons with Other Myths: If relevant, draw parallels between Odysseus' storytelling and similar motifs in other literary works or myths, enhancing the depth of your analysis.
 
 // credit https://www2.classics.upenn.edu/myth/php/homer/index.php?page=timelines
