@@ -84,12 +84,13 @@ export default function Home() {
     },
   ];
 
-  const [showBatman, setShowBatman] = useState(false);
+  const [showHero, setShowHero] = useState<"Batman" | "Superman" | null>(null);
 
   const handleDamselClick = () => {
-    setShowBatman(true);
+    const randomHero = Math.random() < 0.5 ? "Batman" : "Superman";
+    setShowHero(randomHero);
     setTimeout(() => {
-      setShowBatman(false);
+      setShowHero(null);
     }, 3000); // Adjust time for animation to complete
   };
 
@@ -282,9 +283,9 @@ export default function Home() {
         </Button>
 
       </div>
-        {showBatman && (
-          <div className="fixed bottom-0 left-0 animate-batman">
-            <Image src={Batman} alt="Batman" className="h-32 w-auto" />
+        {showHero && (
+          <div className={`fixed bottom-0 left-0 animate-${showHero.toLowerCase()}`}>
+            <Image src={showHero === "Batman" ? Batman : Superman} alt={showHero} className="h-32 w-auto" />
           </div>
         )}
         <style jsx>{`
@@ -296,20 +297,21 @@ export default function Home() {
             transform: translateX(100vw);
           }
         }
+        @keyframes supermanRun {
+          from {
+            transform: translateX(-100%);
+          }
+          to {
+            transform: translateX(100vw);
+          }
+        }
         .animate-batman {
           animation: batmanRun 3s linear;
+        }
+        .animate-superman {
+          animation: supermanRun 3s linear;
         }
       `}</style>
     </div>
   );
 }
-
-// you either die a hero, or live long enough to become the villan
-
-// have a button "help me", that will have a bunch of modern superheros land right under the modern superheros section
-
-// TALK ABOUT THE EVOLUTION OF A HERO OVER TIME??? WHEN WOULD ODYSSEUS HAVE BEEN CONSIDERED A HERO? WHEN WOULD HE HAVE BEEN CONSIDERED A BEGGAR? HOW DOES HE USE HIS STORIES TO NAVIGATE BETWEEN THE TWO?
-// How were heros percived and treated by the public over time? Should they be provided respect and help, or should they be left to fend for themselves?
-// Talk about "The Boys," (evil hero that abuses the public) and "Batman" (where his entire life is helpign the public, and the public's support is nessesary for his success)
-
-// credit https://www2.classics.upenn.edu/myth/php/homer/index.php?page=timelines
