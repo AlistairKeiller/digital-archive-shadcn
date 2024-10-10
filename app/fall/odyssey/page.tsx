@@ -1,5 +1,6 @@
 import { FaBalanceScale } from "react-icons/fa"; // Import icons from react-icons
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
+import { Button } from "@/components/ui/button";
 import Timeline from "@/components/timeline"; // Import Timeline from shadcn
 import Cicones from "@/images/Cicones.webp";
 import Lotus from "@/images/Lotus.jpg";
@@ -16,6 +17,7 @@ import Begging from "@/images/Begging.jpg";
 import Kleos from "@/images/Kleos.jpg";
 import Swan from "@/images/Swan.jpg";
 import Nostos from "@/images/Nostos.jpg";
+import Damsel from "@/images/Damsel.gif";
 import Image from "next/image";
 
 export default function Home() {
@@ -258,10 +260,18 @@ export default function Home() {
           But I feel like that sidesteps the more fundemental issue. My immediate thought was: &quot;Odysseus is a hero, therefore he cannot be a desperate begger.&quot;
           I think that&apos;s a bias coming from the western construction of a hero, which is grounded in a hero&apos;s moral, and often physical/mental, superiority to the general population.
         </p>
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-01">
+          What is a Western Hero?
+        </h2>
+        <Button className="mx-auto mt-6 flex items-center">
+          <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 mr-2" /> I am damsel in distress <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
+        </Button>
       </div>
     </div>
   );
 }
+
+// you either die a hero, or live long enough to become the villan
 
 // have a button "help me", that will have a bunch of modern superheros land right under the modern superheros section
 
