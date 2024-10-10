@@ -111,7 +111,7 @@ export default function Home() {
             Odysseus&apos; stories don&apos;t only serve to entertain the Phaeacians into helping
             him; they also prove he is cunning enough to justify a gift and embed parables that
             suggest that it is in the Phaeacians&apos; best interest to help him. The stories that
-            Odysseus tells are transcribed as the Odyssey books 9-12, which constructively tells
+            Odysseus told are transcribed as the Odyssey books 9-12, which constructively tells
             the story of Odysseus losing every ship, gift, and treasure he owns over his decade at
             sea.
           </p>
