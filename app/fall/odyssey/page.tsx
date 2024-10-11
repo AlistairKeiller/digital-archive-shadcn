@@ -62,7 +62,6 @@ export default function Home() {
       <audio ref={batmanAudioRef} src="/Batman.mp3" />
       <div className="mt-6 mx-4 max-w-3xl">
         <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
-          The Duality of Odyssey: <br />
           Hero <FaBalanceScale className="inline-block" /> Beggar
         </h1>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
@@ -308,7 +307,7 @@ export default function Home() {
           </Popover> keeping his request within consideration.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-        I vividly remember Dr. Giannopoulou&apos;s lecture feeling offputting when she introduced the context for the Odessey: a hero who appears helpless, out of control, and who resorts to lying for his own ends. Even in section, I built a conception of a Greek hero (a being idolized for their physical, mental, divine, and/or financial) that didn&apos;t fit Odysseus. I realize that I was drawing countless biases from Western cultures, like the concept that a smart hero&apos;s decisions always work out. But in reality, that is a construction of false security that results from our society being in denial of death.
+          I vividly remember Dr. Giannopoulou&apos;s lecture feeling offputting when she introduced the context for the Odessey: a hero who appears helpless, out of control, and who resorts to lying for his own ends. Even in section, I built a conception of a Greek hero (a being idolized for their physical, mental, divine, and/or financial) that didn&apos;t fit Odysseus. I realize that I was drawing countless biases from Western cultures, like the concept that a smart hero&apos;s decisions always work out. But in reality, that is a construction of false security that results from our society being in denial of death.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
 

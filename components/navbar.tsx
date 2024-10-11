@@ -29,7 +29,7 @@ const quarters = [
       {
         title: "Odyssey Book 9",
         href: "/fall/odyssey",
-        description: "On Heroism",
+        description: "\"Nobody–that’s my name\"",
       },
       {
         title: "Decameron",
