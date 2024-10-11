@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { FaBalanceScale } from "react-icons/fa";
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
@@ -56,13 +56,28 @@ export default function Home() {
     setTimeout(() => setShowHero(null), 3000);
   };
 
+  const [isHero, setIsHero] = useState(true)
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIsHero((prev) => !prev)
+    }, 3000) // Switch every 3 seconds
+
+    return () => clearInterval(intervalId)
+  }, [])
+
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)] bg-gray-100">
       <audio ref={supermanAudioRef} src="/Superman.mp3" />
       <audio ref={batmanAudioRef} src="/Batman.mp3" />
       <div className="mt-6 mx-4 max-w-3xl">
-        <h1 className="scroll-m-20 text-4xl tracking-tight lg:text-5xl text-center">
-          Hero <FaBalanceScale className="inline-block" /> Beggar
+        <h1 className="text-6xl sm:text-8xl font-bold tracking-tighter text-center">
+          <span className={`inline-block transition-opacity duration-1000 ${isHero ? 'opacity-100' : 'opacity-0'}`}>
+            <span className="hero-text">HERO</span>
+          </span>
+          <span className={`inline-block transition-opacity duration-1000 ${isHero ? 'opacity-0' : 'opacity-100'}`}>
+            <span className="beggar-text">BEGGAR</span>
+          </span>
         </h1>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           The Contradiction
@@ -390,6 +405,22 @@ export default function Home() {
         }
         .animate-superman {
           animation: supermanRun 3s linear;
+        }
+        .hero-text {
+          color: #ef4444;
+          text-shadow: 0 0 10px rgba(239, 68, 68, 0.7), 0 0 20px rgba(239, 68, 68, 0.5);
+        }
+        .beggar-text {
+          color: #9ca3af;
+          text-shadow: 0 0 10px rgba(156, 163, 175, 0.7), 0 0 20px rgba(156, 163, 175, 0.5);
+        }
+        @keyframes flicker {
+          0% { opacity: 1; }
+          50% { opacity: 0.8; }
+          100% { opacity: 1; }
+        }
+        .hero-text, .beggar-text {
+          animation: flicker 2s infinite;
         }
       `}</style>
     </div>
