@@ -126,7 +126,7 @@ export default function Home() {
             What is a Greek Hero?
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Hero, or <span className="italic">hērōs</span> in Greek, can{" "}
+            In order to further analyze whether hero and beggar are mutually exclusive, I need a better grasp of what a Greek hero is. Hero, or <span className="italic">hērōs</span> in Greek, can{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -228,7 +228,7 @@ export default function Home() {
             Although Greek kleos is often derived from their swan song, Odysseus&apos; perpetuated song is his{" "}
             <Popover>
               <PopoverTrigger asChild>
-                <span className="underline cursor-pointer">
+                <span className="underline cursor-pointer italic">
                   nostos
                 </span>
               </PopoverTrigger>
@@ -275,7 +275,7 @@ export default function Home() {
           This really resonates with me: superheroes have an ironclad moral compass, with the sole goal of protecting society and saving civilians from the claws of death. Further, they often contend and fight against death in the form of supervillains, often come out on top, and rarely does the story end by way of death (RIP Iron Man).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          To fight with death itself, and be the guardian/protector of society, superheroes are often placed on a pedestal for being inherently superior (often physically, mentally, morally, and financially) to the general population.
+          To fight with death itself and be the guardian/protector of society, superheroes are often placed on a pedestal for being inherently superior (often physically, mentally, morally, and financially) to the general population.
           This gap in power between superheroes and civilians acts as a metaphor for society, which instills trust in idol figures for protection while still not asking its citizens to become something so impossibly perfect or superhuman.
         </p>
         <iframe className="mx-auto w-full [&:not(:first-child)]:mt-6" height="315" src="https://www.youtube.com/embed/rsWGdZoo1xY?si=PS4NUw0Q4kX_scnE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -283,16 +283,7 @@ export default function Home() {
           Conclusion
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          I find it surprising that the Western hero can be derived from the Greek hero, even though they are fundamentally different.
-          The Greek hero is a tragic figure remembered for their death. In contrast the Western hero is a moral compass driven by the media&apos;s representation of the superhero protecting society from death, who is remembered for their life.
-        </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This helps explain why I feel so off-put by Odysseus begging the Phaeacians. Even while trying to contextualize, I still internally see Odysseus, the hero, to be superhuman, morally true, a savior of others, and in no need of help from mere civilians.
-          In reality, the Phaeacians are powerful and wealthy people whom Odysseus needs for his return (a return that will actually make him a hero).
-        </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Whereas a famous Western hero/superhero would have been treated as an idol figure, a mere token of gratitude for their service, Odysseus may have been on a hero&apos;s journey but relies on{" "}
-          <Popover>
+          While he is begging the Phoenicians, Odysseus is unseasonal with respect to <span className="italic">hērōs</span>, so that title is at the mercy of fate. That fate of becoming a hero is dependent on the Phaeacians giving Odysseus transport back and creating his <span className="italic">nostos</span>.  So Odysseus is not just a soon-to-be hero who is currently a guest to the Phanecians, but he is a mere, completely unheroic mortal at the hands of the Phanecians&apos; higher worth, with only <Popover>
             <PopoverTrigger asChild>
               <span className="underline cursor-pointer">Xenia</span>
             </PopoverTrigger>
@@ -314,8 +305,13 @@ export default function Home() {
                 </ol>
               </p>
             </PopoverContent>
-          </Popover>
-          , the universal protocol between all civilians, to get home.
+          </Popover> keeping his request within consideration.
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        I vividly remember Dr. Giannopoulou&apos;s lecture feeling offputting when she introduced the context for the Odessey: a hero who appears helpless, out of control, and who resorts to lying for his own ends. Even in section, I built a conception of a Greek hero (a being idolized for their physical, mental, divine, and/or financial) that didn&apos;t fit Odysseus. I realize that I was drawing countless biases from Western cultures, like the concept that a smart hero&apos;s decisions always work out. But in reality, that is a construction of false security that results from our society being in denial of death.
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Citations
