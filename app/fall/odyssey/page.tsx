@@ -72,10 +72,10 @@ export default function Home() {
       <div className="mt-6 mx-4 max-w-3xl">
         <h1 className="text-6xl sm:text-8xl font-bold tracking-tighter text-center">
           <span className={`inline-block transition-opacity duration-1000 ${isHero ? 'opacity-100' : 'opacity-0'}`}>
-            <span className="hero-text">HERO</span>
+            <span className="hero-text p-5">HERO</span>
           </span>
           <span className={`inline-block transition-opacity duration-1000 ${isHero ? 'opacity-0' : 'opacity-100'}`}>
-            <span className="beggar-text">BEGGAR</span>
+            <span className="beggar-text p-5">BEGGAR</span>
           </span>
         </h1>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
