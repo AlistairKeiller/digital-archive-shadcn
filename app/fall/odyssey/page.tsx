@@ -280,7 +280,7 @@ export default function Home() {
           What is a Western Hero?
         </h2>
         <Button className="mx-auto mt-6 flex items-center" onClick={handleDamselClick} disabled={!!showHero}>
-          <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 mr-2" /> I am damsel in distress
+          <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 mr-2" /> I am a damsel in distress
           <Image src={Damsel} alt="Damsel in distress" className="h-6 w-6 ml-2" />
         </Button>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
