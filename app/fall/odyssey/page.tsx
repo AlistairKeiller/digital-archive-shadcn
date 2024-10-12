@@ -120,7 +120,7 @@ export default function Home() {
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Odysseus&apos; stories not only entertain the Phaeacians into helping
-            him; they also prove he is cunning enough to justify a gift and embed parables that
+            him; they also prove he is cunning enough to justify a gift. So he embed parables that
             suggest it is in the Phaeacians&apos; best interest to help him. The stories that
             Odysseus tells are transcribed as the Odyssey books 9-12, which constructively tell
             the story of Odysseus losing every ship, gift, and treasure he owns over his decade at
