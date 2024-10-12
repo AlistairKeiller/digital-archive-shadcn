@@ -133,7 +133,7 @@ export default function Home() {
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Throughout his epic, Odysseus crafts a tragic tale of a wicked smart troy-destroying mastermind facing the world and losing everything. But this feels like a contradiction: How can a hero, cunning enough to take
             down a city and resourceful enough to kill a cyclops with a pole, be so destitute and
-            in need of help? How could the hero be the beggar?
+            in need of help at the end of his journey? How could the hero be the beggar?
           </p>
           <h2 className="clear-both mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
             What is a Greek Hero?
