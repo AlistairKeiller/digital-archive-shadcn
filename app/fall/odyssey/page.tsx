@@ -263,6 +263,9 @@ export default function Home() {
             <iframe className="mx-auto w-full" height="315" src="https://www.youtube.com/embed/xGZ4vLNmGAU?si=1ejzKUP5DcVGal6I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
         </div>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        I would love to explore further how Odysseus&apos;s being remembered by his nostos instead of his swan song makes his story and impact unique among the ranks of Greek heroes. But for the sake of this argument, let&apos;s assume that nostos is an equivalent form of kleos to a swan song.
+        </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Solving the contradiction
         </h2>
