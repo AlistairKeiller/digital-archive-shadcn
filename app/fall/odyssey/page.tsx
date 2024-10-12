@@ -264,7 +264,7 @@ export default function Home() {
           </div>
         </div>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-        I would love to explore further how Odysseus&apos;s being remembered by his nostos instead of his swan song makes his story and impact unique among the ranks of Greek heroes. But for the sake of this argument, let&apos;s assume that nostos is an equivalent form of kleos to a swan song.
+        I would love to explore further how Odysseus&apos;s being remembered by his <span className="italic">nostos</span> instead of his swan song makes his story and impact unique among the ranks of Greek heroes. But for the sake of this argument, let&apos;s assume that <span className="italic">nostos</span> is an equivalent form of <span className="italic">kleos</span> to a swan song.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Solving the contradiction
