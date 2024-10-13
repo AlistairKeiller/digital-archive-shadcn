@@ -89,7 +89,7 @@ export function Navbar() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <header className="sticky top-0 left-0 w-full z-50 border-b bg-background">
+    <header className="sticky top-0 left-0 w-full z-50 border-b bg-background z-[800]">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
@@ -133,7 +133,7 @@ export function Navbar() {
               <span className="sr-only">Toggle Menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="left" className="w-[300px] sm:w-[400px]">
+          <SheetContent side="left" className="w-[300px] sm:w-[400px] z-[900]">
             <nav className="flex flex-col gap-4">
               <Accordion type="single" collapsible className="w-full">
                 {quarters.map((quarter) => (
