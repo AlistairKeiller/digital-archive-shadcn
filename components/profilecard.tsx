@@ -48,7 +48,7 @@ export function ProfileCard() {
                         </div>
                     </div>
                     <h3 className="mt-10 text-center scroll-m-20 text-2xl font-semibold tracking-tight">My Favorite World</h3>
-                    <p className="mt-2">IDK how much is just nostalgia, but the world of <div className={`${atla.className}`}>Avatar: The Last Airbender</div> has been an everlasting fastination since first sight. My favorite episodes are &quot;The Southern Raiders&quot; (in which Katara has some of the best character development I&apos;ve seen in a single episode of TV) and the finale (they went full-on MAPPA with this one). Just to try to convey the thought and depth of the ATLA world on this website, I&apos;ve created an <Link href="/atla" className="underline">interactive map</Link> of ATLA&apos;s earth.</p>
+                    <p className="mt-2">IDK how much is just nostalgia, but the world of <span className={`${atla.className}`}>Avatar: The Last Airbender</span> has been an everlasting fastination since first sight. My favorite episodes are &quot;The Southern Raiders&quot; (in which Katara has some of the best character development I&apos;ve seen in a single episode of TV) and the finale (they went full-on MAPPA with this one). Just to try to convey the thought and depth of the ATLA world on this website, I&apos;ve created an <Link href="/atla" className="underline">interactive map</Link> of ATLA&apos;s earth.</p>
                     <p className="mt-2">A close second for me is Rick Riordan&apos;s stories (I remember mischievously sneaking a flashlight into my room to finish Percy Jackson at a breakneck pace).</p>
                 </CardContent>
             </Card>
