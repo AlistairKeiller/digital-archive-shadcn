@@ -5,7 +5,6 @@ import 'leaflet/dist/leaflet.css';
 // Dynamically import the Map components with SSR disabled
 const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
 const ImageOverlay = dynamic(() => import('react-leaflet').then(mod => mod.ImageOverlay), { ssr: false });
-import { AttributionControl } from 'react-leaflet';
 import { LatLngBoundsLiteral } from 'leaflet';
 import atlaImage from '@/images/atla.webp';
 
