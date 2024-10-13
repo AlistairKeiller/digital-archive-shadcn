@@ -23,6 +23,7 @@ import Batman from "@/images/Batman.gif";
 import Superman from "@/images/Superman.gif";
 import Xenia from "@/images/Xenia.jpg"; // https://en.wikipedia.org/wiki/Xenia_%28Greek%29#/media/File:Workshop_of_Peter_Paul_Rubens_-_Jupiter_and_Mercury_at_Philemon_and_Baucis.jpg
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const timelineData = [
@@ -334,184 +335,184 @@ export default function Home() {
         </h2>
         <ul className="mt-6 list-disc pl-6">
           <li>
-            <a
+            <Link
               href="https://www2.classics.upenn.edu/myth/php/homer/index.php?page=timelines"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Timelines of Homeric Epic
-            </a> - University of Pennsylvania, Classics Department
+            </Link> - University of Pennsylvania, Classics Department
           </li>
           <li>
-            <a
+            <Link
               href="https://www.gutenberg.org/files/1727/1727-h/1727-h.htm"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               The Odyssey
-            </a> - Translated by Samuel Butler, Project Gutenberg
+            </Link> - Translated by Samuel Butler, Project Gutenberg
           </li>
           <li>
-            <a
+            <Link
               href="https://chs.harvard.edu/book/nagy-gregory-the-ancient-greek-hero-in-24-hours/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               The Ancient Greek Hero in 24 Hours
-            </a> - Gregory Nagy, Center for Hellenic Studies, Harvard University
+            </Link> - Gregory Nagy, Center for Hellenic Studies, Harvard University
           </li>
           <li>
-            <a
+            <Link
               href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dh%28%2Frws"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               ἥρως
-            </a> - Henry George Liddell, Robert Scott, *A Greek-English Lexicon*, Perseus Digital Library
+            </Link> - Henry George Liddell, Robert Scott, *A Greek-English Lexicon*, Perseus Digital Library
           </li>
           <li>
-            <a
+            <Link
               href="https://www.proquest.com/docview/1852703066?pq-origsite=gscholar&fromopenview=true&sourcetype=Scholarly%20Journals"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               American superheroes are an expression of the American denial of death
-            </a> - David A. Lewis, ProQuest
+            </Link> - David A. Lewis, ProQuest
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40cmsharp%2Fjournal-entry-1-the-land-of-cicones-840e013d9dc&psig=AOvVaw3-cJDEPR6yxC_070ES4wB4&ust=1728888061637000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCjyYfgiokDFQAAAAAdAAAAABAY"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Cicones Image
-            </a> - Medium
+            </Link> - Medium
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fannaarabindankesson.com%2Fnews%2F2018%2F12%2F24%2Frobert-s-duncansons-land-of-the-lotus-eaters-1861&psig=AOvVaw1UY7LL04p3L_c4em6peZtg&ust=1728888193027000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCV0svgiokDFQAAAAAdAAAAABAE"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Lotus Image
-            </a> - Anna Arabindan-Kesson
+            </Link> - Anna Arabindan-Kesson
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmythologysource.com%2Fpolyphemus-greek-cyclops%2F&psig=AOvVaw35fi9Kq_Doj1f4YHcHqthj&ust=1728888230995000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjupdjgiokDFQAAAAAdAAAAABAJ"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Polyphemus Image
-            </a> - Mythology Source
+            </Link> - Mythology Source
           </li>
           <li>
-            <a
+            <Link
               href="https://en.wikipedia.org/wiki/Aeolus_%28son_of_Hippotes%29#/media/File:Isaac_Moillon_-_Éole_donnant_les_vents_à_Ulysse.jpg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Winds Image
-            </a> - Wikipedia
+            </Link> - Wikipedia
           </li>
           <li>
-            <a
+            <Link
               href="https://en.wikipedia.org/wiki/Laestrygonians#/media/File:Odysseus_bei_den_Laestrygonen.jpg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Laistrygones Image
-            </a> - Wikipedia
+            </Link> - Wikipedia
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=https%3A%2F%2Flatinfromscratch.com%2Fclassical-culture%2Fgreek-mythology-children-winder%2Fcirce-the-beautiful-enchantress-and-the-pigs%2F&psig=AOvVaw1-dg3UaExNOzQh7-NyDUw7&ust=1728888309537000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCO4P3giokDFQAAAAAdAAAAABAE"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Circe Image
-            </a> - Latin from Scratch
+            </Link> - Latin from Scratch
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpyrrhonism.medium.com%2Fthe-lure-of-the-sirens-in-the-odyssey-isnt-what-you-think-it-is-5ab5218b5577&psig=AOvVaw3XmuO7D0S0quHlmsrAhIsg&ust=1728888335928000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOC-rorhiokDFQAAAAAdAAAAABAU"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Sirens Image
-            </a> - Medium
+            </Link> - Medium
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthewordexplorer.blog%2F2015%2F12%2F31%2Fscylla-and-charybdis%2F&psig=AOvVaw3gGkilB4zFuMoF9WQkfIFS&ust=1728888352548000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDvpZLhiokDFQAAAAAdAAAAABAE"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Scylla Image
-            </a> - The Word Explorer
+            </Link> - The Word Explorer
           </li>
           <li>
-            <a
+            <Link
               href="https://en.wikipedia.org/wiki/Cattle_of_Helios#/media/File:Pellegrino_Tibaldi_001.jpg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Cattle Image
-            </a> - Wikipedia
+            </Link> - Wikipedia
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.webwinds.com%2Fodyssey%2Fcalypso.htm&psig=AOvVaw16-JkgaiZkSEFQMmEcw4FH&ust=1728888481489000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCq5c_hiokDFQAAAAAdAAAAABAE"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Calypso Image
-            </a> - Webwinds
+            </Link> - Webwinds
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=https%3A%2F%2Faugusta-stylianou.pixels.com%2Ffeatured%2Fodysseus-before-alcinous-king-of-the-phaeacians-august-malmstrom.html&psig=AOvVaw3oaq1bLW8sG8-QHMN-Ft22&ust=1728888497308000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjC0tfhiokDFQAAAAAdAAAAABAE"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Begging Image
-            </a> - Augusta Stylianou
+            </Link> - Augusta Stylianou
           </li>
           <li>
-            <a
+            <Link
               href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thoughtco.com%2Fkleos-meaning-for-ancient-greeks-119379&psig=AOvVaw2Fqnz-1wVi4pYUWQOREpzw&ust=1728888521596000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCs7-LhiokDFQAAAAAdAAAAABAE"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Kleos Image
-            </a> - ThoughtCo
+            </Link> - ThoughtCo
           </li>
           <li>
-            <a
+            <Link
               href="https://en.wikipedia.org/wiki/Swan_song#/media/File:Gravure_door_Reinier_van_Persijn.jpg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Swan Image
-            </a> - Wikipedia
+            </Link> - Wikipedia
           </li>
           <li>
-            <a
+            <Link
               href="https://en.wikipedia.org/wiki/Nostos#/media/File:Metope_(1).JPG"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Nostos Image
-            </a> - Wikipedia
+            </Link> - Wikipedia
           </li>
           <li>
-            <a
+            <Link
               href="https://en.wikipedia.org/wiki/Xenia_%28Greek%29#/media/File:Workshop_of_Peter_Paul_Rubens_-_Jupiter_and_Mercury_at_Philemon_and_Baucis.jpg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline">
               Xenia Image
-            </a> - Wikipedia
+            </Link> - Wikipedia
           </li>
         </ul>
       </div>
