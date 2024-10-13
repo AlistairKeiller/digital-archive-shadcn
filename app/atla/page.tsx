@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css';
 // Dynamically import the Map components with SSR disabled
 const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
 const ImageOverlay = dynamic(() => import('react-leaflet').then(mod => mod.ImageOverlay), { ssr: false });
+import { AttributionControl } from 'react-leaflet';
 import { LatLngBoundsLiteral } from 'leaflet';
 import atlaImage from '@/images/atla.webp';
 
@@ -15,11 +16,11 @@ const bounds: LatLngBoundsLiteral = [
 
 export default function Map() {
     return (
-        <MapContainer center={[20, 30]} zoom={5.4} className="w-screen h-[calc(100vh-69px)]" attributionControl={false}>
+        <MapContainer center={[20, 30]} zoom={5.4} className="w-screen h-[calc(100vh-69px)]" attributionControl={true}>
             <ImageOverlay
                 url={atlaImage.src}
                 bounds={bounds}
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                attribution='<a href="https://www.reddit.com/user/mudron/">u/mudron</a>'
             />
         </MapContainer>
     );
