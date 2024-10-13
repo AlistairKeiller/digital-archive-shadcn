@@ -5,7 +5,7 @@ import zipperMouth from '@/components/zippermouth.svg';
 
 export function ProfileCard() {
     return (
-        <div className="flex justify-center items-center min-h-[calc(100vh-69px)] bg-gray-100">
+        <div className="flex justify-center items-center h-[calc(100vh-69px)]">
             <Card className="max-w-4xl w-full bg-white shadow-lg rounded-lg">
                 {/* Profile Header */}
                 <CardHeader className="flex flex-col items-center p-6 border-b">

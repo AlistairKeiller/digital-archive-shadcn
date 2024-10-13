@@ -66,7 +66,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="flex justify-center min-h-[calc(100vh-69px)] bg-gray-100">
+    <div className="flex justify-center min-h-[calc(100vh-69px)]">
       <audio ref={supermanAudioRef} src="/Superman.mp3" />
       <audio ref={batmanAudioRef} src="/Batman.mp3" />
       <div className="mt-6 mx-4 max-w-3xl">
