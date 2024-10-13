@@ -11,7 +11,7 @@ const atla = localFont({
 
 export function ProfileCard() {
     return (
-        <div className="flex justify-center items-center h-[calc(100vh-69px)]">
+        <div className="flex justify-center items-center min-h-[calc(100vh-69px)]">
             <Card className="max-w-4xl w-full bg-white shadow-lg rounded-lg">
                 {/* Profile Header */}
                 <CardHeader className="items-center ">
