@@ -9,8 +9,6 @@ const atla = localFont({
     src: "./Avatar Airbender.ttf",
   });
 
-//   the last cs nerd for fun
-
 export function ProfileCard() {
     return (
         <div className="flex justify-center items-center h-[calc(100vh-69px)]">
