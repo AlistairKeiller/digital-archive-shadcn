@@ -2,23 +2,25 @@
 import dynamic from 'next/dynamic';
 import 'leaflet/dist/leaflet.css';
 
-// Dynamically import the Map component with SSR disabled
+// Dynamically import the Map components with SSR disabled
 const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
-const TileLayer = dynamic(() => import('react-leaflet').then(mod => mod.TileLayer), { ssr: false });
-const Marker = dynamic(() => import('react-leaflet').then(mod => mod.Marker), { ssr: false });
-const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ssr: false });
+const ImageOverlay = dynamic(() => import('react-leaflet').then(mod => mod.ImageOverlay), { ssr: false });
+import { LatLngBoundsLiteral } from 'leaflet';
+import atlaImage from '@/images/atla.jpg';
+
+const bounds: LatLngBoundsLiteral = [
+    [0, 0],
+    [36, 54]
+];
 
 export default function Map() {
     return (
-        <MapContainer center={[51.505, -0.09]} zoom={13} className="w-screen h-[calc(100vh-69px)]" attributionControl={false}>
-            <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        <MapContainer center={[18, 27]} zoom={5.4} className="w-screen h-[calc(100vh-69px)]" attributionControl={false}>
+            <ImageOverlay
+                url={atlaImage.src}
+                bounds={bounds}
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
-            <Marker position={[51.505, -0.09]}>
-                <Popup>
-                    A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-            </Marker>
         </MapContainer>
     );
 }
