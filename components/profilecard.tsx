@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
-import profilePic from '@/components/profile.jpeg';
+import profilePic from '@/images/profile.jpg';
 import zipperMouth from '@/components/zippermouth.svg';
 
 export function ProfileCard() {
