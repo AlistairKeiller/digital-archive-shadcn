@@ -17,6 +17,7 @@
     "npm:clsx@^2.1.1": "2.1.1",
     "npm:eslint-config-next@14.2.14": "14.2.14_eslint@8.57.1_typescript@5.6.3_@typescript-eslint+parser@8.15.0__eslint@8.57.1__typescript@5.6.3_eslint-plugin-import@2.31.0__eslint@8.57.1",
     "npm:eslint@^8.57.1": "8.57.1",
+    "npm:gsap@^3.12.5": "3.12.5",
     "npm:leaflet@^1.9.4": "1.9.4",
     "npm:lucide-react@0.451": "0.451.0_react@18.3.1",
     "npm:next@14.2.14": "14.2.14_react@18.3.1_react-dom@18.3.1__react@18.3.1",
@@ -1653,6 +1654,9 @@
     "graphemer@1.4.0": {
       "integrity": "sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag=="
     },
+    "gsap@3.12.5": {
+      "integrity": "sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ=="
+    },
     "has-bigints@1.0.2": {
       "integrity": "sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ=="
     },
@@ -2891,6 +2895,7 @@
         "npm:clsx@^2.1.1",
         "npm:eslint-config-next@14.2.14",
         "npm:eslint@^8.57.1",
+        "npm:gsap@^3.12.5",
         "npm:leaflet@^1.9.4",
         "npm:lucide-react@0.451",
         "npm:next@14.2.14",
