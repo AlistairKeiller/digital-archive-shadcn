@@ -35,9 +35,11 @@ export default function Decameron() {
             ?
           </span>
         </h1>
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          The Decameron's worldbuilding
+        </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          The king, seeing how much happier his subjects were, realized the
-          error of his ways and repealed the joke tax.
+          The Decameron builds its world in between the stories, using their relationships. The deeply nested series of fictional storytellers each with their own motives, relationships, and personalities, give each word a myriad of implications in a deeply entangled web of connected worlds.
         </p>
       </div>
     </div>
