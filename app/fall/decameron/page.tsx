@@ -5,24 +5,6 @@ import { Text } from "@react-three/drei";
 import { useSpring, a } from "@react-spring/three";
 
 export default function Decameron() {
-  const titles = ["Where is Worldbuilding Possible", "Decameron", "UCI"];
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isFading, setIsFading] = useState(false);
-
-  const { opacity } = useSpring({
-    opacity: isFading ? 0 : 1,
-    config: { duration: 500 },
-  });
-
-  const handleClick = () => {
-    setIsFading(true); // Start fading out
-    setTimeout(() => {
-      const nextIndex = (currentIndex + 1) % titles.length;
-      setCurrentIndex(nextIndex); // Change the title
-      setIsFading(false); // Start fading in
-    }, 500); // Match the CSS transition duration
-  };
-
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)]">
       <div className="mt-6 mx-4 max-w-3xl">
@@ -33,11 +15,8 @@ export default function Decameron() {
             color="black"
             anchorX="center"
             anchorY="middle"
-            onClick={handleClick}
-            onPointerOver={() => (document.body.style.cursor = "pointer")}
-            onPointerOut={() => (document.body.style.cursor = "auto")}
           >
-            {titles[currentIndex]}?
+            Where is Worldbuilding Possible?
           </Text>
         </Canvas>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
