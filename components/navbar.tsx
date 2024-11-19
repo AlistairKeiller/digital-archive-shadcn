@@ -33,7 +33,7 @@ const quarters = [
       },
       {
         title: "Decameron",
-        href: "/",
+        href: "/fall/decameron",
         description: "Coming Soon!",
       },
       {
