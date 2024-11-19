@@ -1,34 +1,35 @@
-"use client"
-import React, { useState, useRef } from 'react';
-import { gsap } from 'gsap';
+"use client";
+import React, { useState, useRef } from "react";
 
 export default function Decameron() {
-  const titles = ['Where is Worldbuilding', 'Decameron', 'UCI'];
+  const titles = ["Where is Worldbuilding Possible", "Decameron", "UCI"];
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
   const titleRef = useRef(null);
 
   const handleClick = () => {
     const nextIndex = (currentIndex + 1) % titles.length;
 
-    gsap.to(titleRef.current, {
-      opacity: 0,
-      duration: 0.5,
-      onComplete: () => {
-        setCurrentIndex(nextIndex);
-
-        gsap.to(titleRef.current, { opacity: 1, duration: 0.5 });
-      },
-    });
+    setIsFading(true); // Start fading out
+    setTimeout(() => {
+      setCurrentIndex(nextIndex); // Change the title
+      setIsFading(false); // Start fading in
+    }, 500); // Match the CSS transition duration
   };
 
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)]">
       <div className="mt-6 mx-4 max-w-3xl">
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center">
-          <span ref={titleRef}>{titles[currentIndex]}</span>
+        <h1
+          className={`scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center transition-opacity duration-500 ${
+            isFading ? "opacity-0" : "opacity-100"
+          }`}
+          ref={titleRef}
+        >
+          <span>{titles[currentIndex]}</span>
           <span
             onClick={handleClick}
-            style={{ cursor: 'pointer' }}
+            style={{ cursor: "pointer" }}
             className="text-blue-500"
           >
             ?
