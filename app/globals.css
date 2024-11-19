@@ -76,29 +76,3 @@ body {
     @apply bg-background text-foreground;
   }
 }
-
-.animate-roll {
-  animation: roll 9s infinite;
-}
-
-.font-size-base {
-  font-size: 2rem;
-}
-
-@keyframes roll {
-  0% {
-    top: 0;
-  }
-  25% {
-    top: -2.5rem; /* Match roller-container height */
-  }
-  50% {
-    top: -5rem;
-  }
-  75% {
-    top: -7.5rem;
-  }
-  100% {
-    top: 0;
-  }
-}
