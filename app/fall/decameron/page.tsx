@@ -117,7 +117,7 @@ export default function Decameron() {
           In the most simple example, I was fortunate enough to get to dorm in Middle Earth Towers!! Many of my friends are from the slums (middle earth classics), and even then there is a massive range of experences.
           In my world, my character presented forthought in finding 3 roomates to request to room in towers, the UCI that I live in has fenominal housing and living conditions (thus far).
         </p>
-        <div className="relative flex justify-center items-center">
+        <div className="relative flex justify-center items-center [&:not(:first-child)]:mt-6">
           <div className="w-1/2">
             <Image
               src={image1}
