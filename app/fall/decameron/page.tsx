@@ -103,13 +103,13 @@ export default function Decameron() {
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           UCI feels like the bubonic plague in florence, in the best way possible!
-          It's a shared experence for every student, and students can choose their own path. There are those who revel in social networking aspect, those who love the Greek life, the engineers who just make junk, and everything inbetween.
+          It&apos;s a shared experence for every student, and students can choose their own path. There are those who revel in social networking aspect, those who love the Greek life, the engineers who just make junk, and everything inbetween.
           This akin to the countless reactions that people had to the bubonic plague in The Decameron, inclduing indulgence, relegious devotion, and escapism.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Just as the <div className="italic inline">brigata</div> constructed their world off of their stories, us anteaters construct it off of our actions.
           We are our own being, that may reference UCI in our actions, but the connections that we make, the conflicts that we have, and the works that we create are a reflection of our character and the catalyst in the long term impact we will have.
-          Although our time here is just a small part of the larger world of UCI, that contains everything and everyone here right now, we have to focus on an individual's world to fully comprehend in the context that came before and the future that lies ahead.
+          Although our time here is just a small part of the larger world of UCI, that contains everything and everyone here right now, we have to focus on an individual&apos;s world to fully comprehend in the context that came before and the future that lies ahead.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           The choices that students make (and also those that are made for them 💀) also define the UCI they experence, which is the world that their character lives in.
@@ -144,7 +144,7 @@ export default function Decameron() {
           </div>
         </div>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          How good is UCI housing?? WELL IT DEPENDS... on the world in which you are observing it from. It's what people are experencing it and how they are experencing it.
+          How good is UCI housing?? WELL IT DEPENDS... on the world in which you are observing it from. It&apos;s what people are experencing it and how they are experencing it.
           The choices, personal history, and often just chance all define our unique UCI.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
