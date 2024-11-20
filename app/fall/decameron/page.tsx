@@ -1,6 +1,9 @@
 "use client";
 
 import React from "react";
+import image1 from "@/images/IMG_0025.jpeg"
+import image2 from "@/images/IMG_0028.jpeg"
+import vs from "@/images/Street_Fighter_VS_logo.png"
 
 export default function Decameron() {
   return (
@@ -89,12 +92,66 @@ export default function Decameron() {
           </div>
         </div>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Each story helps us better understand the storytellers&apos; character, their relationship with that day&apos;s ruler (represented by how well each story follows that days theme), the meaning of conflict the Author is trying to convey, and putting the Author&apos;s conceptions within the narrative context established in the begining.
+          Each story helps us better understand the storytellers&apos; character, their relationship with that day&apos;s ruler (represented by how well each story follows that days theme), the Author&apos;s intended meaning in creating conflict or misalignment between layers, and Buccacio&apos;s intentions in having the Author speak in the context that he has established in the introduction.
+        </p>
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          UCI&apos;s Worldbuilding
+        </h2>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          UCI is a world so massive that one can simply not hope to fully explore it. There are countless subgroups, cultures, social events, and academic oppurtinities, that one&apos;s experence is shaped by their desicions.
+          In fact, every person is building their own world just by attending UCI. 
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          
+          UCI feels like the bubonic plague in florence, in the best way possible!
+          It's a shared experence for every student, and students can choose their own path. There are those who revel in social networking aspect, those who love the Greek life, the engineers who just make junk, and everything inbetween.
+          This akin to the countless reactions that people had to the bubonic plague in The Decameron, inclduing indulgence, relegious devotion, and escapism.
         </p>
-      </div>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Just as the <div className="italic inline">brigata</div> constructed their world off of their stories, us anteaters construct it off of our actions.
+          We are our own being, that may reference UCI in our actions, but the connections that we make, the conflicts that we have, and the works that we create are a reflection of our character and the catalyst in the long term impact we will have.
+          Although our time here is just a small part of the larger world of UCI, that contains everything and everyone here right now, we have to focus on an individual's world to fully comprehend in the context that came before and the future that lies ahead.
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          The choices that students make (and also those that are made for them 💀) also define the UCI they experence, which is the world that their character lives in.
+          In the most simple example, I was fortunate enough to get to dorm in Middle Earth Towers!! Many of my friends are from the slums (middle earth classics), and even then there is a massive range of experences.
+          In my world, my character presented forthought in finding 3 roomates to request to room in towers, the UCI that I live in has fenominal housing and living conditions (thus far).
+        </p>
+        <div className="flex justify-center items-center">
+        <div className="relative flex items-center justify-between w-full max-w-4xl">
+            <div className="w-1/3">
+              <img
+                src={image1.src}
+                alt="Image 1"
+                className="rounded-lg shadow-lg"
+              />
+            </div>
+
+            <div className="w-1/3 flex justify-center">
+              <img
+                src={vs.src}
+                alt="VS Logo"
+                className="w-32 h-32 object-contain"
+              />
+            </div>
+
+            <div className="w-1/3">
+              <img
+                src={image2.src}
+                alt="Image 2"
+                className="rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          How good is UCI housing?? WELL IT DEPENDS... on the world in which you are observing it from. It's what people are experencing it and how they are experencing it.
+          The choices, personal history, and often just chance all define our unique UCI.
+        </p>
+        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          My UCI
+        </h2>
+
+        </div>
       <style jsx>{`
         .rotate-\[-90\] {
           transform: rotateX(-90deg);
