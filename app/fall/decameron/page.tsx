@@ -108,7 +108,7 @@ export default function Decameron() {
           This akin to the countless reactions that people had to the bubonic plague in The Decameron, inclduing indulgence, relegious devotion, and escapism.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Just as the <div className="italic inline">brigata</div> constructed their world off of their stories, us anteaters construct it off of our actions.
+          Just as the <span className="italic inline">brigata</span> constructed their world off of their stories, us anteaters construct it off of our actions.
           We are our own being, that may reference UCI in our actions, but the connections that we make, the conflicts that we have, and the works that we create are a reflection of our character and the catalyst in the long term impact we will have.
           Although our time here is just a small part of the larger world of UCI, that contains everything and everyone here right now, we have to focus on an individual&apos;s world to fully comprehend in the context that came before and the future that lies ahead.
         </p>
