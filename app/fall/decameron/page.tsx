@@ -119,26 +119,35 @@ export default function Decameron() {
         </p>
         <div className="relative flex justify-center items-center">
           <div className="w-1/2">
-            <img
-              src={image1.src}
+            <Image
+              src={image1}
               alt="Image 1"
               className="rounded-lg shadow-lg w-full h-full object-cover"
+              layout="responsive"
+              width={500}
+              height={500}
             />
           </div>
 
           <div className="w-1/2">
-            <img
-              src={image2.src}
+            <Image
+              src={image2}
               alt="Image 2"
               className="rounded-lg shadow-lg w-full h-full object-cover"
+              layout="responsive"
+              width={500}
+              height={500}
             />
           </div>
 
           <div className="absolute flex justify-center items-center w-full h-full">
-            <img
-              src={vs.src}
+            <Image
+              src={vs}
               alt="VS Logo"
               className="w-32 h-32 object-contain"
+              layout="fixed"
+              width={128}
+              height={128}
             />
           </div>
         </div>
@@ -149,8 +158,7 @@ export default function Decameron() {
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
           My UCI
         </h2>
-
-        </div>
+      </div>
       <style jsx>{`
         .rotate-\[-90\] {
           transform: rotateX(-90deg);
