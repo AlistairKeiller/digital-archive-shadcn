@@ -4,6 +4,7 @@ import React from "react";
 import image1 from "@/images/IMG_0025.jpeg"
 import image2 from "@/images/IMG_0028.jpeg"
 import vs from "@/images/Street_Fighter_VS_logo.png"
+import Image from "next/image";
 
 export default function Decameron() {
   return (
@@ -116,31 +117,29 @@ export default function Decameron() {
           In the most simple example, I was fortunate enough to get to dorm in Middle Earth Towers!! Many of my friends are from the slums (middle earth classics), and even then there is a massive range of experences.
           In my world, my character presented forthought in finding 3 roomates to request to room in towers, the UCI that I live in has fenominal housing and living conditions (thus far).
         </p>
-        <div className="flex justify-center items-center">
-        <div className="relative flex items-center justify-between w-full max-w-4xl">
-            <div className="w-1/3">
-              <img
-                src={image1.src}
-                alt="Image 1"
-                className="rounded-lg shadow-lg"
-              />
-            </div>
+        <div className="relative flex justify-center items-center">
+          <div className="w-1/2">
+            <img
+              src={image1.src}
+              alt="Image 1"
+              className="rounded-lg shadow-lg w-full h-full object-cover"
+            />
+          </div>
 
-            <div className="w-1/3 flex justify-center">
-              <img
-                src={vs.src}
-                alt="VS Logo"
-                className="w-32 h-32 object-contain"
-              />
-            </div>
+          <div className="w-1/2">
+            <img
+              src={image2.src}
+              alt="Image 2"
+              className="rounded-lg shadow-lg w-full h-full object-cover"
+            />
+          </div>
 
-            <div className="w-1/3">
-              <img
-                src={image2.src}
-                alt="Image 2"
-                className="rounded-lg shadow-lg"
-              />
-            </div>
+          <div className="absolute flex justify-center items-center w-full h-full">
+            <img
+              src={vs.src}
+              alt="VS Logo"
+              className="w-32 h-32 object-contain"
+            />
           </div>
         </div>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
