@@ -532,10 +532,10 @@ export default function Decameron() {
                           science club meeting in some random room in the social
                           science library, and gave us no space to store our car
                           (it's in my dorm right now 💀). I think this
-                          highlights the bureaucracy of UCI that I've had to deal
-                          with, and generally feels like a negative in my world,
-                          but is certainly keeping the university as an overall
-                          well oiled machine.
+                          highlights the bureaucracy of UCI that I've had to
+                          deal with, and generally feels like a negative in my
+                          world, but is certainly keeping the university as an
+                          overall well oiled machine.
                         </p>
                       </CardContent>
                     </Card>
@@ -552,6 +552,25 @@ export default function Decameron() {
                           height={1000}
                           className="rounded-lg mt-6"
                         />
+                        <p className="leading-7 [&:not(:first-child)]:mt-6">
+                          This is the ICS back patio, next to the engineering
+                          tower where I live for academics, and more importantly
+                          where swing dance is held! Before orientation week, I
+                          would have never seen myself as a swing dancer. But I
+                          saw the booth, and was immediately convinced by the
+                          energy coming from all the members. It was just
+                          maximally constructive, and enjoyable to be around.
+                          Here I am, and I couldn't imagine not being in swing
+                          dance! It's the perfect club to look forward to,
+                          getting out and about and also socializing. Swing
+                          dancing with a partner feels very physically
+                          connective in a way that is extremely enjoyable. Also,
+                          the dual purpose of the space for polar opposite
+                          purposes, engineering and dance, is a perfect example
+                          of the duality of UCI. There are so many cultures and
+                          activities combining to form a single space, and it's
+                          just a beautiful thing to be a part of.
+                        </p>
                       </CardContent>
                     </Card>
                   </div>
@@ -567,6 +586,17 @@ export default function Decameron() {
                           height={1000}
                           className="rounded-lg mt-6"
                         />
+                        <p className="leading-7 [&:not(:first-child)]:mt-6">
+                          This is my UAV lab, where we're building racing
+                          drones. Ideally, it would be a space of innovation and
+                          technology, as drone push the limits (just tiny 100g
+                          carbon fiber-filled robotics pulling hundreds of amps
+                          is a miracle of engineering). However, due to some
+                          leadership issues, the club has been super inactive,
+                          and this space (and it's general inactivity) reminds
+                          me of the dependence of members of a club on the
+                          leadership to guide them.
+                        </p>
                       </CardContent>
                     </Card>
                   </div>
@@ -582,6 +612,18 @@ export default function Decameron() {
                           height={1000}
                           className="rounded-lg mt-6"
                         />
+                        <p className="leading-7 [&:not(:first-child)]:mt-6">
+                          This is the 3D printing lab for ZIMS, where I am
+                          building a robotics arm. It's one of the best
+                          communities I've been a part of, with everything from
+                          3D printers, to CNCs, to laser cutters. To me, the
+                          space and all the it contains represents the forefront
+                          of community manufacturing. Even though most of the
+                          machines are hobby grade, we stand against FabWords
+                          (the professional shop at UCI) in creating amazing
+                          stuff. This room represents the power of community in
+                          my world, and is my home for physically realizing ideas.
+                        </p>
                       </CardContent>
                     </Card>
                   </div>
