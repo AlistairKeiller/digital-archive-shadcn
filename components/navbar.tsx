@@ -34,7 +34,7 @@ const quarters = [
       {
         title: "Decameron",
         href: "/fall/decameron",
-        description: "Coming Soon!",
+        description: "\"Where is Worldbuilding Possible?\"",
       },
       {
         title: "Parable of the Sower",

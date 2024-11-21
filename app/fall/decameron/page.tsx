@@ -11,6 +11,13 @@ import {
   PopoverTrigger,
   PopoverContent,
 } from "@/components/ui/popover";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import Image from "next/image";
 
 export default function Decameron() {
@@ -386,7 +393,34 @@ export default function Decameron() {
             surrounded people that support their, answer their questions, and
             study with them.
           </p>
-        </div>
+          <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+            Clubs
+          </h3>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            Despite being a CS major, the engineering clubs here have been most
+            of my time, life, and experience here at UCI. I just went into the
+            orientation recruiting week, and said yes to everything that looked
+            interesting (which was far more that I could have ever expected, and
+            they almost all happened to be engineering).
+          </p>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+          The clubs that I
+            thought would pour my heart and soul into, like Quantum Computing
+            (one my personal favorite subjects in high school), never felt like
+            the right group for me. Our worlds were just too far apart (their
+            Quantum Computing was not the same as mine, and I couldn't go from
+            an intuitive fundamental understanding to the "shut up and
+            calculate" approach without an uneasy feeling the whole way
+            through).
+          </p>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            Other started off rocky, but slowly grew into one of my
+            passions. Some gems just have been straight fun for 8 weeks, and
+            have been the core of my world and shaped everything from my
+            schedule as I devote countless hours to them, to becoming the core
+            of my social life.
+          </p>
+          </div>
       </div>
       <style jsx>{`
         .rotate-\[-90\] {
