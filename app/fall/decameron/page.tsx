@@ -137,7 +137,7 @@ export default function Decameron() {
           (and then imagine the page covered with arrows like a crime board
           connecting the ideas in each of these):
         </p>
-        <div className="flex flex-col items-center justify-center bg-gray-100 [&:not(:first-child)]:mt-6">
+        <div className="flex flex-col items-center justify-center [&:not(:first-child)]:mt-6">
           {/* Outer Container */}
           <div className="border-4 border-blue-500 p-8 rounded-lg bg-white hover:shadow-2xl transition-shadow">
             <h1 className="text-blue-500 text-lg font-bold mb-4 text-center">
