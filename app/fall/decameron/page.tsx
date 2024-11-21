@@ -170,7 +170,7 @@ export default function Decameron() {
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             The Decameron&apos;s world builds itself in every story, between
-            every storytellers, and through the author. The deeply nested series
+            every storyteller and through the author. The deeply nested series
             of fictional storytellers each with their own motives,
             relationships, and personalities, give each word a myriad of
             implications in a deeply entangled web of connected worlds.
@@ -179,8 +179,8 @@ export default function Decameron() {
             The bidirectional communication between layers of worlds was the
             most impactful insight that Dr. Shemek&apos;s lectures had on me.
             It&apos;s not that a story informs us about the characters and what
-            the characters represent, or that the character&apos;s personalities
-            can give us insight to the story. Instead, Boccaccio uses the
+            the characters represent or that the character&apos;s personalities
+            can give us insight into the story. Instead, Boccaccio uses the
             stories, the character he decides should tell each story, the
             author, the author&apos;s comments, and every other word in the book
             to his arguments and justify his claims.
