@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import isengaurd from "@/images/IMG_0025.jpeg";
 import towers from "@/images/IMG_0031.jpeg";
 import calmindon from "@/images/IMG_0024.jpeg";
 import vs from "@/images/Street_Fighter_VS_logo.png";
+import lofiGirl from "@/images/lofi.gif";
 import {
   Popover,
   PopoverTrigger,
@@ -17,6 +18,8 @@ export default function Decameron() {
   const calmindonRef = useRef<HTMLHeadingElement>(null);
   // Reference to the audio object
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  // State to track if the audio is playing
+  const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     const calmindonSection = calmindonRef.current;
@@ -32,6 +35,16 @@ export default function Decameron() {
           if (!audioRef.current) {
             audioRef.current = new Audio("/lofi.mp3");
             audioRef.current.loop = true; // Loop the music
+
+            // Update the state when the audio starts playing
+            audioRef.current.addEventListener("play", () => {
+              setIsPlaying(true);
+            });
+
+            // Update the state when the audio pauses
+            audioRef.current.addEventListener("pause", () => {
+              setIsPlaying(false);
+            });
           }
           audioRef.current.play();
         } else {
@@ -57,31 +70,46 @@ export default function Decameron() {
       }
       if (audioRef.current) {
         audioRef.current.pause();
+        audioRef.current = null;
       }
     };
   }, []);
 
   return (
-    <div className="flex justify-center min-h-[calc(100vh-69px)]">
-      <div className="mt-6 mx-4 max-w-3xl">
-      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl flex justify-center">
-          <div>
-            Nesting{` `}
-            <div className="text-box inline-block relative">
-              <div className="inline-block absolute rotate-[-90] opacity-0">
-                Worlds
+    <div className="relative">
+      {/* Conditionally render the lofi girl background */}
+      {isPlaying && (
+        <div className="fixed inset-0 z-0">
+          <Image
+            src={lofiGirl}
+            alt="Lofi Girl"
+            layout="fill"
+            objectFit="cover"
+            className="opacity-10"
+          />
+        </div>
+      )}
+
+      <div className="flex justify-center min-h-[calc(100vh-69px)] relative z-10">
+        <div className="mt-6 mx-4 max-w-3xl">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl flex justify-center">
+            <div>
+              Nesting{` `}
+              <div className="text-box inline-block relative">
+                <div className="inline-block absolute rotate-[-90] opacity-0">
+                  Worlds
+                </div>
+                <div className="inline-block absolute rotate-[-90] opacity-0">
+                  Worlds
+                </div>
+                <div className="inline-block absolute rotate-[-90] opacity-0">
+                  Worlds
+                </div>
               </div>
-              <div className="inline-block absolute rotate-[-90] opacity-0">
-                Worlds
-              </div>
-              <div className="inline-block absolute rotate-[-90] opacity-0">
-                Worlds
-              </div>
+              <div className="inline-block min-w-28 lg:min-w-40"></div>
             </div>
-            <div className="inline-block min-w-28 lg:min-w-40"></div>
-          </div>
-        </h1>
-        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          </h1>
+          <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
           The Decameron&apos;s Worldbuilding
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -261,44 +289,44 @@ export default function Decameron() {
           My World at UCI
         </h2>
 
-        {/* "Calmindon" section with ref attached */}
-        <h3
-          className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight"
-          ref={calmindonRef}
-        >
-          Calmindon
-        </h3>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          I&apos;m currently working out of the Calmindon study hall, which has
-          been a massively liminal space in my UCI. Everything about the
-          location is just perfect for studies,{" "}
-          <Popover>
-            <PopoverTrigger asChild>
-              <span className="underline cursor-pointer">
-                it is slightly secluded within a plaza
-              </span>
-            </PopoverTrigger>
-            <PopoverContent className="w-96 p-4">
-              <Image
-                src={calmindon}
-                alt="Calmindon"
-                className="object-cover rounded-md mx-auto"
-              />
-              <p className="text-sm text-center mt-2">
-                A photo of the outside of Calmindon, looking from the Rivendell
-                side.
-              </p>
-            </PopoverContent>
-          </Popover>
-          , so it is relatively low traffic, and it's architecture leaves it
-          slightly warm and fuzzy stuffy feeling (which is a relieving break
-          from the literal and metaphorical cold modernism of towers). Even its
-          inconveniences, like the light switch that turns off after 55 minutes,
-          just forces one of us to get up, helps us keep track of time, and is
-          the perfect time for an interjection or random comment after a long
-          hour of fully locking in.
-        </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          {/* "Calmindon" section with ref attached */}
+          <h3
+            className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight"
+            ref={calmindonRef}
+          >
+            Calmindon
+          </h3>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            I&apos;m currently working out of the Calmindon study hall, which has
+            been a massively liminal space in my UCI. Everything about the
+            location is just perfect for studies,{" "}
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  it is slightly secluded within a plaza
+                </span>
+              </PopoverTrigger>
+              <PopoverContent className="w-96 p-4">
+                <Image
+                  src={calmindon}
+                  alt="Calmindon"
+                  className="object-cover rounded-md mx-auto"
+                />
+                <p className="text-sm text-center mt-2">
+                  A photo of the outside of Calmindon, looking from the Rivendell
+                  side.
+                </p>
+              </PopoverContent>
+            </Popover>
+            , so it is relatively low traffic, and it's architecture leaves it
+            slightly warm and fuzzy stuffy feeling (which is a relieving break
+            from the literal and metaphorical cold modernism of towers). Even its
+            inconveniences, like the light switch that turns off after 55 minutes,
+            just forces one of us to get up, helps us keep track of time, and is
+            the perfect time for an interjection or random comment after a long
+            hour of fully locking in.
+          </p>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
           Calmindon itself, and all the students there, have massively shaped my
           work ethic, and <span className="line-through">ruined</span> shifted
           my sleep schedule, and changed my activities and classes to match
@@ -321,7 +349,9 @@ export default function Decameron() {
           people that support their, answer their questions, and study with
           them.
         </p>
+        </div>
       </div>
+
       <style jsx>{`
         .rotate-\[-90\] {
           transform: rotateX(-90deg);
