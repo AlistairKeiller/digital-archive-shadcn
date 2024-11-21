@@ -18,6 +18,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import {
+  Card,
+  CardContent,
+} from "@/components/ui/card";
 import Image from "next/image";
 
 export default function Decameron() {
@@ -404,23 +408,40 @@ export default function Decameron() {
             they almost all happened to be engineering).
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-          The clubs that I
-            thought would pour my heart and soul into, like Quantum Computing
-            (one my personal favorite subjects in high school), never felt like
-            the right group for me. Our worlds were just too far apart (their
-            Quantum Computing was not the same as mine, and I couldn't go from
-            an intuitive fundamental understanding to the "shut up and
-            calculate" approach without an uneasy feeling the whole way
-            through).
+            The clubs that I thought would pour my heart and soul into, like
+            Quantum Computing (one my personal favorite subjects in high
+            school), never felt like the right group for me. Our worlds were
+            just too far apart (their Quantum Computing was not the same as
+            mine, and I couldn&apos;t go from an intuitive fundamental
+            understanding to the &quot;shut up and calculate&quot; approach
+            without an uneasy feeling the whole way through).
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Other started off rocky, but slowly grew into one of my
-            passions. Some gems just have been straight fun for 8 weeks, and
-            have been the core of my world and shaped everything from my
-            schedule as I devote countless hours to them, to becoming the core
-            of my social life.
+            Other started off rocky, but slowly grew into one of my passions.
+            Some gems just have been straight fun for 8 weeks, and have been the
+            core of my world and shaped everything from my schedule as I devote
+            countless hours to them, to becoming the core of my social life.
           </p>
-          </div>
+          <Carousel className="w-full max-w-xs">
+            <CarouselContent>
+              {Array.from({ length: 5 }).map((_, index) => (
+                <CarouselItem key={index}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                        <span className="text-4xl font-semibold">
+                          {index + 1}
+                        </span>
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
       </div>
       <style jsx>{`
         .rotate-\[-90\] {
