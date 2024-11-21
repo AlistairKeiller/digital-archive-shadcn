@@ -54,9 +54,9 @@ export default function Decameron() {
           arguments and justify his claims.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This sounds surprisingly mundane when typed out, but I promise that, in
-          my head, the number of connections I am making and relationships I am
-          considering is far to overwhelming and profound to transcribe in a
+          This sounds surprisingly mundane when typed out, but I promise that,
+          in my head, the number of connections I am making and relationships I
+          am considering is far to overwhelming and profound to transcribe in a
           five minute read.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
