@@ -14,18 +14,18 @@ import Image from "next/image";
 
 export default function Decameron() {
   // Reference to the "Calmindon" section
-  const calmindonRef = useRef(null);
+  const calmindonRef = useRef<HTMLHeadingElement>(null);
   // Reference to the audio object
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     const calmindonSection = calmindonRef.current;
     if (!calmindonSection) return;
 
-    let observer;
+    let observer: IntersectionObserver;
 
     // Callback function for the Intersection Observer
-    const handleIntersection = (entries) => {
+    const handleIntersection = (entries: IntersectionObserverEntry[]) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           // Play the music when the section is in view
