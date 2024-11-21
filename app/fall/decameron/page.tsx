@@ -296,7 +296,7 @@ export default function Decameron() {
             their character lives in. In the most simple example, I was
             fortunate enough to dorm in: Middle Earth Towers!! Many of my
             friends are from the slums (Middle Earth classics), and even within
-            classics friends there are a massive range of experiences. In my
+            classics friends, there is a massive range of experiences. In my
             world, my character presented forethought in finding 3 roommates to
             request to room in towers. The UCI that I live in has phenomenal
             housing and living conditions (thus far).
@@ -310,8 +310,8 @@ export default function Decameron() {
                 width={500}
                 height={500}
               />
-              I often hang out with amazing community that is the Isengard dorm!
-              It feels welcoming and lived-in.
+              I often hang out with the amazing community that is the Isengard
+              dorm! It feels welcoming and lived-in.
             </div>
 
             <div className="w-1/2 text-center leading-7">
@@ -565,8 +565,8 @@ export default function Decameron() {
                           the social science library, and gave us no space to
                           store our car (it&apos;s in my dorm right now 💀). I
                           think this highlights the bureaucracy of UCI that
-                          I&apos;ve had to deal with, and generally feels like a
-                          negative in my world, but it is certainly keeping the
+                          I&apos;ve had to deal with, and it generally feels
+                          negative in my world, but it certainly keeps the
                           university as an overall well-oiled machine.
                         </p>
                       </CardContent>
@@ -600,9 +600,9 @@ export default function Decameron() {
                           enjoyable. Also, the dual purpose of the space for
                           polar opposite purposes, engineering, and dance, is a
                           perfect example of the duality of UCI. There are so
-                          many cultures and activities combined to form a
-                          single space, and it&apos;s just a beautiful thing to
-                          be a part of.
+                          many cultures and activities combined to form a single
+                          space, and it&apos;s just a beautiful thing to be a
+                          part of.
                         </p>
                       </CardContent>
                     </Card>
@@ -649,14 +649,14 @@ export default function Decameron() {
                           This is the 3D printing lab for ZIMS, where I am
                           building a robotics arm. It&apos;s one of the best
                           communities I&apos;ve been a part of, with everything
-                          from 3D printers to CNCs to laser cutters. To me,
-                          the space and all it contains represent the
-                          forefront of community manufacturing. Even though most
-                          of the machines are hobby grade, we stand against
-                          FabWords (the professional shop at UCI) in creating
-                          amazing stuff. This room represents the power of
-                          community in my world and is my home for physically
-                          realizing ideas.
+                          from 3D printers to CNCs to laser cutters. To me, the
+                          space and all it contains represent the forefront of
+                          community manufacturing. Even though most of the
+                          machines are hobby grade, we stand against FabWords
+                          (the professional shop at UCI) in creating amazing
+                          stuff. This room represents the power of community in
+                          my world and is my home for physically realizing
+                          ideas.
                         </p>
                       </CardContent>
                     </Card>
