@@ -425,83 +425,83 @@ export default function Decameron() {
             countless hours to them, to becoming the core of my social life.
           </p>
           <div className="flex justify-center [&:not(:first-child)]:mt-6">
-            <Carousel className="w-full max-w-xs">
+            <Carousel className="w-full">
               <CarouselContent>
-                <CarouselItem key={1}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <Image
-                          src={ACE}
-                          alt="ACE"
-                          width={500}
-                          height={500}
-                          className="rounded-lg"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-                <CarouselItem key={2}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <Image
-                          src={F1tenth}
-                          alt="F1tenth"
-                          width={500}
-                          height={500}
-                          className="rounded-lg"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-                <CarouselItem key={3}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <Image
-                          src={swing}
-                          alt="Swing"
-                          width={500}
-                          height={500}
-                          className="rounded-lg"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-                <CarouselItem key={4}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <Image
-                          src={UAV}
-                          alt="UAV"
-                          width={500}
-                          height={500}
-                          className="rounded-lg"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-                <CarouselItem key={5}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <Image
-                          src={ZIMS}
-                          alt="ZIMS"
-                          width={500}
-                          height={500}
-                          className="rounded-lg"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
+              <CarouselItem key={1}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                  <Image
+                    src={ACE}
+                    alt="ACE"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg"
+                  />
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem key={2}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                  <Image
+                    src={F1tenth}
+                    alt="F1tenth"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg"
+                  />
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem key={3}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                  <Image
+                    src={swing}
+                    alt="Swing"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg"
+                  />
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem key={4}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                  <Image
+                    src={UAV}
+                    alt="UAV"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg"
+                  />
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem key={5}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                  <Image
+                    src={ZIMS}
+                    alt="ZIMS"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg"
+                  />
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
               </CarouselContent>
               <CarouselPrevious />
               <CarouselNext />
