@@ -251,7 +251,7 @@ export default function Decameron() {
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Each story helps us better understand the storytellers&apos;
             character, their relationship with that day&apos;s ruler
-            (represented by how well each story follows that days theme), the
+            (represented by how well each story follows that day&apos;s theme), the
             Author&apos;s intended meaning in creating conflict or misalignment
             between layers, and Boccaccio&apos;s intentions in having the Author
             speak in the context that he has established in the introduction.
@@ -268,21 +268,21 @@ export default function Decameron() {
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Being at UCI feels like being a member of the{" "}
-            <span className="italic inline">brigata</span>, in the best way
+            <span className="italic inline">brigata</span> in the best way
             possible! UCI is a shared experience for every student, just as the
             black death was a shared trauma for the world. At UCI, students can
-            choose their own path. There are those who revel in social
+            choose their own path. There are those who revel in the social
             networking aspect, those who love the Greek life, the engineers who
-            just make junk, and everything between. This akin to the countless
+            just make junk, and everything in between. This is akin to the countless
             reactions that people had to the bubonic plague in The Decameron,
             including indulgence, religious devotion, and escapism.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Just as the <span className="italic inline">brigata</span>{" "}
-            constructed their world off of their stories, us anteaters construct
+            constructed their world off of their stories, we anteaters constructed
             it off of our actions. The connections that we make, the conflicts
             that we have, and the works that we create are a reflection of our
-            character. Each of our characters and worlds combine into the larger
+            character. Each of our characters and worlds combines into the larger
             UCI world, which is something so massive and nuanced that no one
             student, professor, or administrator can experience it all. Instead,
             the best we can do is continue building our own world, exploring our
@@ -293,11 +293,11 @@ export default function Decameron() {
             The choices that students make (and also those that are made for
             them) also define the UCI they experience, which is the world that
             their character lives in. In the most simple example, I was
-            fortunate enough to get to dorm in Middle Earth Towers!! Many of my
-            friends are from the slums (middle earth classics), and even within
+            fortunate enough to dorm in: Middle Earth Towers!! Many of my
+            friends are from the slums (Middle Earth classics), and even within
             classics friends there are a massive range of experiences. In my
             world, my character presented forethought in finding 3 roommates to
-            request to room in towers, the UCI that I live in has fenominal
+            request to room in towers. The UCI that I live in has phenomenal
             housing and living conditions (thus far).
           </p>
           <div className="relative flex justify-center items-center [&:not(:first-child)]:mt-6">
