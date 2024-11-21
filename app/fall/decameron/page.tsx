@@ -5,6 +5,11 @@ import isengaurd from "@/images/IMG_0025.jpeg";
 import towers from "@/images/IMG_0031.jpeg";
 import calmindon from "@/images/IMG_0024.jpeg";
 import vs from "@/images/Street_Fighter_VS_logo.png";
+import swing from "@/images/swing.jpeg";
+import F1tenth from "@/images/F1tenth.jpeg";
+import UAV from "@/images/UAV.jpeg";
+import ZIMS from "@/images/ZIMS.jpeg";
+import ACE from "@/images/ACE.jpeg";
 import lofiGirl from "@/images/lofi.gif";
 import {
   Popover,
@@ -18,10 +23,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import {
-  Card,
-  CardContent,
-} from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 
 export default function Decameron() {
@@ -387,7 +389,7 @@ export default function Decameron() {
             room my social hall? Because groups of friends have gotten together
             and sectioned off their responsibilities, into different physical
             spaces, therefore forming those physical spaces to have metaphysical
-            implications.
+            significance.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             In our case, my Calmindon friends and I have decided to designate
@@ -422,25 +424,69 @@ export default function Decameron() {
             core of my world and shaped everything from my schedule as I devote
             countless hours to them, to becoming the core of my social life.
           </p>
-          <Carousel className="w-full max-w-xs">
-            <CarouselContent>
-              {Array.from({ length: 5 }).map((_, index) => (
-                <CarouselItem key={index}>
+          <div className="flex justify-center [&:not(:first-child)]:mt-6">
+            <Carousel className="w-full max-w-xs">
+              <CarouselContent>
+                <CarouselItem key={1}>
                   <div className="p-1">
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <span className="text-4xl font-semibold">
-                          {index + 1}
-                        </span>
+                        <Image src={ACE} alt="ACE" width={500} height={500} />
                       </CardContent>
                     </Card>
                   </div>
                 </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-          </Carousel>
+                <CarouselItem key={2}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                        <Image
+                          src={F1tenth}
+                          alt="F1tenth"
+                          width={500}
+                          height={500}
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={3}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                        <Image
+                          src={swing}
+                          alt="Swing"
+                          width={500}
+                          height={500}
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={4}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                        <Image src={UAV} alt="UAV" width={500} height={500} />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={5}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                        <Image src={ZIMS} alt="ZIMS" width={500} height={500} />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </div>
         </div>
       </div>
       <style jsx>{`
