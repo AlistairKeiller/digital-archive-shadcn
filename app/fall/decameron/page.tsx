@@ -459,7 +459,7 @@ export default function Decameron() {
             countless hours to them, to becoming the core of my social life.
           </p>
           <div className="flex justify-center [&:not(:first-child)]:mt-6">
-            <Carousel className="max-w-md lg:max-w-full mx-auto">
+            <Carousel className="max-w-sm sm:max-w-lg lg:max-w-full mx-auto">
               <CarouselContent>
               <CarouselItem key={1}>
                 <div className="p-1">
@@ -663,8 +663,8 @@ export default function Decameron() {
                 </div>
               </CarouselItem>
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
+              <CarouselPrevious className="hidden lg:inline-flex" />
+              <CarouselNext className="hidden lg:inline-flex"/>
             </Carousel>
           </div>
           <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
