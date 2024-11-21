@@ -44,7 +44,7 @@ export default function Decameron() {
           entangled web of connected worlds.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          The bidirectional communciation between layers of worlds was the most
+          The bidirectional communication between layers of worlds was the most
           impactful insight that Dr. Shemek&apos;s lectures had on me. It&apos;s
           not that a story informs us about the characters and what the
           characters represent, or that the character&apos;s personalities can
@@ -54,8 +54,8 @@ export default function Decameron() {
           arguments and justify his claims.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This sounds suprisingly mundane when typed out, but I promise that, in
-          my head, the number of connections I am making and relatships I am
+          This sounds surprisingly mundane when typed out, but I promise that, in
+          my head, the number of connections I am making and relationships I am
           considering is far to overwhelming and profound to transcribe in a
           five minute read.
         </p>
@@ -121,7 +121,7 @@ export default function Decameron() {
           character, their relationship with that day&apos;s ruler (represented
           by how well each story follows that days theme), the Author&apos;s
           intended meaning in creating conflict or misalignment between layers,
-          and Buccacio&apos;s intentions in having the Author speak in the
+          and Boccaccio&apos;s intentions in having the Author speak in the
           context that he has established in the introduction.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
@@ -130,20 +130,20 @@ export default function Decameron() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           UCI is a world so massive that one can simply not hope to fully
           explore it. There are countless subgroups, cultures, social events,
-          and academic oppurtinities, that one&apos;s experence is shaped by
-          their desicions. In fact, every person is building their own world
+          and academic opportunities, that one&apos;s experience is shaped by
+          their decisions. In fact, every person is building their own world
           just by attending UCI.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Being at UCI feels like being a member of the{" "}
           <span className="italic inline">brigata</span>, in the best way
-          possible! UCI is a shared experence for every student, just as the
+          possible! UCI is a shared experience for every student, just as the
           black death was a shared trauma for the world. At UCI, students can
           choose their own path. There are those who revel in social networking
           aspect, those who love the Greek life, the engineers who just make
-          junk, and everything inbetween. This akin to the countless reactions
-          that people had to the bubonic plague in The Decameron, inclduing
-          indulgence, relegious devotion, and escapism.
+          junk, and everything between. This akin to the countless reactions
+          that people had to the bubonic plague in The Decameron, including
+          indulgence, religious devotion, and escapism.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Just as the <span className="italic inline">brigata</span> constructed
@@ -152,18 +152,18 @@ export default function Decameron() {
           the works that we create are a reflection of our character. Each of
           our characters and worlds combine into the larger UCI world, which is
           something so massive and nuanced that no one student, professor, or
-          administrator can experence it all. Instead, the best we can do is
+          administrator can experience it all. Instead, the best we can do is
           continue building our own world, exploring our character, and learning
-          from the worlds of others through converstaion.
+          from the worlds of others through conversation.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           The choices that students make (and also those that are made for them
-          💀) also define the UCI they experence, which is the world that their
+          💀) also define the UCI they experience, which is the world that their
           character lives in. In the most simple example, I was fortunate enough
           to get to dorm in Middle Earth Towers!! Many of my friends are from
           the slums (middle earth classics), and even within classics friends
-          there are a massive range of experences. In my world, my character
-          presented forthought in finding 3 roomates to request to room in
+          there are a massive range of experiences. In my world, my character
+          presented forethought in finding 3 roommates to request to room in
           towers, the UCI that I live in has fenominal housing and living
           conditions (thus far).
         </p>
@@ -207,8 +207,8 @@ export default function Decameron() {
         </div>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           How good is UCI housing?? WELL IT DEPENDS... on the world in which you
-          are observing it from. It&apos;s what people are experencing it and
-          how they are experencing it. The choices, personal history, and often
+          are observing it from. It&apos;s what people are experiencing it and
+          how they are experiencing it. The choices, personal history, and often
           just chance all define our unique UCI.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
@@ -239,26 +239,26 @@ export default function Decameron() {
               </p>
             </PopoverContent>
           </Popover>
-          , so it is relativly low traffic, and it's archecture leaves it
+          , so it is relatively low traffic, and it's architecture leaves it
           slightly warm and fuzzy stuffy feeling (which is a relieving break
-          from the literal and metiphorical cold modernism of towers). Even it's
-          inconviencnces, like the light switch that turns off after 55 minutes,
+          from the literal and metaphorical cold modernism of towers). Even it's
+          inconveniences, like the light switch that turns off after 55 minutes,
           just forces one of us to get up, helps us keep track of time, and is
-          the perfect time for an interjecftion or random comment after a long
+          the perfect time for an interjection or random comment after a long
           hour of fully locking in.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Calmindon itself, and all the students there, have massivly shaped my
+          Calmindon itself, and all the students there, have massively shaped my
           work ethic, and <span className="line-through">ruined</span> shifted
-          my sleep schedule, and changed my acvitivies and classes to match
+          my sleep schedule, and changed my activities and classes to match
           theirs for at least this year (and hopefully years to come).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           But I like to think that I contribute back to Calmindon to at least a
-          similar degree as it has shaped me and my experence. Why is
+          similar degree as it has shaped me and my experience. Why is
           Calmindon's study room my study spot and Isengaurd's study room my
-          social hall? Becuase groups of friends have gotten together and
-          sectioned off their responabiltiies, into different physical spaces,
+          social hall? Because groups of friends have gotten together and
+          sectioned off their responsibilities, into different physical spaces,
           therefore forming those physical spaces to have metaphysical
           implications.
         </p>
