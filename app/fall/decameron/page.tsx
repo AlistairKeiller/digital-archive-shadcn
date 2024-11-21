@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import isengaurd from "@/images/IMG_0025.jpeg";
 import towers from "@/images/IMG_0031.jpeg";
 import calmindon from "@/images/IMG_0024.jpeg";
@@ -13,10 +13,58 @@ import {
 import Image from "next/image";
 
 export default function Decameron() {
+  // Reference to the "Calmindon" section
+  const calmindonRef = useRef(null);
+  // Reference to the audio object
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    const calmindonSection = calmindonRef.current;
+    if (!calmindonSection) return;
+
+    let observer;
+
+    // Callback function for the Intersection Observer
+    const handleIntersection = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Play the music when the section is in view
+          if (!audioRef.current) {
+            audioRef.current = new Audio("/lofi.mp3");
+            audioRef.current.loop = true; // Loop the music
+          }
+          audioRef.current.play();
+        } else {
+          // Pause the music when the section is out of view
+          if (audioRef.current) {
+            audioRef.current.pause();
+          }
+        }
+      });
+    };
+
+    // Create the Intersection Observer
+    observer = new IntersectionObserver(handleIntersection, {
+      threshold: 0.5, // Adjust as needed
+    });
+
+    observer.observe(calmindonSection);
+
+    // Cleanup the observer and audio on unmount
+    return () => {
+      if (observer && calmindonSection) {
+        observer.unobserve(calmindonSection);
+      }
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+    };
+  }, []);
+
   return (
     <div className="flex justify-center min-h-[calc(100vh-69px)]">
       <div className="mt-6 mx-4 max-w-3xl">
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl flex justify-center">
+      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl flex justify-center">
           <div>
             Nesting{` `}
             <div className="text-box inline-block relative">
@@ -173,7 +221,6 @@ export default function Decameron() {
               src={isengaurd}
               alt="Image 1"
               className="rounded-lg shadow-lg w-full h-full object-cover"
-              layout="responsive"
               width={500}
               height={500}
             />
@@ -186,7 +233,6 @@ export default function Decameron() {
               src={towers}
               alt="Image 2"
               className="rounded-lg shadow-lg w-full h-full object-cover"
-              layout="responsive"
               width={500}
               height={500}
             />
@@ -199,7 +245,6 @@ export default function Decameron() {
               src={vs}
               alt="VS Logo"
               className="w-32 h-32 object-contain"
-              layout="fixed"
               width={128}
               height={128}
             />
@@ -211,15 +256,21 @@ export default function Decameron() {
           how they are experiencing it. The choices, personal history, and often
           just chance all define our unique UCI.
         </p>
+
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
           My World at UCI
         </h2>
-        <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
+
+        {/* "Calmindon" section with ref attached */}
+        <h3
+          className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight"
+          ref={calmindonRef}
+        >
           Calmindon
         </h3>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           I&apos;m currently working out of the Calmindon study hall, which has
-          been as massively liminal space in my UCI. Everything about the
+          been a massively liminal space in my UCI. Everything about the
           location is just perfect for studies,{" "}
           <Popover>
             <PopoverTrigger asChild>
@@ -241,7 +292,7 @@ export default function Decameron() {
           </Popover>
           , so it is relatively low traffic, and it's architecture leaves it
           slightly warm and fuzzy stuffy feeling (which is a relieving break
-          from the literal and metaphorical cold modernism of towers). Even it's
+          from the literal and metaphorical cold modernism of towers). Even its
           inconveniences, like the light switch that turns off after 55 minutes,
           just forces one of us to get up, helps us keep track of time, and is
           the perfect time for an interjection or random comment after a long
