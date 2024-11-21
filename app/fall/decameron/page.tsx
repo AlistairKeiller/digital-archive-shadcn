@@ -22,6 +22,8 @@ export default function Decameron() {
   const fadeIntervalRef = useRef<number | null>(null);
   // State to track if the audio is playing
   const [isPlaying, setIsPlaying] = useState(false);
+  // State to track the audio volume and image opacity
+  const [volume, setVolume] = useState(0);
 
   useEffect(() => {
     const calmindonSection = calmindonRef.current;
@@ -34,6 +36,7 @@ export default function Decameron() {
       }
 
       audio.volume = 0;
+      setVolume(0);
       audio.play();
 
       const volumeIncrement = 1 / (duration / 100);
@@ -41,9 +44,11 @@ export default function Decameron() {
       fadeIntervalRef.current = window.setInterval(() => {
         if (audio.volume < 1) {
           audio.volume = Math.min(audio.volume + volumeIncrement, 1);
+          setVolume(audio.volume);
         } else {
           clearInterval(fadeIntervalRef.current!);
           fadeIntervalRef.current = null;
+          setVolume(1);
         }
       }, 100);
     };
@@ -59,10 +64,12 @@ export default function Decameron() {
       fadeIntervalRef.current = window.setInterval(() => {
         if (audio.volume > 0) {
           audio.volume = Math.max(audio.volume - volumeDecrement, 0);
+          setVolume(audio.volume);
         } else {
           audio.pause();
           clearInterval(fadeIntervalRef.current!);
           fadeIntervalRef.current = null;
+          setVolume(0);
         }
       }, 100);
     };
@@ -123,21 +130,19 @@ export default function Decameron() {
 
   return (
     <div className="relative">
-      {isPlaying && (
-        <div className="fixed inset-0 z-0">
-          <Image
-            src={lofiGirl}
-            alt="Lofi Girl"
-            layout="fill"
-            objectFit="cover"
-            className="opacity-10"
-          />
-        </div>
-      )}
+      <div className="fixed inset-0 z-0">
+        <Image
+          src={lofiGirl}
+          alt="Lofi Girl"
+          layout="fill"
+          objectFit="cover"
+          style={{ opacity: volume / 10.0 }}
+        />
+      </div>
 
       <div className="flex justify-center min-h-[calc(100vh-69px)] relative z-10">
         <div className="mt-6 mx-4 max-w-3xl">
-          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl flex justify-center">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl flex justify-center">
             <div>
               Nesting{` `}
               <div className="text-box inline-block relative">
