@@ -3,7 +3,9 @@
 import React, { useRef, useEffect, useState } from "react";
 import isengaurd from "@/images/IMG_0025.jpeg";
 import towers from "@/images/IMG_0031.jpeg";
-import calmindon from "@/images/IMG_0024.jpeg";
+import calmindon_outside from "@/images/IMG_0024.jpeg";
+import calmindon from "@/images/Calmindon.jpeg";
+import calmindon_lightswitch from "@/images/Calmindon_switch.jpeg";
 import vs from "@/images/Street_Fighter_VS_logo.png";
 import swing from "@/images/swing.jpeg";
 import F1tenth from "@/images/F1tenth.jpeg";
@@ -350,9 +352,23 @@ export default function Decameron() {
             Calmindon
           </h3>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            I&apos;m currently working out of the Calmindon study hall, which
-            has been a massively liminal space in my UCI. Everything about the
-            location is just perfect for studies,{" "}
+            I&apos;m currently working out of the{" "}
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  Calmindon study hall
+                </span>
+              </PopoverTrigger>
+              <PopoverContent className="w-96 p-4">
+                <Image
+                  src={calmindon}
+                  alt="calmindon"
+                  className="object-cover rounded-md mx-auto"
+                />
+              </PopoverContent>
+            </Popover>
+            , which has been a massively liminal space in my UCI. Everything
+            about the location is just perfect for studies,{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -361,7 +377,7 @@ export default function Decameron() {
               </PopoverTrigger>
               <PopoverContent className="w-96 p-4">
                 <Image
-                  src={calmindon}
+                  src={calmindon_outside}
                   alt="Calmindon"
                   className="object-cover rounded-md mx-auto"
                 />
@@ -374,10 +390,24 @@ export default function Decameron() {
             , so it is relatively low traffic, and it&apos;s architecture leaves
             it slightly warm and fuzzy stuffy feeling (which is a relieving
             break from the literal and metaphorical cold modernism of towers).
-            Even its inconveniences, like the light switch that turns off after
-            55 minutes, just forces one of us to get up, helps us keep track of
-            time, and is the perfect time for an interjection or random comment
-            after a long hour of fully locking in.
+            Even its inconveniences, like{" "}
+            <Popover>
+              <PopoverTrigger asChild>
+                <span className="underline cursor-pointer">
+                  the light switch that turns off after 55 minutes
+                </span>
+              </PopoverTrigger>
+              <PopoverContent className="w-96 p-4">
+                <Image
+                  src={calmindon_lightswitch}
+                  alt="calmindon lightswitch"
+                  className="object-cover rounded-md mx-auto"
+                />
+              </PopoverContent>
+            </Popover>
+            , just forces one of us to get up, helps us keep track of time, and
+            is the perfect time for an interjection or random comment after a
+            long hour of fully locking in.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Calmindon itself, and all the students there, have massively shaped
@@ -622,7 +652,8 @@ export default function Decameron() {
                           machines are hobby grade, we stand against FabWords
                           (the professional shop at UCI) in creating amazing
                           stuff. This room represents the power of community in
-                          my world, and is my home for physically realizing ideas.
+                          my world, and is my home for physically realizing
+                          ideas.
                         </p>
                       </CardContent>
                     </Card>
