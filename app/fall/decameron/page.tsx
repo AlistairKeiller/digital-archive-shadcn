@@ -431,7 +431,13 @@ export default function Decameron() {
                   <div className="p-1">
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <Image src={ACE} alt="ACE" width={500} height={500} />
+                        <Image
+                          src={ACE}
+                          alt="ACE"
+                          width={500}
+                          height={500}
+                          className="rounded-lg"
+                        />
                       </CardContent>
                     </Card>
                   </div>
@@ -445,6 +451,7 @@ export default function Decameron() {
                           alt="F1tenth"
                           width={500}
                           height={500}
+                          className="rounded-lg"
                         />
                       </CardContent>
                     </Card>
@@ -459,6 +466,7 @@ export default function Decameron() {
                           alt="Swing"
                           width={500}
                           height={500}
+                          className="rounded-lg"
                         />
                       </CardContent>
                     </Card>
@@ -468,7 +476,13 @@ export default function Decameron() {
                   <div className="p-1">
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <Image src={UAV} alt="UAV" width={500} height={500} />
+                        <Image
+                          src={UAV}
+                          alt="UAV"
+                          width={500}
+                          height={500}
+                          className="rounded-lg"
+                        />
                       </CardContent>
                     </Card>
                   </div>
@@ -477,7 +491,13 @@ export default function Decameron() {
                   <div className="p-1">
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <Image src={ZIMS} alt="ZIMS" width={500} height={500} />
+                        <Image
+                          src={ZIMS}
+                          alt="ZIMS"
+                          width={500}
+                          height={500}
+                          className="rounded-lg"
+                        />
                       </CardContent>
                     </Card>
                   </div>
