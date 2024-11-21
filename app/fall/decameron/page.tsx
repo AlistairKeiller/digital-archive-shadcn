@@ -433,20 +433,20 @@ export default function Decameron() {
                 <CarouselItem key={1}>
                   <div className="p-1">
                     <Card>
-                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center mt-6">
+                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
                         <Image
                           src={ACE}
                           alt="ACE"
                           width={1000}
                           height={1000}
-                          className="rounded-lg"
+                          className="rounded-lg mt-6"
                         />
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
                           This is the part storage room for ACE (Anteater Combat
                           Robotics)! I promise it&apos;s more exciting that this
                           mess would imply. If you have ever seen battlebots,
-                          it's just that, but smaller. I'm currently working on
-                          a 1lb "antweight" league robot with a team of 3 other
+                          it&apos;s just that, but smaller. I&apos;m currently working on
+                          a 1lb &quot;antweight&quot; league robot with a team of 3 other
                           friends, and we will compete with a bunch of other
                           schools (including some other teams at UCI). Here is{" "}
                           <Popover>
@@ -478,9 +478,9 @@ export default function Decameron() {
                               />
                             </PopoverContent>
                           </Popover>
-                          . Although I don't spend much time here, it the
-                          grounding that makes my CAD work worth it. I've spent
-                          hours "designing" 1s and 0s to resemble a physical
+                          . Although I don&apos;t spend much time here, it the
+                          grounding that makes my CAD work worth it. I&apos;ve spent
+                          hours designing 1s and 0s to resemble a physical
                           part, in hopes that it will translate to instructions
                           for how robots (3d printers) and I can work to
                           physically manifest my ideas. The magical thing about
@@ -500,7 +500,7 @@ export default function Decameron() {
                           alt="F1tenth"
                           width={1000}
                           height={1000}
-                          className="rounded-lg"
+                          className="rounded-lg mt-6"
                         />
                       </CardContent>
                     </Card>
@@ -515,7 +515,7 @@ export default function Decameron() {
                           alt="Swing"
                           width={1000}
                           height={1000}
-                          className="rounded-lg"
+                          className="rounded-lg mt-6"
                         />
                       </CardContent>
                     </Card>
@@ -530,7 +530,7 @@ export default function Decameron() {
                           alt="UAV"
                           width={1000}
                           height={1000}
-                          className="rounded-lg"
+                          className="rounded-lg mt-6"
                         />
                       </CardContent>
                     </Card>
@@ -545,7 +545,7 @@ export default function Decameron() {
                           alt="ZIMS"
                           width={1000}
                           height={1000}
-                          className="rounded-lg"
+                          className="rounded-lg mt-6"
                         />
                       </CardContent>
                     </Card>
