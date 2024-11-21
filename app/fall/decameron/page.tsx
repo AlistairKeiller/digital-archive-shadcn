@@ -2,7 +2,7 @@
 
 import React from "react";
 import image1 from "@/images/IMG_0025.jpeg"
-import image2 from "@/images/IMG_0028.jpeg"
+import image2 from "@/images/IMG_0031.jpeg"
 import vs from "@/images/Street_Fighter_VS_logo.png"
 import Image from "next/image";
 
@@ -103,22 +103,22 @@ export default function Decameron() {
           In fact, every person is building their own world just by attending UCI. 
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          UCI feels like the bubonic plague in florence, in the best way possible!
-          It&apos;s a shared experence for every student, and students can choose their own path. There are those who revel in social networking aspect, those who love the Greek life, the engineers who just make junk, and everything inbetween.
+          Being at UCI feels like being a member of the <span className="italic inline">brigata</span>, in the best way possible!
+          UCI is a shared experence for every student, just as the black death was a shared trauma for the world. At UCI, students can choose their own path. There are those who revel in social networking aspect, those who love the Greek life, the engineers who just make junk, and everything inbetween.
           This akin to the countless reactions that people had to the bubonic plague in The Decameron, inclduing indulgence, relegious devotion, and escapism.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Just as the <span className="italic inline">brigata</span> constructed their world off of their stories, us anteaters construct it off of our actions.
-          We are our own being, that may reference UCI in our actions, but the connections that we make, the conflicts that we have, and the works that we create are a reflection of our character and the catalyst in the long term impact we will have.
-          Although our time here is just a small part of the larger world of UCI, that contains everything and everyone here right now, we have to focus on an individual&apos;s world to fully comprehend in the context that came before and the future that lies ahead.
+          The connections that we make, the conflicts that we have, and the works that we create are a reflection of our character. Each of our characters and worlds combine into the larger UCI world, which is something so massive and nuanced that no one student, professor, or administrator can experence it all.
+          Instead, the best we can do is continue building our own world, exploring our character, and learning from the worlds of others through converstaion.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           The choices that students make (and also those that are made for them 💀) also define the UCI they experence, which is the world that their character lives in.
-          In the most simple example, I was fortunate enough to get to dorm in Middle Earth Towers!! Many of my friends are from the slums (middle earth classics), and even then there is a massive range of experences.
+          In the most simple example, I was fortunate enough to get to dorm in Middle Earth Towers!! Many of my friends are from the slums (middle earth classics), and even within classics friends there are a massive range of experences.
           In my world, my character presented forthought in finding 3 roomates to request to room in towers, the UCI that I live in has fenominal housing and living conditions (thus far).
         </p>
         <div className="relative flex justify-center items-center [&:not(:first-child)]:mt-6">
-          <div className="w-1/2">
+          <div className="w-1/2 text-center leading-7">
             <Image
               src={image1}
               alt="Image 1"
@@ -127,9 +127,10 @@ export default function Decameron() {
               width={500}
               height={500}
             />
+            I often hang out with amazing community that is the Isengard dorm! It feels welcoming and lived-in.
           </div>
 
-          <div className="w-1/2">
+          <div className="w-1/2 text-center leading-7">
             <Image
               src={image2}
               alt="Image 2"
@@ -138,6 +139,7 @@ export default function Decameron() {
               width={500}
               height={500}
             />
+            My beloved Middle Earth Towers: The perfect common spaces to study in and bed to crash in.
           </div>
 
           <div className="absolute flex justify-center items-center w-full h-full">
@@ -156,8 +158,11 @@ export default function Decameron() {
           The choices, personal history, and often just chance all define our unique UCI.
         </p>
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-          My UCI
+          My World at UCI
         </h2>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          I&apos;m currently working out of the Calmindon study hall
+        </p>
       </div>
       <style jsx>{`
         .rotate-\[-90\] {
