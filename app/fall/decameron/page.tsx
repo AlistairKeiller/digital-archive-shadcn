@@ -649,13 +649,13 @@ export default function Decameron() {
                           This is the 3D printing lab for ZIMS, where I am
                           building a robotics arm. It&apos;s one of the best
                           communities I&apos;ve been a part of, with everything
-                          from 3D printers, to CNCs, to laser cutters. To me,
-                          the space and all the it contains represents the
+                          from 3D printers to CNCs to laser cutters. To me,
+                          the space and all it contains represent the
                           forefront of community manufacturing. Even though most
                           of the machines are hobby grade, we stand against
                           FabWords (the professional shop at UCI) in creating
                           amazing stuff. This room represents the power of
-                          community in my world, and is my home for physically
+                          community in my world and is my home for physically
                           realizing ideas.
                         </p>
                       </CardContent>
