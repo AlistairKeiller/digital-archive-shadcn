@@ -553,16 +553,16 @@ export default function Decameron() {
                             </PopoverContent>
                           </Popover>
                           . It is equipped with Lidar, IR, stereo cameras, and
-                          an tiny supercomputer for AI calculations (I swear I'm
+                          an tiny supercomputer for AI calculations (I swear I&apos;m
                           not just using that as a buzzword, the focus of the
-                          club is on developing "real" AI applications using
+                          club is on developing &quot;real&quot; AI applications using
                           reinforcement learning and computer vision, not just
                           more LLM wrapper junk). Ironically, UCI has,
                           *subjectively*, the most advanced applied computer
                           science club meeting in some random room in the social
                           science library, and gave us no space to store our car
-                          (it's in my dorm right now 💀). I think this
-                          highlights the bureaucracy of UCI that I've had to
+                          (it&apos;s in my dorm right now 💀). I think this
+                          highlights the bureaucracy of UCI that I&apos;ve had to
                           deal with, and generally feels like a negative in my
                           world, but is certainly keeping the university as an
                           overall well oiled machine.
@@ -590,15 +590,15 @@ export default function Decameron() {
                           saw the booth, and was immediately convinced by the
                           energy coming from all the members. It was just
                           maximally constructive, and enjoyable to be around.
-                          Here I am, and I couldn't imagine not being in swing
-                          dance! It's the perfect club to look forward to,
+                          Here I am, and I couldn&apos;t imagine not being in swing
+                          dance! It&apos;s the perfect club to look forward to,
                           getting out and about and also socializing. Swing
                           dancing with a partner feels very physically
                           connective in a way that is extremely enjoyable. Also,
                           the dual purpose of the space for polar opposite
                           purposes, engineering and dance, is a perfect example
                           of the duality of UCI. There are so many cultures and
-                          activities combining to form a single space, and it's
+                          activities combining to form a single space, and it&apos;s
                           just a beautiful thing to be a part of.
                         </p>
                       </CardContent>
@@ -617,13 +617,13 @@ export default function Decameron() {
                           className="rounded-lg mt-6"
                         />
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
-                          This is my UAV lab, where we're building racing
+                          This is my UAV lab, where we&apos;re building racing
                           drones. Ideally, it would be a space of innovation and
                           technology, as drone push the limits (just tiny 100g
                           carbon fiber-filled robotics pulling hundreds of amps
                           is a miracle of engineering). However, due to some
                           leadership issues, the club has been super inactive,
-                          and this space (and it's general inactivity) reminds
+                          and this space (and it&apos;s general inactivity) reminds
                           me of the dependence of members of a club on the
                           leadership to guide them.
                         </p>
@@ -644,8 +644,8 @@ export default function Decameron() {
                         />
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
                           This is the 3D printing lab for ZIMS, where I am
-                          building a robotics arm. It's one of the best
-                          communities I've been a part of, with everything from
+                          building a robotics arm. It&apos;s one of the best
+                          communities I&apos;ve been a part of, with everything from
                           3D printers, to CNCs, to laser cutters. To me, the
                           space and all the it contains represents the forefront
                           of community manufacturing. Even though most of the
