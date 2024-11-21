@@ -18,6 +18,8 @@ export default function Decameron() {
   const calmindonRef = useRef<HTMLHeadingElement>(null);
   // Reference to the audio object
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  // Reference to the fade interval
+  const fadeIntervalRef = useRef<number | null>(null);
   // State to track if the audio is playing
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -25,11 +27,51 @@ export default function Decameron() {
     const calmindonSection = calmindonRef.current;
     if (!calmindonSection) return;
 
+    // Fade in function
+    const fadeIn = (audio: HTMLAudioElement, duration: number) => {
+      if (fadeIntervalRef.current) {
+        clearInterval(fadeIntervalRef.current);
+      }
+
+      audio.volume = 0;
+      audio.play();
+
+      const volumeIncrement = 1 / (duration / 100);
+
+      fadeIntervalRef.current = window.setInterval(() => {
+        if (audio.volume < 1) {
+          audio.volume = Math.min(audio.volume + volumeIncrement, 1);
+        } else {
+          clearInterval(fadeIntervalRef.current!);
+          fadeIntervalRef.current = null;
+        }
+      }, 100);
+    };
+
+    // Fade out function
+    const fadeOut = (audio: HTMLAudioElement, duration: number) => {
+      if (fadeIntervalRef.current) {
+        clearInterval(fadeIntervalRef.current);
+      }
+
+      const volumeDecrement = 1 / (duration / 100);
+
+      fadeIntervalRef.current = window.setInterval(() => {
+        if (audio.volume > 0) {
+          audio.volume = Math.max(audio.volume - volumeDecrement, 0);
+        } else {
+          audio.pause();
+          clearInterval(fadeIntervalRef.current!);
+          fadeIntervalRef.current = null;
+        }
+      }, 100);
+    };
+
     // Callback function for the Intersection Observer
     const handleIntersection = (entries: IntersectionObserverEntry[]) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          // Play the music when the section is in view
+          // Play the music with fade-in when the section is in view
           if (!audioRef.current) {
             audioRef.current = new Audio("/lofi.mp3");
             audioRef.current.loop = true; // Loop the music
@@ -44,20 +86,23 @@ export default function Decameron() {
               setIsPlaying(false);
             });
           }
-          audioRef.current.play();
+          fadeIn(audioRef.current, 2000); // Fade in over 2 seconds
         } else {
-          // Pause the music when the section is out of view
+          // Pause the music with fade-out when the section is out of view
           if (audioRef.current) {
-            audioRef.current.pause();
+            fadeOut(audioRef.current, 2000); // Fade out over 2 seconds
           }
         }
       });
     };
 
     // Create the Intersection Observer
-    const observer: IntersectionObserver = new IntersectionObserver(handleIntersection, {
-      threshold: 0.5, // Adjust as needed
-    });
+    const observer: IntersectionObserver = new IntersectionObserver(
+      handleIntersection,
+      {
+        threshold: 0.5, // Adjust as needed
+      }
+    );
 
     observer.observe(calmindonSection);
 
@@ -65,6 +110,9 @@ export default function Decameron() {
     return () => {
       if (observer && calmindonSection) {
         observer.unobserve(calmindonSection);
+      }
+      if (fadeIntervalRef.current) {
+        clearInterval(fadeIntervalRef.current);
       }
       if (audioRef.current) {
         audioRef.current.pause();
@@ -107,16 +155,16 @@ export default function Decameron() {
             </div>
           </h1>
           <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-          The Decameron&apos;s Worldbuilding
-        </h2>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          The Decameron&apos;s world builds itself in every story, between every
-          storytellers, and through the author. The deeply nested series of
-          fictional storytellers each with their own motives, relationships, and
-          personalities, give each word a myriad of implications in a deeply
-          entangled web of connected worlds.
-        </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+            The Decameron&apos;s Worldbuilding
+          </h2>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
+            The Decameron&apos;s world builds itself in every story, between every
+            storytellers, and through the author. The deeply nested series of
+            fictional storytellers each with their own motives, relationships, and
+            personalities, give each word a myriad of implications in a deeply
+            entangled web of connected worlds.
+          </p>
+          <p className="leading-7 [&:not(:first-child)]:mt-6">
           The bidirectional communication between layers of worlds was the most
           impactful insight that Dr. Shemek&apos;s lectures had on me. It&apos;s
           not that a story informs us about the characters and what the
