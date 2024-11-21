@@ -25,8 +25,6 @@ export default function Decameron() {
     const calmindonSection = calmindonRef.current;
     if (!calmindonSection) return;
 
-    let observer: IntersectionObserver;
-
     // Callback function for the Intersection Observer
     const handleIntersection = (entries: IntersectionObserverEntry[]) => {
       entries.forEach((entry) => {
@@ -57,7 +55,7 @@ export default function Decameron() {
     };
 
     // Create the Intersection Observer
-    observer = new IntersectionObserver(handleIntersection, {
+    const observer: IntersectionObserver = new IntersectionObserver(handleIntersection, {
       threshold: 0.5, // Adjust as needed
     });
 
@@ -77,7 +75,6 @@ export default function Decameron() {
 
   return (
     <div className="relative">
-      {/* Conditionally render the lofi girl background */}
       {isPlaying && (
         <div className="fixed inset-0 z-0">
           <Image
@@ -318,7 +315,7 @@ export default function Decameron() {
                 </p>
               </PopoverContent>
             </Popover>
-            , so it is relatively low traffic, and it's architecture leaves it
+            , so it is relatively low traffic, and it&apos;s architecture leaves it
             slightly warm and fuzzy stuffy feeling (which is a relieving break
             from the literal and metaphorical cold modernism of towers). Even its
             inconveniences, like the light switch that turns off after 55 minutes,
@@ -335,7 +332,7 @@ export default function Decameron() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           But I like to think that I contribute back to Calmindon to at least a
           similar degree as it has shaped me and my experience. Why is
-          Calmindon's study room my study spot and Isengaurd's study room my
+          Calmindon&apos;s study room my study spot and Isengaurd&apos;s study room my
           social hall? Because groups of friends have gotten together and
           sectioned off their responsibilities, into different physical spaces,
           therefore forming those physical spaces to have metaphysical
