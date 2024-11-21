@@ -148,7 +148,7 @@ export default function Decameron() {
 
       <div className="flex justify-center min-h-[calc(100vh-69px)] relative z-10">
         <div className="mt-6 mx-4 max-w-3xl">
-          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl flex justify-center">
+          <h1 className="scroll-m-20 font-extrabold tracking-tight text-5xl flex justify-center">
             <div>
               Nesting{` `}
               <div className="text-box inline-block relative">
@@ -459,209 +459,209 @@ export default function Decameron() {
             countless hours to them, to becoming the core of my social life.
           </p>
           <div className="flex justify-center [&:not(:first-child)]:mt-6">
-            <Carousel className="w-full">
+            <Carousel className="max-w-md lg:max-w-full mx-auto">
               <CarouselContent>
-                <CarouselItem key={1}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
-                        <Image
-                          src={ACE}
-                          alt="ACE"
-                          width={1000}
-                          height={1000}
-                          className="rounded-lg mt-6"
-                        />
-                        <p className="leading-7 [&:not(:first-child)]:mt-6">
-                          This is the part storage room for ACE (Anteater Combat
-                          Robotics)! I promise it&apos;s more exciting than this
-                          mess would imply. If you have ever seen battlebots,
-                          it&apos;s just that, but smaller. I&apos;m currently
-                          working on a 1lb &quot;antweight&quot; league robot
-                          with a team of 3 other friends, and we will compete
-                          with a bunch of other schools (including some other
-                          teams at UCI). Here is{" "}
-                          <Popover>
-                            <PopoverTrigger asChild>
-                              <span className="underline cursor-pointer">
-                                our model
-                              </span>
-                            </PopoverTrigger>
-                            <PopoverContent className="w-96 p-4">
-                              <Image
-                                src={ACE_model}
-                                alt="ACE model"
-                                className="object-cover rounded-md mx-auto"
-                              />
-                            </PopoverContent>
-                          </Popover>
-                          , as well as{" "}
-                          <Popover>
-                            <PopoverTrigger asChild>
-                              <span className="underline cursor-pointer">
-                                the chassis printed out
-                              </span>
-                            </PopoverTrigger>
-                            <PopoverContent className="w-96 p-4">
-                              <Image
-                                src={ACE_chassis}
-                                alt="ACE chassis"
-                                className="object-cover rounded-md mx-auto"
-                              />
-                            </PopoverContent>
-                          </Popover>
-                          . Although I don&apos;t spend much time here, it is
-                          the grounding that makes my CAD work worth it.
-                          I&apos;ve spent hours designing 1s and 0s to resemble
-                          a physical part in hopes that it will translate to
-                          instructions for how robots (3d printers) and I can
-                          work to physically manifest my ideas. The magical
-                          thing about the ACE storage room and 3d printers is
-                          that they represent that bridge between ideas and
-                          reality.
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-                <CarouselItem key={2}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
-                        <Image
-                          src={F1tenth}
-                          alt="F1tenth"
-                          width={1000}
-                          height={1000}
-                          className="rounded-lg mt-6"
-                        />
-                        <p className="leading-7 [&:not(:first-child)]:mt-6">
-                          This is the lab where my F1tenth club meets! We are
-                          working on creating a fully autonomous 1/10th scale
-                          Formula car, and then we can fly around and race it
-                          against other schools! Here is{" "}
-                          <Popover>
-                            <PopoverTrigger asChild>
-                              <span className="underline cursor-pointer">
-                                the current state of our car
-                              </span>
-                            </PopoverTrigger>
-                            <PopoverContent className="w-96 p-4">
-                              <Image
-                                src={F1tenth_car}
-                                alt="F1tenth car"
-                                className="object-cover rounded-md mx-auto"
-                              />
-                            </PopoverContent>
-                          </Popover>
-                          . It is equipped with Lidar, IR, stereo cameras, and a
-                          tiny supercomputer for AI calculations (I swear
-                          I&apos;m not just using that as a buzzword; the focus
-                          of the club is on developing &quot;real&quot; AI
-                          applications using reinforcement learning and computer
-                          vision, not just more LLM wrapper junk). Ironically,
-                          UCI has, *subjectively*, the most advanced applied
-                          computer science club meeting in some random room in
-                          the social science library, and gave us no space to
-                          store our car (it&apos;s in my dorm right now 💀). I
-                          think this highlights the bureaucracy of UCI that
-                          I&apos;ve had to deal with, and it generally feels
-                          negative in my world, but it certainly keeps the
-                          university as an overall well-oiled machine.
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-                <CarouselItem key={3}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
-                        <Image
-                          src={swing}
-                          alt="Swing"
-                          width={1000}
-                          height={1000}
-                          className="rounded-lg mt-6"
-                        />
-                        <p className="leading-7 [&:not(:first-child)]:mt-6">
-                          This is the ICS back patio, next to the engineering
-                          tower where I live for academics and, more
-                          importantly, where swing dance is held! Before
-                          orientation week, I would have never seen myself as a
-                          swing dancer. But I saw the booth and was immediately
-                          convinced by the energy coming from all the members.
-                          It was just maximally constructive and enjoyable to be
-                          around. Here I am, and I couldn&apos;t imagine not
-                          being in swing dance! It&apos;s the perfect club to
-                          look forward to, getting out and about and
-                          socializing. Swing dancing with a partner feels very
-                          physically connective in a way that is extremely
-                          enjoyable. Also, the dual purpose of the space for
-                          polar opposite purposes, engineering, and dance, is a
-                          perfect example of the duality of UCI. There are so
-                          many cultures and activities combined to form a single
-                          space, and it&apos;s just a beautiful thing to be a
-                          part of.
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-                <CarouselItem key={4}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
-                        <Image
-                          src={UAV}
-                          alt="UAV"
-                          width={1000}
-                          height={1000}
-                          className="rounded-lg mt-6"
-                        />
-                        <p className="leading-7 [&:not(:first-child)]:mt-6">
-                          This is my UAV lab, where we&apos;re building racing
-                          drones. Ideally, it would be a space of innovation and
-                          technology, as drone push the limits (just tiny 100g
-                          carbon fiber-filled robotics pulling hundreds of amps
-                          is a miracle of engineering). However, due to some
-                          leadership issues, the club has been super inactive,
-                          and this space (and it&apos;s general inactivity)
-                          reminds me of the dependence of members of a club on
-                          the leadership to guide them.
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-                <CarouselItem key={5}>
-                  <div className="p-1">
-                    <Card>
-                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
-                        <Image
-                          src={ZIMS}
-                          alt="ZIMS"
-                          width={1000}
-                          height={1000}
-                          className="rounded-lg mt-6"
-                        />
-                        <p className="leading-7 [&:not(:first-child)]:mt-6">
-                          This is the 3D printing lab for ZIMS, where I am
-                          building a robotics arm. It&apos;s one of the best
-                          communities I&apos;ve been a part of, with everything
-                          from 3D printers to CNCs to laser cutters. To me, the
-                          space and all it contains represent the forefront of
-                          community manufacturing. Even though most of the
-                          machines are hobby grade, we stand against FabWords
-                          (the professional shop at UCI) in creating amazing
-                          stuff. This room represents the power of community in
-                          my world and is my home for physically realizing
-                          ideas.
-                        </p>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
+              <CarouselItem key={1}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                  <Image
+                    src={ACE}
+                    alt="ACE"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg mt-6"
+                  />
+                  <p className="leading-7 [&:not(:first-child)]:mt-6">
+                    This is the part storage room for ACE (Anteater Combat
+                    Robotics)! I promise it&apos;s more exciting than this
+                    mess would imply. If you have ever seen battlebots,
+                    it&apos;s just that, but smaller. I&apos;m currently
+                    working on a 1lb &quot;antweight&quot; league robot
+                    with a team of 3 other friends, and we will compete
+                    with a bunch of other schools (including some other
+                    teams at UCI). Here is{" "}
+                    <Popover>
+                    <PopoverTrigger asChild>
+                      <span className="underline cursor-pointer">
+                      our model
+                      </span>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-96 p-4">
+                      <Image
+                      src={ACE_model}
+                      alt="ACE model"
+                      className="object-cover rounded-md mx-auto"
+                      />
+                    </PopoverContent>
+                    </Popover>
+                    , as well as{" "}
+                    <Popover>
+                    <PopoverTrigger asChild>
+                      <span className="underline cursor-pointer">
+                      the chassis printed out
+                      </span>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-96 p-4">
+                      <Image
+                      src={ACE_chassis}
+                      alt="ACE chassis"
+                      className="object-cover rounded-md mx-auto"
+                      />
+                    </PopoverContent>
+                    </Popover>
+                    . Although I don&apos;t spend much time here, it is
+                    the grounding that makes my CAD work worth it.
+                    I&apos;ve spent hours designing 1s and 0s to resemble
+                    a physical part in hopes that it will translate to
+                    instructions for how robots (3d printers) and I can
+                    work to physically manifest my ideas. The magical
+                    thing about the ACE storage room and 3d printers is
+                    that they represent that bridge between ideas and
+                    reality.
+                  </p>
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem key={2}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                  <Image
+                    src={F1tenth}
+                    alt="F1tenth"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg mt-6"
+                  />
+                  <p className="leading-7 [&:not(:first-child)]:mt-6">
+                    This is the lab where my F1tenth club meets! We are
+                    working on creating a fully autonomous 1/10th scale
+                    Formula car, and then we can fly around and race it
+                    against other schools! Here is{" "}
+                    <Popover>
+                    <PopoverTrigger asChild>
+                      <span className="underline cursor-pointer">
+                      the current state of our car
+                      </span>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-96 p-4">
+                      <Image
+                      src={F1tenth_car}
+                      alt="F1tenth car"
+                      className="object-cover rounded-md mx-auto"
+                      />
+                    </PopoverContent>
+                    </Popover>
+                    . It is equipped with Lidar, IR, stereo cameras, and a
+                    tiny supercomputer for AI calculations (I swear
+                    I&apos;m not just using that as a buzzword; the focus
+                    of the club is on developing &quot;real&quot; AI
+                    applications using reinforcement learning and computer
+                    vision, not just more LLM wrapper junk). Ironically,
+                    UCI has, *subjectively*, the most advanced applied
+                    computer science club meeting in some random room in
+                    the social science library, and gave us no space to
+                    store our car (it&apos;s in my dorm right now 💀). I
+                    think this highlights the bureaucracy of UCI that
+                    I&apos;ve had to deal with, and it generally feels
+                    negative in my world, but it certainly keeps the
+                    university as an overall well-oiled machine.
+                  </p>
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem key={3}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                  <Image
+                    src={swing}
+                    alt="Swing"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg mt-6"
+                  />
+                  <p className="leading-7 [&:not(:first-child)]:mt-6">
+                    This is the ICS back patio, next to the engineering
+                    tower where I live for academics and, more
+                    importantly, where swing dance is held! Before
+                    orientation week, I would have never seen myself as a
+                    swing dancer. But I saw the booth and was immediately
+                    convinced by the energy coming from all the members.
+                    It was just maximally constructive and enjoyable to be
+                    around. Here I am, and I couldn&apos;t imagine not
+                    being in swing dance! It&apos;s the perfect club to
+                    look forward to, getting out and about and
+                    socializing. Swing dancing with a partner feels very
+                    physically connective in a way that is extremely
+                    enjoyable. Also, the dual purpose of the space for
+                    polar opposite purposes, engineering, and dance, is a
+                    perfect example of the duality of UCI. There are so
+                    many cultures and activities combined to form a single
+                    space, and it&apos;s just a beautiful thing to be a
+                    part of.
+                  </p>
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem key={4}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                  <Image
+                    src={UAV}
+                    alt="UAV"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg mt-6"
+                  />
+                  <p className="leading-7 [&:not(:first-child)]:mt-6">
+                    This is my UAV lab, where we&apos;re building racing
+                    drones. Ideally, it would be a space of innovation and
+                    technology, as drone push the limits (just tiny 100g
+                    carbon fiber-filled robotics pulling hundreds of amps
+                    is a miracle of engineering). However, due to some
+                    leadership issues, the club has been super inactive,
+                    and this space (and it&apos;s general inactivity)
+                    reminds me of the dependence of members of a club on
+                    the leadership to guide them.
+                  </p>
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
+              <CarouselItem key={5}>
+                <div className="p-1">
+                <Card>
+                  <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                  <Image
+                    src={ZIMS}
+                    alt="ZIMS"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg mt-6"
+                  />
+                  <p className="leading-7 [&:not(:first-child)]:mt-6">
+                    This is the 3D printing lab for ZIMS, where I am
+                    building a robotics arm. It&apos;s one of the best
+                    communities I&apos;ve been a part of, with everything
+                    from 3D printers to CNCs to laser cutters. To me, the
+                    space and all it contains represent the forefront of
+                    community manufacturing. Even though most of the
+                    machines are hobby grade, we stand against FabWords
+                    (the professional shop at UCI) in creating amazing
+                    stuff. This room represents the power of community in
+                    my world and is my home for physically realizing
+                    ideas.
+                  </p>
+                  </CardContent>
+                </Card>
+                </div>
+              </CarouselItem>
               </CarouselContent>
               <CarouselPrevious />
               <CarouselNext />
