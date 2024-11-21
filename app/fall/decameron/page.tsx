@@ -439,13 +439,13 @@ export default function Decameron() {
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Despite being a CS major, the engineering clubs here have been most
             of my time, life, and experience here at UCI. I just went into the
-            orientation recruiting week, and said yes to everything that looked
-            interesting (which was far more that I could have ever expected, and
+            orientation recruiting week and said yes to everything that looked
+            interesting (which was far more than I could have ever expected, and
             they almost all happened to be engineering).
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            The clubs that I thought would pour my heart and soul into, like
-            Quantum Computing (one my personal favorite subjects in high
+            The clubs that I thought I would pour my heart and soul into, like
+            Quantum Computing (one of my personal favorite subjects in high
             school), never felt like the right group for me. Our worlds were
             just too far apart (their Quantum Computing was not the same as
             mine, and I couldn&apos;t go from an intuitive fundamental
@@ -474,7 +474,7 @@ export default function Decameron() {
                         />
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
                           This is the part storage room for ACE (Anteater Combat
-                          Robotics)! I promise it&apos;s more exciting that this
+                          Robotics)! I promise it&apos;s more exciting than this
                           mess would imply. If you have ever seen battlebots,
                           it&apos;s just that, but smaller. I&apos;m currently
                           working on a 1lb &quot;antweight&quot; league robot
@@ -510,14 +510,15 @@ export default function Decameron() {
                               />
                             </PopoverContent>
                           </Popover>
-                          . Although I don&apos;t spend much time here, it the
-                          grounding that makes my CAD work worth it. I&apos;ve
-                          spent hours designing 1s and 0s to resemble a physical
-                          part, in hopes that it will translate to instructions
-                          for how robots (3d printers) and I can work to
-                          physically manifest my ideas. The magical thing about
-                          the ACE storage room and 3d printers is that they
-                          represent that bridge between ideas and reality.
+                          . Although I don&apos;t spend much time here, it is
+                          the grounding that makes my CAD work worth it.
+                          I&apos;ve spent hours designing 1s and 0s to resemble
+                          a physical part in hopes that it will translate to
+                          instructions for how robots (3d printers) and I can
+                          work to physically manifest my ideas. The magical
+                          thing about the ACE storage room and 3d printers is
+                          that they represent that bridge between ideas and
+                          reality.
                         </p>
                       </CardContent>
                     </Card>
@@ -553,9 +554,9 @@ export default function Decameron() {
                               />
                             </PopoverContent>
                           </Popover>
-                          . It is equipped with Lidar, IR, stereo cameras, and
-                          an tiny supercomputer for AI calculations (I swear
-                          I&apos;m not just using that as a buzzword, the focus
+                          . It is equipped with Lidar, IR, stereo cameras, and a
+                          tiny supercomputer for AI calculations (I swear
+                          I&apos;m not just using that as a buzzword; the focus
                           of the club is on developing &quot;real&quot; AI
                           applications using reinforcement learning and computer
                           vision, not just more LLM wrapper junk). Ironically,
@@ -565,8 +566,8 @@ export default function Decameron() {
                           store our car (it&apos;s in my dorm right now 💀). I
                           think this highlights the bureaucracy of UCI that
                           I&apos;ve had to deal with, and generally feels like a
-                          negative in my world, but is certainly keeping the
-                          university as an overall well oiled machine.
+                          negative in my world, but it is certainly keeping the
+                          university as an overall well-oiled machine.
                         </p>
                       </CardContent>
                     </Card>
@@ -585,21 +586,21 @@ export default function Decameron() {
                         />
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
                           This is the ICS back patio, next to the engineering
-                          tower where I live for academics, and more importantly
-                          where swing dance is held! Before orientation week, I
-                          would have never seen myself as a swing dancer. But I
-                          saw the booth, and was immediately convinced by the
-                          energy coming from all the members. It was just
-                          maximally constructive, and enjoyable to be around.
-                          Here I am, and I couldn&apos;t imagine not being in
-                          swing dance! It&apos;s the perfect club to look
-                          forward to, getting out and about and also
+                          tower where I live for academics and, more
+                          importantly, where swing dance is held! Before
+                          orientation week, I would have never seen myself as a
+                          swing dancer. But I saw the booth and was immediately
+                          convinced by the energy coming from all the members.
+                          It was just maximally constructive and enjoyable to be
+                          around. Here I am, and I couldn&apos;t imagine not
+                          being in swing dance! It&apos;s the perfect club to
+                          look forward to, getting out and about and
                           socializing. Swing dancing with a partner feels very
                           physically connective in a way that is extremely
                           enjoyable. Also, the dual purpose of the space for
-                          polar opposite purposes, engineering and dance, is a
+                          polar opposite purposes, engineering, and dance, is a
                           perfect example of the duality of UCI. There are so
-                          many cultures and activities combining to form a
+                          many cultures and activities combined to form a
                           single space, and it&apos;s just a beautiful thing to
                           be a part of.
                         </p>
