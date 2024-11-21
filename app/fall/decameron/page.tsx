@@ -251,10 +251,11 @@ export default function Decameron() {
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Each story helps us better understand the storytellers&apos;
             character, their relationship with that day&apos;s ruler
-            (represented by how well each story follows that day&apos;s theme), the
-            Author&apos;s intended meaning in creating conflict or misalignment
-            between layers, and Boccaccio&apos;s intentions in having the Author
-            speak in the context that he has established in the introduction.
+            (represented by how well each story follows that day&apos;s theme),
+            the Author&apos;s intended meaning in creating conflict or
+            misalignment between layers, and Boccaccio&apos;s intentions in
+            having the Author speak in the context that he has established in
+            the introduction.
           </p>
           <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
             UCI&apos;s Worldbuilding
@@ -273,21 +274,21 @@ export default function Decameron() {
             black death was a shared trauma for the world. At UCI, students can
             choose their own path. There are those who revel in the social
             networking aspect, those who love the Greek life, the engineers who
-            just make junk, and everything in between. This is akin to the countless
-            reactions that people had to the bubonic plague in The Decameron,
-            including indulgence, religious devotion, and escapism.
+            just make junk, and everything in between. This is akin to the
+            countless reactions that people had to the bubonic plague in The
+            Decameron, including indulgence, religious devotion, and escapism.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Just as the <span className="italic inline">brigata</span>{" "}
-            constructed their world off of their stories, we anteaters constructed
-            it off of our actions. The connections that we make, the conflicts
-            that we have, and the works that we create are a reflection of our
-            character. Each of our characters and worlds combines into the larger
-            UCI world, which is something so massive and nuanced that no one
-            student, professor, or administrator can experience it all. Instead,
-            the best we can do is continue building our own world, exploring our
-            character, and learning from the worlds of others through
-            conversation.
+            constructed their world off of their stories, we anteaters
+            constructed it off of our actions. The connections that we make, the
+            conflicts that we have, and the works that we create are a
+            reflection of our character. Each of our characters and worlds
+            combines into the larger UCI world, which is something so massive
+            and nuanced that no one student, professor, or administrator can
+            experience it all. Instead, the best we can do is continue building
+            our own world, exploring our character, and learning from the worlds
+            of others through conversation.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             The choices that students make (and also those that are made for
@@ -368,11 +369,11 @@ export default function Decameron() {
               </PopoverContent>
             </Popover>
             , which has been a massively liminal space in my UCI. Everything
-            about the location is just perfect for studies,{" "}
+            about the location is just perfect for studies.{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
-                  it is slightly secluded within a plaza
+                  It is slightly secluded within a plaza
                 </span>
               </PopoverTrigger>
               <PopoverContent className="w-96 p-4">
@@ -387,10 +388,10 @@ export default function Decameron() {
                 </p>
               </PopoverContent>
             </Popover>
-            , so it is relatively low traffic, and it&apos;s architecture leaves
-            it slightly warm and fuzzy stuffy feeling (which is a relieving
-            break from the literal and metaphorical cold modernism of towers).
-            Even its inconveniences, like{" "}
+            , so it is relatively low traffic, and its architecture leaves it a
+            slightly warm and fuzzy stuffy feeling (which is a relieving break
+            from the literal and metaphorical cold modernism of towers). Even
+            its inconveniences, like{" "}
             <Popover>
               <PopoverTrigger asChild>
                 <span className="underline cursor-pointer">
@@ -405,7 +406,7 @@ export default function Decameron() {
                 />
               </PopoverContent>
             </Popover>
-            , just forces one of us to get up, helps us keep track of time, and
+            , just force one of us to get up, helps us keep track of time, and
             is the perfect time for an interjection or random comment after a
             long hour of fully locking in.
           </p>
@@ -420,7 +421,7 @@ export default function Decameron() {
             a similar degree as it has shaped me and my experience. Why is
             Calmindon&apos;s study room my study spot and Isengaurd&apos;s study
             room my social hall? Because groups of friends have gotten together
-            and sectioned off their responsibilities, into different physical
+            and sectioned off their responsibilities into different physical
             spaces, therefore forming those physical spaces to have metaphysical
             significance.
           </p>
@@ -428,8 +429,8 @@ export default function Decameron() {
             In our case, my Calmindon friends and I have decided to designate
             Calmindon as our study space in each of our worlds of UCI. As a
             result of this agreement, we make Calmindon a study space for the
-            full world of UCI this year; a space where anyone can come and be
-            surrounded people that support their, answer their questions, and
+            full world of UCI this year, a space where anyone can come and be
+            surrounded by people who support them, answer their questions, and
             study with them.
           </p>
           <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
@@ -553,19 +554,19 @@ export default function Decameron() {
                             </PopoverContent>
                           </Popover>
                           . It is equipped with Lidar, IR, stereo cameras, and
-                          an tiny supercomputer for AI calculations (I swear I&apos;m
-                          not just using that as a buzzword, the focus of the
-                          club is on developing &quot;real&quot; AI applications using
-                          reinforcement learning and computer vision, not just
-                          more LLM wrapper junk). Ironically, UCI has,
-                          *subjectively*, the most advanced applied computer
-                          science club meeting in some random room in the social
-                          science library, and gave us no space to store our car
-                          (it&apos;s in my dorm right now 💀). I think this
-                          highlights the bureaucracy of UCI that I&apos;ve had to
-                          deal with, and generally feels like a negative in my
-                          world, but is certainly keeping the university as an
-                          overall well oiled machine.
+                          an tiny supercomputer for AI calculations (I swear
+                          I&apos;m not just using that as a buzzword, the focus
+                          of the club is on developing &quot;real&quot; AI
+                          applications using reinforcement learning and computer
+                          vision, not just more LLM wrapper junk). Ironically,
+                          UCI has, *subjectively*, the most advanced applied
+                          computer science club meeting in some random room in
+                          the social science library, and gave us no space to
+                          store our car (it&apos;s in my dorm right now 💀). I
+                          think this highlights the bureaucracy of UCI that
+                          I&apos;ve had to deal with, and generally feels like a
+                          negative in my world, but is certainly keeping the
+                          university as an overall well oiled machine.
                         </p>
                       </CardContent>
                     </Card>
@@ -590,16 +591,17 @@ export default function Decameron() {
                           saw the booth, and was immediately convinced by the
                           energy coming from all the members. It was just
                           maximally constructive, and enjoyable to be around.
-                          Here I am, and I couldn&apos;t imagine not being in swing
-                          dance! It&apos;s the perfect club to look forward to,
-                          getting out and about and also socializing. Swing
-                          dancing with a partner feels very physically
-                          connective in a way that is extremely enjoyable. Also,
-                          the dual purpose of the space for polar opposite
-                          purposes, engineering and dance, is a perfect example
-                          of the duality of UCI. There are so many cultures and
-                          activities combining to form a single space, and it&apos;s
-                          just a beautiful thing to be a part of.
+                          Here I am, and I couldn&apos;t imagine not being in
+                          swing dance! It&apos;s the perfect club to look
+                          forward to, getting out and about and also
+                          socializing. Swing dancing with a partner feels very
+                          physically connective in a way that is extremely
+                          enjoyable. Also, the dual purpose of the space for
+                          polar opposite purposes, engineering and dance, is a
+                          perfect example of the duality of UCI. There are so
+                          many cultures and activities combining to form a
+                          single space, and it&apos;s just a beautiful thing to
+                          be a part of.
                         </p>
                       </CardContent>
                     </Card>
@@ -623,9 +625,9 @@ export default function Decameron() {
                           carbon fiber-filled robotics pulling hundreds of amps
                           is a miracle of engineering). However, due to some
                           leadership issues, the club has been super inactive,
-                          and this space (and it&apos;s general inactivity) reminds
-                          me of the dependence of members of a club on the
-                          leadership to guide them.
+                          and this space (and it&apos;s general inactivity)
+                          reminds me of the dependence of members of a club on
+                          the leadership to guide them.
                         </p>
                       </CardContent>
                     </Card>
@@ -645,15 +647,15 @@ export default function Decameron() {
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
                           This is the 3D printing lab for ZIMS, where I am
                           building a robotics arm. It&apos;s one of the best
-                          communities I&apos;ve been a part of, with everything from
-                          3D printers, to CNCs, to laser cutters. To me, the
-                          space and all the it contains represents the forefront
-                          of community manufacturing. Even though most of the
-                          machines are hobby grade, we stand against FabWords
-                          (the professional shop at UCI) in creating amazing
-                          stuff. This room represents the power of community in
-                          my world, and is my home for physically realizing
-                          ideas.
+                          communities I&apos;ve been a part of, with everything
+                          from 3D printers, to CNCs, to laser cutters. To me,
+                          the space and all the it contains represents the
+                          forefront of community manufacturing. Even though most
+                          of the machines are hobby grade, we stand against
+                          FabWords (the professional shop at UCI) in creating
+                          amazing stuff. This room represents the power of
+                          community in my world, and is my home for physically
+                          realizing ideas.
                         </p>
                       </CardContent>
                     </Card>
