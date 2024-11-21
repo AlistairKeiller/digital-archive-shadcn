@@ -20,8 +20,6 @@ export default function Decameron() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   // Reference to the fade interval
   const fadeIntervalRef = useRef<number | null>(null);
-  // State to track if the audio is playing
-  const [isPlaying, setIsPlaying] = useState(false);
   // State to track the audio volume and image opacity
   const [volume, setVolume] = useState(0);
 
@@ -82,16 +80,6 @@ export default function Decameron() {
           if (!audioRef.current) {
             audioRef.current = new Audio("/lofi.mp3");
             audioRef.current.loop = true; // Loop the music
-
-            // Update the state when the audio starts playing
-            audioRef.current.addEventListener("play", () => {
-              setIsPlaying(true);
-            });
-
-            // Update the state when the audio pauses
-            audioRef.current.addEventListener("pause", () => {
-              setIsPlaying(false);
-            });
           }
           fadeIn(audioRef.current, 2000); // Fade in over 2 seconds
         } else {
