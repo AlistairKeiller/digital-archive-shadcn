@@ -27,6 +27,7 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Decameron() {
   // Reference to the "Calmindon" section
@@ -432,7 +433,7 @@ export default function Decameron() {
                 <CarouselItem key={1}>
                   <div className="p-1">
                     <Card>
-                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center mt-6">
                         <Image
                           src={ACE}
                           alt="ACE"
@@ -440,7 +441,7 @@ export default function Decameron() {
                           height={1000}
                           className="rounded-lg"
                         />
-                        <div>
+                        <p className="leading-7 [&:not(:first-child)]:mt-6">
                           This is the part storage room for ACE (Anteater Combat
                           Robotics)! I promise it&apos;s more exciting that this
                           mess would imply. If you have ever seen battlebots,
@@ -485,7 +486,7 @@ export default function Decameron() {
                           physically manifest my ideas. The magical thing about
                           the ACE storage room and 3d printers is that they
                           represent that bridge between ideas and reality.
-                        </div>
+                        </p>
                       </CardContent>
                     </Card>
                   </div>
@@ -555,6 +556,33 @@ export default function Decameron() {
               <CarouselNext />
             </Carousel>
           </div>
+          <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+          Citations
+        </h2>
+        <ul className="mt-6 list-disc pl-6">
+          <li>
+            <Link
+              href="https://i.pinimg.com/originals/4a/65/ab/4a65abeead3a8d113bccfee5d5d239f4.gif"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Lofi Girl
+            </Link>{" "}
+            - Pinterest
+          </li>
+          <li>
+            <Link
+              href="https://youtu.be/iuT8KImN-Rk?list=RDATfcbG9maQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Lofi Music
+            </Link>{" "}
+            - kainbeats
+          </li>
+        </ul>
         </div>
       </div>
       <style jsx>{`
