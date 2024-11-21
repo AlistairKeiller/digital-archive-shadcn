@@ -12,6 +12,7 @@ import ZIMS from "@/images/ZIMS.jpeg";
 import ACE from "@/images/ACE.jpeg";
 import ACE_model from "@/images/ACE_model.png";
 import ACE_chassis from "@/images/ACE_chassis.jpeg";
+import F1tenth_car from "@/images/F1tenth_car.jpeg";
 import lofiGirl from "@/images/lofi.gif";
 import {
   Popover,
@@ -111,13 +112,12 @@ export default function Decameron() {
     const observer: IntersectionObserver = new IntersectionObserver(
       handleIntersection,
       {
-        threshold: 0.5, // Adjust as needed
+        threshold: 0.5,
       }
     );
 
     observer.observe(calmindonSection);
 
-    // Cleanup the observer and audio on unmount
     return () => {
       if (observer && calmindonSection) {
         observer.unobserve(calmindonSection);
@@ -289,8 +289,8 @@ export default function Decameron() {
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             The choices that students make (and also those that are made for
-            them 💀) also define the UCI they experience, which is the world
-            that their character lives in. In the most simple example, I was
+            them) also define the UCI they experience, which is the world that
+            their character lives in. In the most simple example, I was
             fortunate enough to get to dorm in Middle Earth Towers!! Many of my
             friends are from the slums (middle earth classics), and even within
             classics friends there are a massive range of experiences. In my
@@ -445,10 +445,11 @@ export default function Decameron() {
                           This is the part storage room for ACE (Anteater Combat
                           Robotics)! I promise it&apos;s more exciting that this
                           mess would imply. If you have ever seen battlebots,
-                          it&apos;s just that, but smaller. I&apos;m currently working on
-                          a 1lb &quot;antweight&quot; league robot with a team of 3 other
-                          friends, and we will compete with a bunch of other
-                          schools (including some other teams at UCI). Here is{" "}
+                          it&apos;s just that, but smaller. I&apos;m currently
+                          working on a 1lb &quot;antweight&quot; league robot
+                          with a team of 3 other friends, and we will compete
+                          with a bunch of other schools (including some other
+                          teams at UCI). Here is{" "}
                           <Popover>
                             <PopoverTrigger asChild>
                               <span className="underline cursor-pointer">
@@ -479,8 +480,8 @@ export default function Decameron() {
                             </PopoverContent>
                           </Popover>
                           . Although I don&apos;t spend much time here, it the
-                          grounding that makes my CAD work worth it. I&apos;ve spent
-                          hours designing 1s and 0s to resemble a physical
+                          grounding that makes my CAD work worth it. I&apos;ve
+                          spent hours designing 1s and 0s to resemble a physical
                           part, in hopes that it will translate to instructions
                           for how robots (3d printers) and I can work to
                           physically manifest my ideas. The magical thing about
@@ -502,6 +503,40 @@ export default function Decameron() {
                           height={1000}
                           className="rounded-lg mt-6"
                         />
+                        <p className="leading-7 [&:not(:first-child)]:mt-6">
+                          This is the lab where my F1tenth club meets! We are
+                          working on creating a fully autonomous 1/10th scale
+                          Formula car, and then we can fly around and race it
+                          against other schools! Here is{" "}
+                          <Popover>
+                            <PopoverTrigger asChild>
+                              <span className="underline cursor-pointer">
+                                the current state of our car
+                              </span>
+                            </PopoverTrigger>
+                            <PopoverContent className="w-96 p-4">
+                              <Image
+                                src={F1tenth_car}
+                                alt="F1tenth car"
+                                className="object-cover rounded-md mx-auto"
+                              />
+                            </PopoverContent>
+                          </Popover>
+                          . It is equipped with Lidar, IR, stereo cameras, and
+                          an tiny supercomputer for AI calculations (I swear I'm
+                          not just using that as a buzzword, the focus of the
+                          club is on developing "real" AI applications using
+                          reinforcement learning and computer vision, not just
+                          more LLM wrapper junk). Ironically, UCI has,
+                          *subjectively*, the most advanced applied computer
+                          science club meeting in some random room in the social
+                          science library, and gave us no space to store our car
+                          (it's in my dorm right now 💀). I think this
+                          highlights the bureaucracy of UCI that I've had to deal
+                          with, and generally feels like a negative in my world,
+                          but is certainly keeping the university as an overall
+                          well oiled machine.
+                        </p>
                       </CardContent>
                     </Card>
                   </div>
@@ -557,32 +592,32 @@ export default function Decameron() {
             </Carousel>
           </div>
           <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-          Citations
-        </h2>
-        <ul className="mt-6 list-disc pl-6">
-          <li>
-            <Link
-              href="https://i.pinimg.com/originals/4a/65/ab/4a65abeead3a8d113bccfee5d5d239f4.gif"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Lofi Girl
-            </Link>{" "}
-            - Pinterest
-          </li>
-          <li>
-            <Link
-              href="https://youtu.be/iuT8KImN-Rk?list=RDATfcbG9maQ"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Lofi Music
-            </Link>{" "}
-            - kainbeats
-          </li>
-        </ul>
+            Citations
+          </h2>
+          <ul className="mt-6 list-disc pl-6">
+            <li>
+              <Link
+                href="https://i.pinimg.com/originals/4a/65/ab/4a65abeead3a8d113bccfee5d5d239f4.gif"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Lofi Girl
+              </Link>{" "}
+              - Pinterest
+            </li>
+            <li>
+              <Link
+                href="https://youtu.be/iuT8KImN-Rk?list=RDATfcbG9maQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Lofi Music
+              </Link>{" "}
+              - kainbeats
+            </li>
+          </ul>
         </div>
       </div>
       <style jsx>{`
