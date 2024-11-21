@@ -693,6 +693,17 @@ export default function Decameron() {
               </Link>{" "}
               - kainbeats
             </li>
+            <li>
+              <Link
+                href="https://commons.wikimedia.org/wiki/File:Street_Fighter_VS_logo.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                VS image
+              </Link>{" "}
+              - wikimedia
+            </li>
           </ul>
         </div>
       </div>
