@@ -10,6 +10,8 @@ import F1tenth from "@/images/F1tenth.jpeg";
 import UAV from "@/images/UAV.jpeg";
 import ZIMS from "@/images/ZIMS.jpeg";
 import ACE from "@/images/ACE.jpeg";
+import ACE_model from "@/images/ACE_model.png";
+import ACE_chassis from "@/images/ACE_chassis.jpeg";
 import lofiGirl from "@/images/lofi.gif";
 import {
   Popover,
@@ -427,81 +429,127 @@ export default function Decameron() {
           <div className="flex justify-center [&:not(:first-child)]:mt-6">
             <Carousel className="w-full">
               <CarouselContent>
-              <CarouselItem key={1}>
-                <div className="p-1">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <Image
-                    src={ACE}
-                    alt="ACE"
-                    width={1000}
-                    height={1000}
-                    className="rounded-lg"
-                  />
-                  </CardContent>
-                </Card>
-                </div>
-              </CarouselItem>
-              <CarouselItem key={2}>
-                <div className="p-1">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <Image
-                    src={F1tenth}
-                    alt="F1tenth"
-                    width={1000}
-                    height={1000}
-                    className="rounded-lg"
-                  />
-                  </CardContent>
-                </Card>
-                </div>
-              </CarouselItem>
-              <CarouselItem key={3}>
-                <div className="p-1">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <Image
-                    src={swing}
-                    alt="Swing"
-                    width={1000}
-                    height={1000}
-                    className="rounded-lg"
-                  />
-                  </CardContent>
-                </Card>
-                </div>
-              </CarouselItem>
-              <CarouselItem key={4}>
-                <div className="p-1">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <Image
-                    src={UAV}
-                    alt="UAV"
-                    width={1000}
-                    height={1000}
-                    className="rounded-lg"
-                  />
-                  </CardContent>
-                </Card>
-                </div>
-              </CarouselItem>
-              <CarouselItem key={5}>
-                <div className="p-1">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <Image
-                    src={ZIMS}
-                    alt="ZIMS"
-                    width={1000}
-                    height={1000}
-                    className="rounded-lg"
-                  />
-                  </CardContent>
-                </Card>
-                </div>
-              </CarouselItem>
+                <CarouselItem key={1}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                        <Image
+                          src={ACE}
+                          alt="ACE"
+                          width={1000}
+                          height={1000}
+                          className="rounded-lg"
+                        />
+                        <div>
+                          This is the part storage room for ACE (Anteater Combat
+                          Robotics)! I promise it&apos;s more exciting that this
+                          mess would imply. If you have ever seen battlebots,
+                          it's just that, but smaller. I'm currently working on
+                          a 1lb "antweight" league robot with a team of 3 other
+                          friends, and we will compete with a bunch of other
+                          schools (including some other teams at UCI). Here is{" "}
+                          <Popover>
+                            <PopoverTrigger asChild>
+                              <span className="underline cursor-pointer">
+                                our model
+                              </span>
+                            </PopoverTrigger>
+                            <PopoverContent className="w-96 p-4">
+                              <Image
+                                src={ACE_model}
+                                alt="ACE model"
+                                className="object-cover rounded-md mx-auto"
+                              />
+                            </PopoverContent>
+                          </Popover>
+                          , as well as{" "}
+                          <Popover>
+                            <PopoverTrigger asChild>
+                              <span className="underline cursor-pointer">
+                                the chassis printed out
+                              </span>
+                            </PopoverTrigger>
+                            <PopoverContent className="w-96 p-4">
+                              <Image
+                                src={ACE_chassis}
+                                alt="ACE chassis"
+                                className="object-cover rounded-md mx-auto"
+                              />
+                            </PopoverContent>
+                          </Popover>
+                          . Although I don't spend much time here, it the
+                          grounding that makes my CAD work worth it. I've spent
+                          hours "designing" 1s and 0s to resemble a physical
+                          part, in hopes that it will translate to instructions
+                          for how robots (3d printers) and I can work to
+                          physically manifest my ideas. The magical thing about
+                          the ACE storage room and 3d printers is that they
+                          represent that bridge between ideas and reality.
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={2}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                        <Image
+                          src={F1tenth}
+                          alt="F1tenth"
+                          width={1000}
+                          height={1000}
+                          className="rounded-lg"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={3}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                        <Image
+                          src={swing}
+                          alt="Swing"
+                          width={1000}
+                          height={1000}
+                          className="rounded-lg"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={4}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                        <Image
+                          src={UAV}
+                          alt="UAV"
+                          width={1000}
+                          height={1000}
+                          className="rounded-lg"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={5}>
+                  <div className="p-1">
+                    <Card>
+                      <CardContent className="leading-7 flex flex-col aspect-square items-center justify-center">
+                        <Image
+                          src={ZIMS}
+                          alt="ZIMS"
+                          width={1000}
+                          height={1000}
+                          className="rounded-lg"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
               </CarouselContent>
               <CarouselPrevious />
               <CarouselNext />
