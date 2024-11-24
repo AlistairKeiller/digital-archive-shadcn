@@ -89,7 +89,7 @@ export function Navbar() {
   const [open, setOpen] = React.useState(false)
 
   return (
-    <header className="sticky top-0 left-0 w-full z-50 border-b bg-background z-[800]">
+    <header className="sticky top-0 left-0 w-full border-b bg-background z-[800]">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">

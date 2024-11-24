@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
 import profilePic from '@/images/profile.jpg';
-import zipperMouth from '@/components/zippermouth.svg';
+import zipperMouth from '@/images/zippermouth.svg';
 import localFont from "next/font/local";
 
 const atla = localFont({
-    src: "./Avatar Airbender.ttf",
+    src: "../app/fonts/Avatar Airbender.ttf",
   });
 
 export function ProfileCard() {
