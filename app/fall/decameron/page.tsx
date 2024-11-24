@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useEffect, useState } from "react";
-import isengaurd from "@/images/IMG_0025.jpeg";
+import isengard from "@/images/IMG_0025.jpeg";
 import towers from "@/images/IMG_0031.jpeg";
 import calmindon_outside from "@/images/IMG_0024.jpeg";
 import calmindon from "@/images/Calmindon.jpeg";
@@ -304,7 +304,7 @@ export default function Decameron() {
           <div className="relative flex justify-center items-center [&:not(:first-child)]:mt-6">
             <div className="w-1/2 text-center leading-7">
               <Image
-                src={isengaurd}
+                src={isengard}
                 alt="Image 1"
                 className="rounded-lg shadow-lg w-full h-full object-cover"
                 width={500}
