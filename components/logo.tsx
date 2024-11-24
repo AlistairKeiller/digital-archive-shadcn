@@ -24,5 +24,5 @@ export function Logo() {
         <span> World</span>
       </div>
     </div>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import Link from "next/link"
-import { cn } from "@/lib/utils"
+import * as React from "react";
+import Link from "next/link";
+import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -10,16 +10,16 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Button } from "@/components/ui/button"
-import { Menu } from "lucide-react"
+} from "@/components/ui/navigation-menu";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { Menu } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from "@/components/ui/accordion";
 import { Logo } from "@/components/logo";
 
 const quarters = [
@@ -29,12 +29,12 @@ const quarters = [
       {
         title: "Odyssey Book 9",
         href: "/fall/odyssey",
-        description: "\"Nobody–that’s my name\"",
+        description: '"Nobody–that’s my name"',
       },
       {
         title: "Decameron",
         href: "/fall/decameron",
-        description: "\"Where is Worldbuilding Possible?\"",
+        description: '"Where is Worldbuilding Possible?"',
       },
       {
         title: "Parable of the Sower",
@@ -83,10 +83,10 @@ const quarters = [
       },
     ],
   },
-]
+];
 
 export function Navbar() {
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(false);
 
   return (
     <header className="sticky top-0 left-0 w-full border-b bg-background z-[800]">
@@ -103,9 +103,7 @@ export function Navbar() {
             <NavigationMenuList>
               {quarters.map((quarter) => (
                 <NavigationMenuItem key={quarter.title}>
-                  <NavigationMenuTrigger>
-                    {quarter.title}
-                  </NavigationMenuTrigger>
+                  <NavigationMenuTrigger>{quarter.title}</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid w-[200px] gap-3 p-4 md:w-[300px]">
                       {quarter.books.map((book) => (
@@ -165,13 +163,13 @@ export function Navbar() {
         </Sheet>
       </div>
     </header>
-  )
+  );
 }
 
 interface ListItemProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-  title: string
-  href: string
-  children: React.ReactNode
+  title: string;
+  href: string;
+  children: React.ReactNode;
 }
 
 const ListItem = React.forwardRef<HTMLAnchorElement, ListItemProps>(
@@ -195,5 +193,5 @@ const ListItem = React.forwardRef<HTMLAnchorElement, ListItemProps>(
       </NavigationMenuLink>
     </li>
   )
-)
-ListItem.displayName = "ListItem"
+);
+ListItem.displayName = "ListItem";

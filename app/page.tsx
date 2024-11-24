@@ -1,8 +1,5 @@
-import {ProfileCard} from "@/components/profilecard"; 
+import { ProfileCard } from "@/components/profilecard";
 
 export default function Home() {
-
-  return (
-      <ProfileCard />
-  );
+  return <ProfileCard />;
 }

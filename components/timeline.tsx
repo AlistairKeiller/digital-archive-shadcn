@@ -36,7 +36,9 @@ const Timeline: React.FC<TimelineProps> = ({ items, imageSize, gap }) => {
                 <AvatarFallback>?</AvatarFallback>
               </Avatar>
             </PopoverTrigger>
-            <PopoverContent className="w-96"> {/* Updated width class */}
+            <PopoverContent className="w-96">
+              {" "}
+              {/* Updated width class */}
               <div className="flex flex-col items-center">
                 {/* Full-size image */}
                 <Image
