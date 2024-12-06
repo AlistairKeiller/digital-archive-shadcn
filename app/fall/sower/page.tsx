@@ -220,7 +220,7 @@ export default function Sower() {
           equivalent to survival in all the ways mentioned above; people build,
           farm, and create their projects and goals to feel fulfilled. However,
           death is permanent and always looming. There is no player that is
-          safe, that was made abundantly clear to the world after{" "}
+          safe; that was made abundantly clear to the world after{" "}
           <Link
             href="https://www.youtube.com/watch?v=C0B-y61mn8g"
             className="underline"
@@ -228,7 +228,7 @@ export default function Sower() {
             {" "}
             Philza&apos;s 5-year (1700 hours of playtime) harcore world ended
             abruptly
-          </Link>{" "}
+          </Link>
           . &quot;Everything I did, everything I made, could just be gone in a
           flash&quot; - Philza.
         </p>
@@ -243,8 +243,8 @@ export default function Sower() {
         ></iframe>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           This is not just a philosophy that applies to Minecraft. It is akin to
-          real philosophies, and can apply to the real world: &quot;When it
-          comes to either/or, there is only the quick choice of death. It is not
+          real philosophies and can apply to the real world: &quot;When it comes
+          to either/or, there is only the quick choice of death. It is not
           particularly difficult. Be determined and advance&quot; - Yamamoto
           Tsunetomo. Hardcore players can explore this, explore the feeling of
           loss, get lost in the adrenaline of risk, and experience the loss of
