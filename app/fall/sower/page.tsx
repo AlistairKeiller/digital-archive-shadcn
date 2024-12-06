@@ -125,21 +125,23 @@ export default function Sower() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           The concept of &quot;God is Change&quot; in a dystopian is the theme
           of this website. To get here, you had to burn down an entire blank
-          page! I built this as the best reflection I could of both hyperempathy
-          and Earthseed, which is basically Lauren&apos;s life. Imagine I put a
-          Dog on the first page! I am not evil enough to build such a depiction;
-          I hope I don't want to press the button, either! Was this website
-          worth burning the page? Would it be worth burning a virtual dog?
+          page, with no way to get it back (or at least, not with a simple
+          refresh)! I built this as the best reflection I could of both
+          hyperempathy and Earthseed, which is basically Lauren&apos;s life.
+          Imagine I put a Dog on the first page! I am not evil enough to build
+          such a depiction, and I hope you wouldn't press that button either!
+          Was viewing this website worth burning the page? Would it be worth
+          burning a virtual dog?
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Everyone has to be the change they want to see (however cliche that
-          sounds), even if it&apos;s hard or near impossible (like Lauren
-          killing for what&apos;s right and her own survival, and effectively
-          feeling death in the process). You participated in the study of
-          destroying one thing to see another, and we all do it all the time,
-          every day, even if we don&apos;t see it. I think both Earthseed, this
-          website, and <span className="italic">Parable of the Sower</span> are
-          all exploring this same concept in a more explicit sense.
+          sounds), even if it&apos;s hard or near impossible to carry out (like
+          Lauren killing for what&apos;s right and her own survival, and
+          effectively feeling death in the process). You participated in the
+          study of destroying one thing to see another, and we all do it all the
+          time, every day, even if we don&apos;t see it. I think both Earthseed,
+          this website, and <span className="italic">Parable of the Sower</span>{" "}
+          are all exploring this same concept in a more explicit sense.
         </p>
         <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
           Some Virtual Introspection
