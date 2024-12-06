@@ -54,7 +54,9 @@ export default function Sower() {
         </div>
       )}
       <div className="mx-4 max-w-3xl relative">
-        <h1 className="text-4xl font-bold text-center">Under Construction</h1>
+      <h1 className="text-6xl sm:text-8xl font-bold tracking-tighter text-center">
+        Making Connections
+      </h1>
       </div>
     </div>
   );
