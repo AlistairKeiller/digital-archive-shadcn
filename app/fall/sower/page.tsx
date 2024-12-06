@@ -79,7 +79,7 @@ export default function Sower() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Octavia Butler&apos;s{" "}
           <span className="italic">Parable of the Sower</span> reflects a
-          destyopian future where the world is ravaged by climate change,
+          dystopian future where the world is ravaged by climate change,
           corporate greed, and economic inequality. We follow Lauren Olamina,
           who is crippled by hyperempathy, a result of the prolific drug use of
           her mother during pregnancy. Lauren is a visionary who creates a new
@@ -91,55 +91,59 @@ export default function Sower() {
           reflects the state of the destyopian society; the generations before
           did not have enough care for the impact in their world, leaving global
           warming &apos;for later,&apos; and this generation with dehibilitating
-          generational debt. This can result from the nonconsequentialist
+          generational debt. This can result from the non-consequentialist
           additute of a Baptist minister, which belives that God starts,
           overlooks, and maintains a balance, and all one needs to do is act
           morally and in his world.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This removes much of the responsilibty from individals, as it&apos;s
+          This removes much of the responsibility from individuals, as it&apos;s
           not up to them to ensure that things like global warming and drug use
           stay under control. The concept of &quot;God is Change&quot; is a
           stark contrast to the nonconsequentialist view of God, as it places
           the responsibility of change on the individual. &quot;God is
-          Change&quot; is bidirectional, in the sense it is equivlent tp
-          &quot;Change is God.&quot; So any change is a reflection of God, is
-          not somehow infiorir to holu change. That means that us, mere humans,
-          have the power, and therefore responabiity, to &quot;Shape God.&quot;
+          Change&quot; is bidirectional in the sense it is equivalent to
+          &quot;Change is God.&quot; So, any change is a reflection of God, and
+          it is not somehow inferior to holy change. That means that we, mere
+          humans, have the power, and therefore responsibility, to &quot;Shape
+          God.&quot;
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           <span className="italic">Parable of the Sower</span> not only creates
-          a new world, but develops a worldview taylored to that world. The
-          worldview and world are both so carefully designed as a destopian
-          view, that it accuratly portays many people&apos;s thoughts about the
+          a new world but develops a worldview tailored to that world. The
+          worldview and world are both so carefully designed as a dystopian view
+          that they accurately portray many people&apos;s thoughts about the
           present and future, as seen by{" "}
           <Link href={"https://godischange.org/about/"} className="underline">
             those who worship Earthseed
           </Link>{" "}
-          as a real relegion.
+          as a real religion.
         </p>
         <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
           Some Virtual Introspection
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          The concept of &quot;God is Change&quot; in a destopian is the theme
+          The concept of &quot;God is Change&quot; in a dystopian is the theme
           of this website. To get here, you had to burn down an entire blank
           page! I built this as the best reflection I could of both hyperempathy
-          and Earthseed, basically Lauren&apos;s life. Imagine I put a Dog on the
-          first page! I am not evil enough to build such a depiction, I and hope
-          wound&apos;t want to press the button either! Was this website worth
-          burning the page? Would it be worth burning a virtual dog?
+          and Earthseed, which is basically Lauren&apos;s life. Imagine I put a
+          Dog on the first page! I am not evil enough to build such a depiction;
+          I hope I don't want to press the button, either! Was this website
+          worth burning the page? Would it be worth burning a virtual dog?
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Everyone has to be the change they want to see (however cliche that
-          sounds), even it&apos;s hard or near impossible (like Lauren killing for
-          what&apos;s right and her own survivla, and effectivly feeling death in the
-          process). You participated in the study of destroying one thing to see
-          another, and we all do it all the time every day, even if we don&apos;t see
-          it. I think both Earthseed, this website, and{" "}
-          <span className="italic">Parable of the Sower</span> are all exploring
-          this same concept in a more explicit sense.
+          sounds), even if it&apos;s hard or near impossible (like Lauren
+          killing for what&apos;s right and her own survival, and effectively
+          feeling death in the process). You participated in the study of
+          destroying one thing to see another, and we all do it all the time,
+          every day, even if we don&apos;t see it. I think both Earthseed, this
+          website, and <span className="italic">Parable of the Sower</span> are
+          all exploring this same concept in a more explicit sense.
         </p>
+        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
+          Some Virtual Introspection
+        </h2>
       </div>
     </div>
   );
