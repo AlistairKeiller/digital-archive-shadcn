@@ -2,6 +2,7 @@
 import { useState, useRef, useEffect } from "react";
 import flamingText from "@/images/flamingtext.gif";
 import shapeGod from "@/images/ShapeGod.png";
+import minecraftLibrary from "@/images/minecraft_library.avif";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -189,21 +190,27 @@ export default function Sower() {
             The Minecraft Uncensored Library
           </Link>
           .
+          <Image
+            src={minecraftLibrary}
+            alt="Minecraft Library"
+            className="float-right m-5"
+            height={400}
+          />
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Survival is not about surviving since death is temporary and
           inconsequential. Instead, it adds another aspect of resource
           management and restriction that adds depth to the world. In creative,
-          you could have houses made of diamond blocks that are more ubiquitous than
-          wood and not a single mine to source those diamonds. In creative, the
-          functionality of farms is moot, so they are uncommon at best. Survival
-          adds realism (even in a world as absurd, blocky, and unrealistic as
-          Minecraft). In survival, people optimize resource production with
-          automatic farms, build massive redstone contraptions, and
-          excavate/terraform entire biomes for resources and beautification. It
-          feels like a reflection of modern first-world capitalist society, as
-          the player selfishly shapes the world around him to his own needs when
-          those needs are just self-imposed, completely unrelated to an
+          you could have houses made of diamond blocks that are more ubiquitous
+          than wood and not a single mine to source those diamonds. In creative,
+          the functionality of farms is moot, so they are uncommon at best.
+          Survival adds realism (even in a world as absurd, blocky, and
+          unrealistic as Minecraft). In survival, people optimize resource
+          production with automatic farms, build massive redstone contraptions,
+          and excavate/terraform entire biomes for resources and beautification.
+          It feels like a reflection of modern first-world capitalist society,
+          as the player selfishly shapes the world around him to his own needs
+          when those needs are just self-imposed, completely unrelated to an
           objective measure of success (since &quot;beating&quot; the game, by
           beating the ender dragon, is trivial, and is almost never a survival
           player&apos;s final objective).
@@ -225,18 +232,27 @@ export default function Sower() {
           . &quot;Everything I did, everything I made, could just be gone in a
           flash&quot; - Philza.
         </p>
+        <iframe
+          className="mx-auto w-full [&:not(:first-child)]:mt-6"
+          height="315"
+          src="https://www.youtube.com/embed/YzaStuZnHBc?si=dfafP7I2fYg6fEb9&amp;start=84"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This is not just a philosophy that applies to Minecraft, but also is
-          based on real philosophies of death: &quot;When it comes to either/or,
-          there is only the quick choice of death. It is not particularly
-          difficult. Be determined and advance&quot; - Yamamoto Tsunetomo.
-          Hardcore players can explore this, explore the feeling of loss, get
-          lost in the adrenaline of risk, and experience the loss of their world,
-          all of which is an equivalent experience to the real world. They can
-          inform their life and use Minecraft as their otherwordly escape, like
-          OASIS from Ready Player One, but more blocky and abstract. In
-          Minecraft, they can explore and use that to build a world that informs
-          how they experience their own.
+          This is not just a philosophy that applies to Minecraft. It is akin to
+          real philosophies, and can apply to the real world: &quot;When it
+          comes to either/or, there is only the quick choice of death. It is not
+          particularly difficult. Be determined and advance&quot; - Yamamoto
+          Tsunetomo. Hardcore players can explore this, explore the feeling of
+          loss, get lost in the adrenaline of risk, and experience the loss of
+          their world, all of which is an equivalent experience to the real
+          world. They can inform their life and use Minecraft as their
+          otherwordly escape, like OASIS from Ready Player One, but more blocky
+          and abstract. In Minecraft, they can explore and use that to build a
+          world that informs how they experience their own.
         </p>
       </div>
     </div>
