@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import flamingText from "@/images/flamingtext.gif";
 import shapeGod from "@/images/ShapeGod.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Sower() {
   const [showVideo, setShowVideo] = useState(true);
@@ -87,7 +88,7 @@ export default function Sower() {
           generational debt. This can result from the nonconsequentialist
           additute of a Baptist minister, which belives that God starts,
           overlooks, and maintains a balance, and all one needs to do is act
-          morally and in his word.
+          morally and in his world.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           This removes much of the responsilibty from individals, as it&apos;s
@@ -99,6 +100,17 @@ export default function Sower() {
           &quot;Change is God.&quot; So any change is a reflection of God, is
           not somehow infiorir to holu change. That means that us, mere humans,
           have the power, and therefore responabiity, to &quot;Shape God.&quot;
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          <span className="italic">Parable of the Sower</span> not only creates
+          a new world, but develops a worldview taylored to that world. The
+          worldview and world are both so carefully designed as a destopian
+          view, that it accuratly portays many people&apos;s thoughts about the
+          present and future, as seen by{" "}
+          <Link href={"https://godischange.org/about/"}>
+            those who worship Earthseed
+          </Link>{" "}
+          as a real relegion.
         </p>
       </div>
     </div>
