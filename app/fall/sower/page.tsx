@@ -1,16 +1,26 @@
 "use client";
-import construction from "@/images/construction.svg";
-import Image from "next/image";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 export default function Sower() {
   const [showVideo, setShowVideo] = useState(true);
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [animationStep, setAnimationStep] = useState(0);
 
   const handleButtonClick = () => {
-    videoRef.current?.play();
+    if (animationStep === 0) {
+      setAnimationStep(1);
+    }
   };
-  
+
+  useEffect(() => {
+    if (animationStep === 1) {
+      setTimeout(() => setAnimationStep(2), 500);
+    } else if (animationStep === 2) {
+      setTimeout(() => setAnimationStep(3), 500);
+    } else if (animationStep === 3) {
+      videoRef.current?.play();
+    }
+  }, [animationStep]);
 
   return (
     <div className="relative flex justify-center min-h-[calc(100vh-69px)]">
@@ -27,9 +37,18 @@ export default function Sower() {
       )}
       <div className="absolute inset-0 z-20 h-[calc(100vh-69px)] w-screen flex items-center justify-center">
         <button
-          className="p-5 bg-red-600 hover:bg-red-500 shadow-xl hover:shadow-2xl rounded-full text-9xl" onClick={handleButtonClick}
+          onClick={handleButtonClick}
+          className={`p-5 rounded-full text-9xl transition-colors duration-500 ${
+            animationStep >= 1 ? "bg-transparent" : "bg-red-600 hover:bg-red-500 shadow-xl hover:shadow-2xl"
+          }`}
         >
-          🔥
+          <span
+            className={`transition-opacity duration-500 ${
+              animationStep >= 2 ? "opacity-0" : ""
+            }`}
+          >
+            🔥
+          </span>
         </button>
       </div>
       <div className="mx-4 max-w-3xl relative">
@@ -38,4 +57,3 @@ export default function Sower() {
     </div>
   );
 }
-
