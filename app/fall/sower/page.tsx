@@ -53,7 +53,7 @@ export default function Sower() {
       {showVideo && (
         <div className="absolute inset-0 z-10">
           <video
-            src="/test2.webm"
+            src="/fire.webm"
             ref={videoRef}
             muted
             onEnded={() => setShowVideo(false)}
