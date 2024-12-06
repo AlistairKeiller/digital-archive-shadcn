@@ -35,7 +35,9 @@ export default function Sower() {
             ref={videoRef}
             muted
             onEnded={() => setShowVideo(false)}
-            className="w-full h-[calc(100vh-69px)] object-cover"
+            className={`w-full h-[calc(100vh-69px)] object-cover ${
+              animationStep < 3 ? "bg-white" : ""
+            }`}
           />
         </div>
       )}
@@ -59,7 +61,11 @@ export default function Sower() {
           </button>
         </div>
       )}
-      <div className="mx-4 max-w-3xl relative">
+      <div
+        className={`mx-4 max-w-3xl relative ${
+          showVideo ? "h-[calc(100vh-69px)] overflow-hidden" : ""
+        }`}
+      >
         <Image src={flamingText} alt="Flaming Text" className="mx-auto" />
         <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Earthseed 🌱
@@ -107,10 +113,16 @@ export default function Sower() {
           worldview and world are both so carefully designed as a destopian
           view, that it accuratly portays many people&apos;s thoughts about the
           present and future, as seen by{" "}
-          <Link href={"https://godischange.org/about/"}>
+          <Link href={"https://godischange.org/about/"} className="underline">
             those who worship Earthseed
           </Link>{" "}
           as a real relegion.
+        </p>
+        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
+          Some Introspection
+        </h2>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          The concept of &quot;God is Change&quot; in a destopian is the theme of this website! 
         </p>
       </div>
     </div>
