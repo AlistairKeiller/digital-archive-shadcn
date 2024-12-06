@@ -103,11 +103,11 @@ export default function Sower() {
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           &quot;God is change&quot; is the beating heart of the novel. It
-          reflects the state of the destyopian society; the generations before
+          reflects the state of the dystopian society; the generations before
           did not have enough care for the impact in their world, leaving global
-          warming &apos;for later,&apos; and this generation with dehibilitating
+          warming &apos;for later,&apos; and this generation with debilitating
           generational debt. This can result from the non-consequentialist
-          additute of a Baptist minister, which belives that God starts,
+          attitude of a Baptist minister, who believes that God starts,
           overlooks, and maintains a balance, and all one needs to do is act
           morally and in his world.
         </p>
@@ -115,7 +115,7 @@ export default function Sower() {
           This removes much of the responsibility from individuals, as it&apos;s
           not up to them to ensure that things like global warming and drug use
           stay under control. The concept of &quot;God is Change&quot; is a
-          stark contrast to the nonconsequentialist view of God, as it places
+          stark contrast to the non-consequentialist view of God, as it places
           the responsibility of change on the individual. &quot;God is
           Change&quot; is bidirectional in the sense it is equivalent to
           &quot;Change is God.&quot; So, any change is a reflection of God, and
@@ -140,7 +140,7 @@ export default function Sower() {
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           The concept of &quot;God is Change&quot; in a dystopian is the theme
           of this website. To get here, you had to burn down an entire blank
-          page, with no way to get it back (or at least, not with a simple
+          page, with no way to get it back (or at least not with a simple
           refresh)! I built this as the best reflection I could of both
           hyperempathy and Earthseed, which is basically Lauren&apos;s life.
           Imagine I put a Dog on the first page! I am not evil enough to build
@@ -150,8 +150,8 @@ export default function Sower() {
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Everyone has to be the change they want to see (however cliche that
-          sounds), even if it &apos;s hard or near impossible to carry out (like
-          Lauren killing for what &apos;s right and her own survival, and
+          sounds), even if it&apos;s hard or near impossible to carry out (like
+          Lauren killing for what&apos;s right and her own survival and
           effectively feeling death in the process). You participated in the
           study of destroying one thing to see another, and we all do it all the
           time, every day, even if we don&apos;t see it. I think both Earthseed,
@@ -169,12 +169,12 @@ export default function Sower() {
           From{" "}
           <Link href="https://classic.minecraft.net/" className="underline">
             {" "}
-            the very start{" "}
-          </Link>{" "}
-          , minecraft has been about creating a world. Just look at the order of
+            the very start
+          </Link>
+          , Minecraft has been about creating a world. Just look at the order of
           development! Building, exploration, and game mechanics always preceded
           health, hunger, and survival. Minecraft is unique and timeless to me
-          because it is not about winning, surviving, or competing, just about
+          because it is not about winning, surviving, or competing; just about
           playing, whatever that means to the player.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -191,52 +191,52 @@ export default function Sower() {
           .
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Survival is not about surviving, since death is temporary and
-          inconsequential. Instead, it adds another aspect of resources
-          management and restriction, that adds depth to the world. In creative,
-          you could have houses made of diamond blocks more ubiquitous than
-          wood, and not a single mine to source those diamonds. In creative,
-          functionality of farms are moot, so they are uncommon at best.
-          Survival adds a realism (even in a world as absurd, blocky, and
-          unrealistic as minecraft). In Survival, people optimize resource
-          production with automatic farms, build massive redstone contraptions,
-          and excavate/terraform entire biomes for resources and beatification.
-          It feels like a reflection of modern first world capitalist society,
-          as the player selfishly shapes the world around him to his own needs,
-          when those needs are just self imposed, completely unrelated to an
+          Survival is not about surviving since death is temporary and
+          inconsequential. Instead, it adds another aspect of resource
+          management and restriction that adds depth to the world. In creative,
+          you could have houses made of diamond blocks that are more ubiquitous than
+          wood and not a single mine to source those diamonds. In creative, the
+          functionality of farms is moot, so they are uncommon at best. Survival
+          adds realism (even in a world as absurd, blocky, and unrealistic as
+          Minecraft). In survival, people optimize resource production with
+          automatic farms, build massive redstone contraptions, and
+          excavate/terraform entire biomes for resources and beautification. It
+          feels like a reflection of modern first-world capitalist society, as
+          the player selfishly shapes the world around him to his own needs when
+          those needs are just self-imposed, completely unrelated to an
           objective measure of success (since &quot;beating&quot; the game, by
           beating the ender dragon, is trivial, and is almost never a survival
           player&apos;s final objective).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Finally, Hardcore is a reflection of us, living life itself. It is
-          equivient to surival in all ways mentioned above; people build, farm,
-          and create their projects and goals, to feel fulfilled. However, death
-          is permenent, and always looming. There is no player that is safe,
-          that was made abundently clear to the world after{" "}
+          equivalent to survival in all the ways mentioned above; people build,
+          farm, and create their projects and goals to feel fulfilled. However,
+          death is permanent and always looming. There is no player that is
+          safe, that was made abundantly clear to the world after{" "}
           <Link
             href="https://www.youtube.com/watch?v=C0B-y61mn8g"
             className="underline"
           >
             {" "}
-            Philza&apos;s 5 year (1700 hours of playtime) harcore world ended
-            abruptly{" "}
+            Philza&apos;s 5-year (1700 hours of playtime) harcore world ended
+            abruptly
           </Link>{" "}
           . &quot;Everything I did, everything I made, could just be gone in a
           flash&quot; - Philza.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          This is not just a philophy that applies to Minecraft, but also is
-          based on real philophies of death: &quot;When it comes to either/or,
+          This is not just a philosophy that applies to Minecraft, but also is
+          based on real philosophies of death: &quot;When it comes to either/or,
           there is only the quick choice of death. It is not particularly
           difficult. Be determined and advance&quot; - Yamamoto Tsunetomo.
           Hardcore players can explore this, explore the feeling of loss, get
-          lost in the adranline of risk, and experence the loss their world, all
-          of which is an equivalent experence to the real world. They can inform
-          their life, and use minecraft as their otherwordly escape, like OASIS
-          from Ready Player One, but more blocky and abstract. In minecraft,
-          they can explore, and use that build a world that informs how they
-          experence their own.
+          lost in the adrenaline of risk, and experience the loss of their world,
+          all of which is an equivalent experience to the real world. They can
+          inform their life and use Minecraft as their otherwordly escape, like
+          OASIS from Ready Player One, but more blocky and abstract. In
+          Minecraft, they can explore and use that to build a world that informs
+          how they experience their own.
         </p>
       </div>
     </div>
