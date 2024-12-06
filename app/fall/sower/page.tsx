@@ -35,22 +35,24 @@ export default function Sower() {
           />
         </div>
       )}
-      <div className="absolute inset-0 z-20 h-[calc(100vh-69px)] w-screen flex items-center justify-center">
-        <button
-          onClick={handleButtonClick}
-          className={`p-5 rounded-full text-9xl transition-colors duration-500 ${
-            animationStep >= 1 ? "bg-transparent" : "bg-red-600 hover:bg-red-500 shadow-xl hover:shadow-2xl"
-          }`}
-        >
-          <span
-            className={`transition-opacity duration-500 ${
-              animationStep >= 2 ? "opacity-0" : ""
+      {animationStep < 3 && (
+        <div className="absolute inset-0 z-20 h-[calc(100vh-69px)] w-screen flex items-center justify-center">
+          <button
+            onClick={handleButtonClick}
+            className={`p-5 rounded-full text-9xl transition-colors duration-500 ${
+              animationStep >= 1 ? "bg-transparent" : "bg-red-600 hover:bg-red-500 shadow-xl hover:shadow-2xl"
             }`}
           >
-            🔥
-          </span>
-        </button>
-      </div>
+            <span
+              className={`transition-opacity duration-500 ${
+                animationStep >= 2 ? "opacity-0" : ""
+              }`}
+            >
+              🔥
+            </span>
+          </button>
+        </div>
+      )}
       <div className="mx-4 max-w-3xl relative">
         <h1 className="text-4xl font-bold text-center">Under Construction</h1>
       </div>
