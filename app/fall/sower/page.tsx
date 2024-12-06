@@ -1,5 +1,12 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
+import localFont from "next/font/local";
+import flamingText from "@/images/flamingtext.gif";
+import Image from "next/image";
+
+const fire = localFont({
+  src: "../../fonts/FireAceFreeTrial-x3G5m.otf",
+});
 
 export default function Sower() {
   const [showVideo, setShowVideo] = useState(true);
@@ -40,7 +47,9 @@ export default function Sower() {
           <button
             onClick={handleButtonClick}
             className={`p-5 rounded-full text-9xl transition-colors duration-500 ${
-              animationStep >= 1 ? "bg-transparent" : "bg-red-600 hover:bg-red-500 shadow-xl hover:shadow-2xl"
+              animationStep >= 1
+                ? "bg-transparent"
+                : "bg-red-600 hover:bg-red-500 shadow-xl hover:shadow-2xl"
             }`}
           >
             <span
@@ -54,9 +63,8 @@ export default function Sower() {
         </div>
       )}
       <div className="mx-4 max-w-3xl relative">
-      <h1 className="text-6xl sm:text-8xl font-bold tracking-tighter text-center">
-        Making Connections
-      </h1>
+        <Image src={flamingText} alt="Flaming Text" />
+        
       </div>
     </div>
   );
