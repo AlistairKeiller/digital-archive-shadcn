@@ -7,17 +7,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Sower() {
-  const [showVideo, setShowVideo] = useState(() => {
+  const [showVideo, setShowVideo] = useState(true);
+
+  useEffect(() => {
     const cachedShowVideo = localStorage.getItem("showVideo");
-    return cachedShowVideo === null ? true : JSON.parse(cachedShowVideo);
-  });
+    if (cachedShowVideo !== null) {
+      setShowVideo(JSON.parse(cachedShowVideo));
+    }
+  }, []);
 
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  const [animationStep, setAnimationStep] = useState(() => {
+  const [animationStep, setAnimationStep] = useState(0);
+
+  useEffect(() => {
     const cachedAnimationStep = localStorage.getItem("animationStep");
-    return cachedAnimationStep ? parseInt(cachedAnimationStep, 10) : 0;
-  });
+    if (cachedAnimationStep !== null) {
+      setAnimationStep(parseInt(cachedAnimationStep, 10));
+    }
+  }, []);
 
   const handleButtonClick = () => {
     if (animationStep === 0) {
