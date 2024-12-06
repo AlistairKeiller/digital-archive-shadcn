@@ -1,12 +1,8 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import localFont from "next/font/local";
 import flamingText from "@/images/flamingtext.gif";
+import shapeGod from "@/images/ShapeGod.png";
 import Image from "next/image";
-
-const fire = localFont({
-  src: "../../fonts/FireAceFreeTrial-x3G5m.otf",
-});
 
 export default function Sower() {
   const [showVideo, setShowVideo] = useState(true);
@@ -63,8 +59,47 @@ export default function Sower() {
         </div>
       )}
       <div className="mx-4 max-w-3xl relative">
-        <Image src={flamingText} alt="Flaming Text" />
-        
+        <Image src={flamingText} alt="Flaming Text" className="mx-auto" />
+        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+          Earthseed 🌱
+        </h2>
+        <Image
+          src={shapeGod}
+          alt="Shape God"
+          className="float-right m-5"
+          width={200}
+        />
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Octavia Butler&apos;s{" "}
+          <span className="italic">Parable of the Sower</span> reflects a
+          destyopian future where the world is ravaged by climate change,
+          corporate greed, and economic inequality. We follow Lauren Olamina,
+          who is crippled by hyperempathy, a result of the prolific drug use of
+          her mother during pregnancy. Lauren is a visionary who creates a new
+          religion called Earthseed, which is based on the idea that &quot;God
+          is Change.&quot;
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          &quot;God is change&quot; is the beating heart of the novel. It
+          reflects the state of the destyopian society; the generations before
+          did not have enough care for the impact in their world, leaving global
+          warming &apos;for later,&apos; and this generation with dehibilitating
+          generational debt. This can result from the nonconsequentialist
+          additute of a Baptist minister, which belives that God starts,
+          overlooks, and maintains a balance, and all one needs to do is act
+          morally and in his word.
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          This removes much of the responsilibty from individals, as it&apos;s
+          not up to them to ensure that things like global warming and drug use
+          stay under control. The concept of &quot;God is Change&quot; is a
+          stark contrast to the nonconsequentialist view of God, as it places
+          the responsibility of change on the individual. &quot;God is
+          Change&quot; is bidirectional, in the sense it is equivlent tp
+          &quot;Change is God.&quot; So any change is a reflection of God, is
+          not somehow infiorir to holu change. That means that us, mere humans,
+          have the power, and therefore responabiity, to &quot;Shape God.&quot;
+        </p>
       </div>
     </div>
   );
