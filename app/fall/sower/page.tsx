@@ -41,12 +41,10 @@ export default function Sower() {
     } else if (animationStep === 3) {
       videoRef.current?.play();
     }
-    // Persist animationStep in localStorage
     localStorage.setItem("animationStep", animationStep.toString());
   }, [animationStep]);
 
   useEffect(() => {
-    // Persist showVideo in localStorage
     localStorage.setItem("showVideo", JSON.stringify(showVideo));
   }, [showVideo]);
 
