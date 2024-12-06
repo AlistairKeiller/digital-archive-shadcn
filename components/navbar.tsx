@@ -38,8 +38,8 @@ const quarters = [
       },
       {
         title: "Parable of the Sower",
-        href: "/",
-        description: "Coming Soon!",
+        href: "/fall/sower",
+        description: "Making Connections",
       },
     ],
   },
