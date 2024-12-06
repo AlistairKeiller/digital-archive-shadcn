@@ -144,14 +144,14 @@ export default function Sower() {
           refresh)! I built this as the best reflection I could of both
           hyperempathy and Earthseed, which is basically Lauren&apos;s life.
           Imagine I put a Dog on the first page! I am not evil enough to build
-          such a depiction, and I hope you wouldn't press that button either!
-          Was viewing this website worth burning the page? Would it be worth
-          burning a virtual dog?
+          such a depiction, and I hope you wouldn&apos;t press that button
+          either! Was viewing this website worth burning the page? Would it be
+          worth burning a virtual dog?
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Everyone has to be the change they want to see (however cliche that
-          sounds), even if it&apos;s hard or near impossible to carry out (like
-          Lauren killing for what&apos;s right and her own survival, and
+          sounds), even if it &apos;s hard or near impossible to carry out (like
+          Lauren killing for what &apos;s right and her own survival, and
           effectively feeling death in the process). You participated in the
           study of destroying one thing to see another, and we all do it all the
           time, every day, even if we don&apos;t see it. I think both Earthseed,
@@ -159,8 +159,85 @@ export default function Sower() {
           are all exploring this same concept in a more explicit sense.
         </p>
         <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
-          Some Virtual Introspection
+          Minecraft!!!!
         </h2>
+        <iframe
+          src="https://eaglercraft.com/mc/1.8.8-wasm/"
+          className="w-full aspect-video"
+        ></iframe>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          From{" "}
+          <Link href="https://classic.minecraft.net/" className="underline">
+            {" "}
+            the very start{" "}
+          </Link>{" "}
+          , minecraft has been about creating a world. Just look at the order of
+          development! Building, exploration, and game mechanics always preceded
+          health, hunger, and survival. Minecraft is unique and timeless to me
+          because it is not about winning, surviving, or competing, just about
+          playing, whatever that means to the player.
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Creative has all the of the core gameplay: players can make whatever
+          they want, with no concern about gathering materials. People spend
+          years building worlds that are a reflection of their own, and it can
+          even be used as a critical source of information, namely{" "}
+          <Link
+            href="https://www.uncensoredlibrary.com/en"
+            className="underline"
+          >
+            The Minecraft Uncensored Library
+          </Link>
+          .
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Survival is not about surviving, since death is temporary and
+          inconsequential. Instead, it adds another aspect of resources
+          management and restriction, that adds depth to the world. In creative,
+          you could have houses made of diamond blocks more ubiquitous than
+          wood, and not a single mine to source those diamonds. In creative,
+          functionality of farms are moot, so they are uncommon at best.
+          Survival adds a realism (even in a world as absurd, blocky, and
+          unrealistic as minecraft). In Survival, people optimize resource
+          production with automatic farms, build massive redstone contraptions,
+          and excavate/terraform entire biomes for resources and beatification.
+          It feels like a reflection of modern first world capitalist society,
+          as the player selfishly shapes the world around him to his own needs,
+          when those needs are just self imposed, completely unrelated to an
+          objective measure of success (since &quot;beating&quot; the game, by
+          beating the ender dragon, is trivial, and is almost never a survival
+          player&apos;s final objective).
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Finally, Hardcore is a reflection of us, living life itself. It is
+          equivient to surival in all ways mentioned above; people build, farm,
+          and create their projects and goals, to feel fulfilled. However, death
+          is permenent, and always looming. There is no player that is safe,
+          that was made abundently clear to the world after{" "}
+          <Link
+            href="https://www.youtube.com/watch?v=C0B-y61mn8g"
+            className="underline"
+          >
+            {" "}
+            Philza&apos;s 5 year (1700 hours of playtime) harcore world ended
+            abruptly{" "}
+          </Link>{" "}
+          . &quot;Everything I did, everything I made, could just be gone in a
+          flash&quot; - Philza.
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          This is not just a philophy that applies to Minecraft, but also is
+          based on real philophies of death: &quot;When it comes to either/or,
+          there is only the quick choice of death. It is not particularly
+          difficult. Be determined and advance&quot; - Yamamoto Tsunetomo.
+          Hardcore players can explore this, explore the feeling of loss, get
+          lost in the adranline of risk, and experence the loss their world, all
+          of which is an equivalent experence to the real world. They can inform
+          their life, and use minecraft as their otherwordly escape, like OASIS
+          from Ready Player One, but more blocky and abstract. In minecraft,
+          they can explore, and use that build a world that informs how they
+          experence their own.
+        </p>
       </div>
     </div>
   );
