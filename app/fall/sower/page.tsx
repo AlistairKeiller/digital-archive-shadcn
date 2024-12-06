@@ -6,9 +6,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Sower() {
-  const [showVideo, setShowVideo] = useState(true);
+  const [showVideo, setShowVideo] = useState(() => {
+    const cachedShowVideo = localStorage.getItem("showVideo");
+    return cachedShowVideo === null ? true : JSON.parse(cachedShowVideo);
+  });
+
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [animationStep, setAnimationStep] = useState(0);
+
+  const [animationStep, setAnimationStep] = useState(() => {
+    const cachedAnimationStep = localStorage.getItem("animationStep");
+    return cachedAnimationStep ? parseInt(cachedAnimationStep, 10) : 0;
+  });
 
   const handleButtonClick = () => {
     if (animationStep === 0) {
@@ -24,7 +32,14 @@ export default function Sower() {
     } else if (animationStep === 3) {
       videoRef.current?.play();
     }
+    // Persist animationStep in localStorage
+    localStorage.setItem("animationStep", animationStep.toString());
   }, [animationStep]);
+
+  useEffect(() => {
+    // Persist showVideo in localStorage
+    localStorage.setItem("showVideo", JSON.stringify(showVideo));
+  }, [showVideo]);
 
   return (
     <div className="relative flex justify-center min-h-[calc(100vh-69px)]">
