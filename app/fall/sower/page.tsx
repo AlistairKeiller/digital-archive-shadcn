@@ -418,6 +418,14 @@ export default function Sower() {
           care, and responsibility that Lauren&apos;s world so desperately
           needs.
         </p>
+        <iframe
+          className="[&:not(:first-child)]:mt-6 w-11/12 sm:float-right sm:w-1/2 aspect-video"
+          src="https://www.youtube.com/embed/ksSFiMNth7w?si=SG2xHZuUTY_HJytM&amp;start=41"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           One stark difference is the threats that they propose humanity has to
           itself. In ATLA, the Fire Nation&apos;s rise to power represents
