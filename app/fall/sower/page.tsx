@@ -347,27 +347,27 @@ export default function Sower() {
           extinct and could not be less balanced.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          As a Buddhist and a pacifist, Aang can't even bring himself to kill in
+          As a Buddhist and a pacifist, Aang can&apos;t even bring himself to kill in
           self-defense or to destabilize The Fire Nation, even though other
           avatars and Buddhists believe and are adamant that it is the only way
           to restore balance. Aang eventually solves it by unlocking a new form
           of bending (no more spoilers!).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Aang's predicament is similar to Lauren's in that they are both
+          Aang&apos;s predicament is similar to Lauren&apos;s in that they are both
           aversed to killing and inflicting pain in a world where it seems like
           the only way. From their perspective, they view themselves as weak,
           crippled, and inadequate for their abnormality. But their difference
           allows them to present a unique worldview and solve problems in new
           ways, oftentimes that the world needs. I have not read the outcome of
           Earthseed through{" "}
-          <span className="italic">Parable of the Talents</span>, but it's
+          <span className="italic">Parable of the Talents</span>, but it&apos;s
           clearly a movement that philosophically aligns with the buildings,
-          care, and responsibility that Lauren's world so desperately needs.
+          care, and responsibility that Lauren&apos;s world so desperately needs.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           One stark difference is the threats that they propose humanity has to
-          itself. In ATLA, the Fire Nation's rise to power represents social
+          itself. In ATLA, the Fire Nation&apos;s rise to power represents social
           injustices and economic inequality created by rapid technological
           progress. It is saying that, in the wrong hands, it could create an
           all-powerful dictatorship (a reflection of a scenario where the Soviet
@@ -376,7 +376,7 @@ export default function Sower() {
           a much more nuanced concern about the future. The destruction Lauren
           sees (both her hyperempathy and what she loses) is a result of drug
           misuse and overdoes (with Pyro and Paracetco). In this comparison,
-          it's almost comical how non-influential drugs are in ATLA; its main
+          it&apos;s almost comical how non-influential drugs are in ATLA; its main
           explicit drug use is purely a comedic relief to their desert journey.
         </p>
       </div>
