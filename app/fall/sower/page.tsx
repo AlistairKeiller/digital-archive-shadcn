@@ -11,6 +11,11 @@ const Monocraft = localFont({
   src: "../../fonts/Monocraft.otf",
 });
 
+const atla = localFont({
+  src: "../../fonts/Avatar Airbender.ttf",
+});
+
+
 export default function Sower() {
   const [showVideo, setShowVideo] = useState(true);
 
@@ -278,7 +283,7 @@ export default function Sower() {
           hand, is a more abstract, interactive system that explores human
           desire, resource management, and social/political constructions).
         </p>
-        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
+        <h2 className={`scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0 ${atla.className}`}>
           Avatar: The Last Airbender
         </h2>
       </div>
