@@ -170,7 +170,7 @@ export default function Sower() {
         </h2>
         <iframe
           src="https://eaglercraft.com/mc/1.8.8-wasm/"
-          className="w-full aspect-video"
+          className="w-full aspect-video [&:not(:first-child)]:mt-6"
         ></iframe>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           From{" "}
@@ -260,6 +260,23 @@ export default function Sower() {
           and abstract. In Minecraft, they can explore and use that to build a
           world that informs how they experience their own.
         </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          A hardcore player of Minecraft feels loosely akin to a reader
+          exploring religion by reading Lauren's world and Earthseed! Both the
+          reader of <span className="italic">Parable of the Sower</span> and the
+          player of Minecraft can explore those worlds and use those worlds as a
+          sandbox to explore and reform their own philosophies and worldviews.
+          The worlds are both alien in some sense but largely resemble our own (
+          <span className="italic">Parable of the Sower</span> is a dystopian
+          future, with major elements, like the drugs described and global,
+          being reflections of our own current issues. Minecraft, on the other
+          hand, is a more abstract, interactive system that explores human
+          desire, resource management, and social/political constructions (when
+          playing multiplayer SMP servers).)
+        </p>
+        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
+          Minecraft!!!!
+        </h2>
       </div>
     </div>
   );
