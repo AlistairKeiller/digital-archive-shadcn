@@ -100,7 +100,7 @@ export default function Sower() {
         <Image
           src={shapeGod}
           alt="Shape God"
-          className="float-right m-5"
+          className="float-right m-5 rounded-sm"
           width={200}
         />
         <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -204,8 +204,8 @@ export default function Sower() {
           <Image
             src={minecraftLibrary}
             alt="Minecraft Library"
-            className="float-right m-5"
-            height={400}
+            className="float-right m-5 rounded-sm"
+            height={350}
           />
         </p>
         <p className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}>
@@ -279,7 +279,7 @@ export default function Sower() {
           desire, resource management, and social/political constructions).
         </p>
         <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
-          Minecraft!!!!
+          Avatar: The Last Airbender
         </h2>
       </div>
     </div>
