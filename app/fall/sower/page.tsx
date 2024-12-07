@@ -12,6 +12,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import OASIS from "@/images/OASIS.webp";
+import ATLAGenocide from "@/images/atla_genocide.jpg";
+import SowerGenocide from "@/images/sower_genocide.png";
 
 const Monocraft = localFont({
   src: "../../fonts/Monocraft.otf",
@@ -154,30 +156,7 @@ export default function Sower() {
           </Link>{" "}
           as a real religion.
         </p>
-        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
-          Some Virtual Introspection
-        </h2>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          The concept of &quot;God is Change&quot; in a dystopian is the theme
-          of this website. To get here, you had to burn down an entire blank
-          page, with no way to get it back (or at least not with a simple
-          refresh)! I built this as the best reflection I could of both
-          hyperempathy and Earthseed, which is basically Lauren&apos;s life.
-          Imagine I put a Dog on the first page! I am not evil enough to build
-          such a depiction, and I hope you wouldn&apos;t press that button
-          either! Was viewing this website worth burning the page? Would it be
-          worth burning a virtual dog?
-        </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Everyone has to be the change they want to see (however cliche that
-          sounds), even if it&apos;s hard or near impossible to carry out (like
-          Lauren killing for what&apos;s right and her own survival and
-          effectively feeling death in the process). You participated in the
-          study of destroying one thing to see another, and we all do it all the
-          time, every day, even if we don&apos;t see it. I think both Earthseed,
-          this website, and <span className="italic">Parable of the Sower</span>{" "}
-          are all exploring this same concept in a more explicit sense.
-        </p>
+
         <h2
           className={`scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0 ${Monocraft.className}`}
         >
@@ -347,37 +326,68 @@ export default function Sower() {
           extinct and could not be less balanced.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          As a Buddhist and a pacifist, Aang can&apos;t even bring himself to kill in
-          self-defense or to destabilize The Fire Nation, even though other
-          avatars and Buddhists believe and are adamant that it is the only way
-          to restore balance. Aang eventually solves it by unlocking a new form
-          of bending (no more spoilers!).
+          As a Buddhist and a pacifist, Aang can&apos;t even bring himself to
+          kill in self-defense or to destabilize The Fire Nation, even though
+          other avatars and Buddhists believe and are adamant that it is the
+          only way to restore balance. Aang eventually solves it by unlocking a
+          new form of bending (no more spoilers!).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Aang&apos;s predicament is similar to Lauren&apos;s in that they are both
-          aversed to killing and inflicting pain in a world where it seems like
-          the only way. From their perspective, they view themselves as weak,
-          crippled, and inadequate for their abnormality. But their difference
-          allows them to present a unique worldview and solve problems in new
-          ways, oftentimes that the world needs. I have not read the outcome of
-          Earthseed through{" "}
+          Aang&apos;s predicament is similar to Lauren&apos;s in that they are
+          both aversed to killing and inflicting pain in a world where it seems
+          like the only way. From their perspective, they view themselves as
+          weak, crippled, and inadequate for their abnormality. But their
+          difference allows them to present a unique worldview and solve
+          problems in new ways, oftentimes that the world needs. I have not read
+          the outcome of Earthseed through{" "}
           <span className="italic">Parable of the Talents</span>, but it&apos;s
           clearly a movement that philosophically aligns with the buildings,
-          care, and responsibility that Lauren&apos;s world so desperately needs.
+          care, and responsibility that Lauren&apos;s world so desperately
+          needs.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           One stark difference is the threats that they propose humanity has to
-          itself. In ATLA, the Fire Nation&apos;s rise to power represents social
-          injustices and economic inequality created by rapid technological
-          progress. It is saying that, in the wrong hands, it could create an
-          all-powerful dictatorship (a reflection of a scenario where the Soviet
-          Union wins the war and becomes the most technologically advanced
-          nation). <span className="italic">Parable of the Sower</span> presents
-          a much more nuanced concern about the future. The destruction Lauren
-          sees (both her hyperempathy and what she loses) is a result of drug
-          misuse and overdoes (with Pyro and Paracetco). In this comparison,
-          it&apos;s almost comical how non-influential drugs are in ATLA; its main
+          itself. In ATLA, the Fire Nation&apos;s rise to power represents
+          social injustices and economic inequality created by rapid
+          technological progress. It is saying that, in the wrong hands, it
+          could create an all-powerful dictatorship (a reflection of a scenario
+          where the Soviet Union wins the war and becomes the most
+          technologically advanced nation).{" "}
+          <span className="italic">Parable of the Sower</span> presents a much
+          more nuanced concern about the future. The destruction Lauren sees
+          (both her hyperempathy and what she loses) is a result of drug misuse
+          and overdoes (with Pyro and Paracetco). In this comparison, it&apos;s
+          almost comical how non-influential drugs are in ATLA; its main
           explicit drug use is purely a comedic relief to their desert journey.
+        </p>
+        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
+          Some Virtual Introspection (Conclusion)
+        </h2>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          The concept of &quot;God is Change&quot; in a dystopian is the theme
+          of this website. To get here, you had to burn down an entire blank
+          page, with no way to get it back (or at least not with a simple
+          refresh)! I built this as the best reflection I could of both
+          hyperempathy and Earthseed, which is basically Lauren&apos;s life.
+          Imagine I put a Dog on the first page! I am not evil enough to build
+          such a depiction, and I hope you wouldn&apos;t press that button
+          either! Was viewing this website worth burning the page? Would it be
+          worth burning a virtual dog?
+        </p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
+          Everyone has to be the change they want to see (however cliche that
+          sounds), even if it&apos;s hard or near impossible to carry out (like
+          Lauren killing for what&apos;s right and her own survival and
+          effectively feeling death in the process). You participated in the
+          study of destroying one thing to see another, and we all do it all the
+          time, every day, even if we don&apos;t see it. I think Earthseed, this
+          website, <span className={`${Monocraft.className}`}>Minecraft</span>,
+          and{" "}
+          <span className={`${atla.className}`}>
+            Avatar: The Last Airbender
+          </span>
+          , and <span className="italic">Parable of the Sower</span> are all
+          exploring this same concept in a more explicit sense.
         </p>
       </div>
     </div>
