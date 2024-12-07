@@ -5,6 +5,11 @@ import shapeGod from "@/images/ShapeGod.png";
 import minecraftLibrary from "@/images/minecraft_library.avif";
 import Image from "next/image";
 import Link from "next/link";
+import localFont from "next/font/local";
+
+const Monocraft = localFont({
+  src: "../../fonts/Monocraft.otf",
+});
 
 export default function Sower() {
   const [showVideo, setShowVideo] = useState(true);
@@ -165,7 +170,7 @@ export default function Sower() {
           this website, and <span className="italic">Parable of the Sower</span>{" "}
           are all exploring this same concept in a more explicit sense.
         </p>
-        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
+        <h2 className={`scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0 ${Monocraft.className}`}>
           Minecraft!!!!
         </h2>
         <iframe
@@ -271,8 +276,7 @@ export default function Sower() {
           future, with major elements, like the drugs described and global,
           being reflections of our own current issues. Minecraft, on the other
           hand, is a more abstract, interactive system that explores human
-          desire, resource management, and social/political constructions (when
-          playing multiplayer SMP servers).)
+          desire, resource management, and social/political constructions).
         </p>
         <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
           Minecraft!!!!
