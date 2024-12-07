@@ -309,6 +309,8 @@ export default function Sower() {
         >
           Avatar: The Last Airbender
         </h2>
+        <Image src={ATLAGenocide} alt="ATLA genocide" className="mx-auto mt-6 rounded-sm"></Image>
+        <Image src={SowerGenocide} alt="Sower genocide" className="mx-auto mt-6 rounded-sm"></Image>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Reading <span className="italic">Parable of the Sower</span> caught my
           attention because of the striking similarity (and also some stark
