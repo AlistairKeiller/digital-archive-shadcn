@@ -333,53 +333,53 @@ export default function Sower() {
           Avatar: The Last Airbender
         </h2>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Reading <span className="italic">Parable of the Sower</span> had me
-          getting caught on the striking similarity (and also some stark
-          differences). While Lauren struggles defend herself due to her
+          Reading <span className="italic">Parable of the Sower</span> caught my
+          attention because of the striking similarity (and also some stark
+          differences). While Lauren struggles to defend herself due to her
           hyperempathy, Aang struggles to defend himself due to his pacifism,
-          based both on his religious ideals his feeling of overwhelming
+          based both on his religious ideals and his feeling of overwhelming
           responsibility and guilt. In short, the fire nation desires world
           domination, while The Avatar (Aang) represents the natural state and
           balance in the world. The Fire Nation, blinded by their technological
-          advancements and greed, started a war for world domination, and wiped
-          out the entire air nation to prevent The Avatar from being born
-          balance maintained. Aang was trapped in ice for the entire duration of
-          the war (because he was overwhelmed with his responsibilities), and we
-          wakes up to a world where his people are extinct and could not be less
-          balanced.
+          advancements and greed, started a war for world domination and wiped
+          out the entire air nation to prevent The Avatar from being born, and
+          balance was maintained. Aang was trapped in ice for the entire
+          duration of the war (because he was overwhelmed with his
+          responsibilities), and we wake up to a world where his people are
+          extinct and could not be less balanced.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           As a Buddhist and a pacifist, Aang can't even bring himself to kill in
-          self defense, or to destabilize The Fire Nation, even though other
-          avatars and Buddhists believe are adamant that it is the only way to
-          restore balance. Aang eventually solves it by unlocking a new form of
-          bending (no more spoilers!).
+          self-defense or to destabilize The Fire Nation, even though other
+          avatars and Buddhists believe and are adamant that it is the only way
+          to restore balance. Aang eventually solves it by unlocking a new form
+          of bending (no more spoilers!).
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Aang's predicament is similar to Lauren's, in that they are both
-          aversed to killing and inflicting pain, in a world where it seems like
-          the only way. From their perspective, they view themselves as weak
+          Aang's predicament is similar to Lauren's in that they are both
+          aversed to killing and inflicting pain in a world where it seems like
+          the only way. From their perspective, they view themselves as weak,
           crippled, and inadequate for their abnormality. But their difference
-          allows them to present a unique worldview, and solve problems in new
+          allows them to present a unique worldview and solve problems in new
           ways, oftentimes that the world needs. I have not read the outcome of
           Earthseed through{" "}
           <span className="italic">Parable of the Talents</span>, but it's
-          clearly a movoment, that philosophically aligns with the buildings,
-          care, and responabiltiy that Lauren's world so desperately needs.
+          clearly a movement that philosophically aligns with the buildings,
+          care, and responsibility that Lauren's world so desperately needs.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           One stark difference is the threats that they propose humanity has to
           itself. In ATLA, the Fire Nation's rise to power represents social
-          injustices and ecenomic inequality created by rapid technological
+          injustices and economic inequality created by rapid technological
           progress. It is saying that, in the wrong hands, it could create an
-          all powerful dictatorship (a reflection of a scenario where the Soviet
-          Union wins the war, and becomes the most technologically advanced
+          all-powerful dictatorship (a reflection of a scenario where the Soviet
+          Union wins the war and becomes the most technologically advanced
           nation). <span className="italic">Parable of the Sower</span> presents
           a much more nuanced concern about the future. The destruction Lauren
           sees (both her hyperempathy and what she loses) is a result of drug
           misuse and overdoes (with Pyro and Paracetco). In this comparison,
-          it's almost comical how non-influencial drugs are in ATLA; it's main
-          explit drug use is purely a comidic relief to their desert journey.
+          it's almost comical how non-influential drugs are in ATLA; its main
+          explicit drug use is purely a comedic relief to their desert journey.
         </p>
       </div>
     </div>
