@@ -313,7 +313,7 @@ export default function Sower() {
           className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}
         >
           A hardcore player of Minecraft feels loosely akin to a reader
-          exploring religion by reading Lauren's world and Earthseed! Both the
+          exploring religion by reading Lauren&apos;s world and Earthseed! Both the
           reader of <span className="italic">Parable of the Sower</span> and the
           player of Minecraft can explore those worlds and use those worlds as a
           sandbox to explore and reform their own philosophies and worldviews.
