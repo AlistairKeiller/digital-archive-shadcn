@@ -74,7 +74,7 @@ export default function Sower() {
   const onMouseMoveGenocide = (
     e:
       | React.MouseEvent<HTMLDivElement | HTMLButtonElement>
-      | React.TouchEvent<HTMLDivElement>
+      | React.TouchEvent<HTMLDivElement | HTMLButtonElement>
   ) => {
     if (!onMouseDownGenocide) return;
 
