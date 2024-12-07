@@ -218,11 +218,14 @@ export default function Sower() {
           </Link>
           .
         </p>
-        <Image
-          src={minecraftLibrary}
-          alt="Minecraft Library"
-          className="mx-auto my-6 sm:float-right sm:mx-6 rounded-sm w-11/12 sm:w-1/2"
-        />
+        <div className={`mx-auto my-6 sm:float-right sm:mx-6 w-11/12 sm:w-1/2 ${Monocraft.className}`}>
+          <Image
+            src={minecraftLibrary}
+            alt="Minecraft Library"
+            className="rounded-sm w-max"
+          />
+          <div className="text-center">The Minecraft Uncensored Library</div>
+        </div>
         <p
           className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}
         >
