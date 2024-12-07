@@ -11,6 +11,7 @@ import localFont from "next/font/local";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import OASIS from "@/images/OASIS.webp";
 
 const Monocraft = localFont({
   src: "../../fonts/Monocraft.otf",
@@ -271,28 +272,7 @@ export default function Sower() {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <Popover>
-          <PopoverTrigger asChild>
-            <span className="underline cursor-pointer">
-              begging the Phaeacians
-            </span>
-          </PopoverTrigger>
-          <PopoverContent className="w-96">
-            <Image
-              src={Begging}
-              alt="Odysseus begging"
-              className="h-48 object-cover rounded-md mx-auto"
-            />
-            <p className="text-sm text-center mt-2">
-              Odysseus begs for his safe return to Ithaca. This image depicts
-              Odysseus on his knees, with his hands clasped together, and looked
-              down upon by every Phaeacian. The child, the only one lower than
-              Odysseus, refuses to look up at him. It feels like Odysseus has
-              nothing to lose and is willing to play all his cards for his own
-              ends.
-            </p>
-          </PopoverContent>
-        </Popover>
+
         <p
           className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}
         >
@@ -304,9 +284,28 @@ export default function Sower() {
           loss, get lost in the adrenaline of risk, and experience the loss of
           their world, all of which is an equivalent experience to the real
           world. They can inform their life and use Minecraft as their
-          otherwordly escape, like OASIS from Ready Player One, but more blocky
-          and abstract. In Minecraft, they can explore and use that to build a
-          world that informs how they experience their own.
+          otherwordly escape, like the{" "}
+          <Popover>
+            <PopoverTrigger asChild>
+              <span className="underline cursor-pointer">OASIS</span>
+            </PopoverTrigger>
+            <PopoverContent className="w-96">
+              <Image
+                src={OASIS}
+                alt="the OASIS"
+                className="h-48 object-cover rounded-md mx-auto"
+              />
+              <p className="text-sm text-center mt-2">
+                The OASIS is a virtual world in Ready Player One, where people
+                can escape from the real world and live their lives in a
+                completely different world. It controls the economy, social, and
+                political structures of the world in Ready Player One.
+              </p>
+            </PopoverContent>
+          </Popover>{" "}
+          from Ready Player One, but more blocky and abstract. In Minecraft,
+          they can explore and use that to build a world that informs how they
+          experience their own.
         </p>
         <p
           className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}
