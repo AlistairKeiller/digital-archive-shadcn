@@ -218,7 +218,9 @@ export default function Sower() {
           </Link>
           .
         </p>
-        <div className={`mx-auto my-6 sm:float-right sm:mx-6 w-11/12 sm:w-1/2 ${Monocraft.className}`}>
+        <div
+          className={`mx-auto my-6 sm:float-right sm:mx-6 w-11/12 sm:w-1/2 ${Monocraft.className}`}
+        >
           <Image
             src={minecraftLibrary}
             alt="Minecraft Library"
@@ -313,16 +315,17 @@ export default function Sower() {
           className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}
         >
           A hardcore player of Minecraft feels loosely akin to a reader
-          exploring religion by reading Lauren&apos;s world and Earthseed! Both the
-          reader of <span className="italic">Parable of the Sower</span> and the
-          player of Minecraft can explore those worlds and use those worlds as a
-          sandbox to explore and reform their own philosophies and worldviews.
-          The worlds are both alien in some sense but largely resemble our own (
-          <span className="italic">Parable of the Sower</span> is a dystopian
-          future, with major elements, like the drugs described and global,
-          being reflections of our own current issues. Minecraft, on the other
-          hand, is a more abstract, interactive system that explores human
-          desire, resource management, and social/political constructions).
+          exploring religion by reading Lauren&apos;s world and Earthseed! Both
+          the reader of <span className="italic">Parable of the Sower</span> and
+          the player of Minecraft can explore those worlds and use those worlds
+          as a sandbox to explore and reform their own philosophies and
+          worldviews. The worlds are both alien in some sense but largely
+          resemble our own (<span className="italic">Parable of the Sower</span>{" "}
+          is a dystopian future, with major elements, like the drugs described
+          and global, being reflections of our own current issues. Minecraft, on
+          the other hand, is a more abstract, interactive system that explores
+          human desire, resource management, and social/political
+          constructions).
         </p>
         <h2
           className={`scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0 ${atla.className}`}
