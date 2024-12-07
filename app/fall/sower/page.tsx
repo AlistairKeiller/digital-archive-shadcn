@@ -272,7 +272,7 @@ export default function Sower() {
           flash&quot; - Philza.
         </p>
         <iframe
-          className="mx-auto w-full [&:not(:first-child)]:mt-6"
+          className="mx-auto w-full [&:not(:first-child)]:mt-6 rounded-sm"
           height="315"
           src="https://www.youtube.com/embed/YzaStuZnHBc?si=dfafP7I2fYg6fEb9&amp;start=84"
           title="YouTube video player"
@@ -419,7 +419,7 @@ export default function Sower() {
           needs.
         </p>
         <iframe
-          className="[&:not(:first-child)]:mt-6 w-11/12 sm:float-right sm:w-1/2 aspect-video m-6"
+          className="[&:not(:first-child)]:mt-6 w-11/12 sm:float-right sm:w-1/2 aspect-video m-6 rounded-sm"
           src="https://www.youtube.com/embed/ksSFiMNth7w?si=SG2xHZuUTY_HJytM&amp;start=41"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
