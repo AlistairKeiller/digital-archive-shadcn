@@ -470,6 +470,110 @@ export default function Sower() {
           , and <span className="italic">Parable of the Sower</span> are all
           exploring this same concept in a more explicit sense.
         </p>
+        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight mt-6 first:mt-0">
+          Citations
+        </h2>
+        <ul className="leading-7">
+          <li>
+            <Link
+              href="https://godischange.org/about/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Real Earthseed
+            </Link>{" "}
+            - godischange
+          </li>
+          <li>
+            <Link
+              href="https://classic.minecraft.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Minecraft Classic
+            </Link>{" "}
+            - Mojang
+          </li>
+          <li>
+            <Link
+              href="https://www.uncensoredlibrary.com/en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Minecraft Uncensored Library
+            </Link>{" "}
+            - uncensoredlibrary
+          </li>
+          <li>
+            <Link
+              href="https://www.youtube.com/watch?v=C0B-y61mn8g"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Philza&apos;s death
+            </Link>{" "}
+            - Ph1LzA Youtube
+          </li>
+          <li>
+            <Link
+              href="https://www.youtube.com/watch?v=YzaStuZnHBc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Philza documentary
+            </Link>{" "}
+            - Mojang
+          </li>
+          <li>
+            <Link
+              href="https://www.youtube.com/watch?v=ksSFiMNth7w"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              ATLA scene
+            </Link>{" "}
+            - Avatar: The Last Airbender Youtube
+          </li>
+          <li>
+            <Link
+              href="https://www.vecteezy.com/video/47381418-paper-burn-opener-2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Paper burning
+            </Link>{" "}
+            - vecteezy
+          </li>
+          <li>
+            <Link
+              href="https://eaglercraft.com/mc/1.8.8-wasm/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Minecraft In Browser
+            </Link>{" "}
+            - eaglercraft
+          </li>
+          <li>
+            <Link
+              href="https://www.amazon.com/Parable-Sower-Graphic-Novel-Adaptation-ebook/dp/B07NY2PYS7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              Parable of the Sower
+            </Link>{" "}
+            - John Jennings and Octavia E. Butler
+          </li>
+        </ul>
       </div>
     </div>
   );
