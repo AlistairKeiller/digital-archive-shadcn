@@ -124,14 +124,14 @@ export default function Sower() {
           is Change.&quot;
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          &quot;God is change&quot; is the beating heart of the novel. It
+          &quot;God is Change&quot; is the beating heart of the novel. It
           reflects the state of the dystopian society; the generations before
-          did not have enough care for the impact in their world, leaving global
+          did not care enough about the impact on their world, leaving global
           warming &apos;for later,&apos; and this generation with debilitating
           generational debt. This can result from the non-consequentialist
           attitude of a Baptist minister, who believes that God starts,
           overlooks, and maintains a balance, and all one needs to do is act
-          morally and in his world.
+          morally and in His world.
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           This removes much of the responsibility from individuals, as it&apos;s
@@ -140,17 +140,15 @@ export default function Sower() {
           stark contrast to the non-consequentialist view of God, as it places
           the responsibility of change on the individual. &quot;God is
           Change&quot; is bidirectional in the sense it is equivalent to
-          &quot;Change is God.&quot; So, any change is a reflection of God, and
-          it is not somehow inferior to holy change. That means that we, mere
-          humans, have the power, and therefore responsibility, to &quot;Shape
-          God.&quot;
+          &quot;Change is God.&quot; This means that we, mere humans, have the
+          power, and therefore responsibility, to &quot;Shape God.&quot;
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           <span className="italic">Parable of the Sower</span> not only creates
           a new world but develops a worldview tailored to that world. The
-          worldview and world are both so carefully designed as a dystopian view
-          that they accurately portray many people&apos;s thoughts about the
-          present and future, as seen by{" "}
+          worldview and world are both so carefully designed as a dystopian
+          vision that they accurately portray many people&apos;s thoughts about
+          the present and future, as seen by{" "}
           <Link href={"https://godischange.org/about/"} className="underline">
             those who worship Earthseed
           </Link>{" "}
