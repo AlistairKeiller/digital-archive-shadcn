@@ -177,7 +177,7 @@ export default function Sower() {
           src="https://eaglercraft.com/mc/1.8.8-wasm/"
           className="w-full aspect-video [&:not(:first-child)]:mt-6"
         ></iframe>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        <p className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}>
           From{" "}
           <Link href="https://classic.minecraft.net/" className="underline">
             {" "}
@@ -189,7 +189,7 @@ export default function Sower() {
           because it is not about winning, surviving, or competing; just about
           playing, whatever that means to the player.
         </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        <p className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}>
           Creative has all the of the core gameplay: players can make whatever
           they want, with no concern about gathering materials. People spend
           years building worlds that are a reflection of their own, and it can
@@ -208,7 +208,7 @@ export default function Sower() {
             height={400}
           />
         </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        <p className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}>
           Survival is not about surviving since death is temporary and
           inconsequential. Instead, it adds another aspect of resource
           management and restriction that adds depth to the world. In creative,
@@ -226,7 +226,7 @@ export default function Sower() {
           beating the ender dragon, is trivial, and is almost never a survival
           player&apos;s final objective).
         </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        <p className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}>
           Finally, Hardcore is a reflection of us, living life itself. It is
           equivalent to survival in all the ways mentioned above; people build,
           farm, and create their projects and goals to feel fulfilled. However,
@@ -252,7 +252,7 @@ export default function Sower() {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        <p className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}>
           This is not just a philosophy that applies to Minecraft. It is akin to
           real philosophies and can apply to the real world: &quot;When it comes
           to either/or, there is only the quick choice of death. It is not
@@ -265,7 +265,7 @@ export default function Sower() {
           and abstract. In Minecraft, they can explore and use that to build a
           world that informs how they experience their own.
         </p>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        <p className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}>
           A hardcore player of Minecraft feels loosely akin to a reader
           exploring religion by reading Lauren's world and Earthseed! Both the
           reader of <span className="italic">Parable of the Sower</span> and the
