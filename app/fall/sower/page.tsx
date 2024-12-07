@@ -419,7 +419,7 @@ export default function Sower() {
           needs.
         </p>
         <iframe
-          className="[&:not(:first-child)]:mt-6 w-11/12 sm:float-right sm:w-1/2 aspect-video"
+          className="[&:not(:first-child)]:mt-6 w-11/12 sm:float-right sm:w-1/2 aspect-video m-6"
           src="https://www.youtube.com/embed/ksSFiMNth7w?si=SG2xHZuUTY_HJytM&amp;start=41"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
