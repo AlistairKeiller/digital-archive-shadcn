@@ -82,7 +82,7 @@ export default function Sower() {
         <div className="absolute inset-0 z-20 h-[calc(100vh-69px)] w-screen flex items-center justify-center">
           <button
             onClick={handleButtonClick}
-            className={`p-5 rounded-full text-9xl transition-colors duration-500 ${
+            className={`p-6 rounded-full text-9xl transition-colors duration-500 ${
               animationStep >= 1
                 ? "bg-transparent"
                 : "bg-red-600 hover:bg-red-500 shadow-xl hover:shadow-2xl"
@@ -110,7 +110,7 @@ export default function Sower() {
         <Image
           src={shapeGod}
           alt="Shape God"
-          className="float-right m-5 rounded-sm"
+          className="float-right m-6 rounded-sm"
           width={200}
         />
         <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -217,13 +217,12 @@ export default function Sower() {
             The Minecraft Uncensored Library
           </Link>
           .
-          <Image
-            src={minecraftLibrary}
-            alt="Minecraft Library"
-            className="float-right m-5 rounded-sm"
-            height={350}
-          />
         </p>
+        <Image
+          src={minecraftLibrary}
+          alt="Minecraft Library"
+          className="mx-auto my-6 sm:float-right sm:mx-6 rounded-sm w-11/12 sm:w-1/2"
+        />
         <p
           className={`leading-7 [&:not(:first-child)]:mt-6 ${Monocraft.className}`}
         >
