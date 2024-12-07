@@ -1,26 +1,6 @@
 "use client";
 
-import React, { useRef, useEffect, useState } from "react";
-import isengard from "@/images/IMG_0025.jpeg";
-import towers from "@/images/IMG_0031.jpeg";
-import calmindon_outside from "@/images/IMG_0024.jpeg";
-import calmindon from "@/images/Calmindon.jpeg";
-import calmindon_lightswitch from "@/images/Calmindon_switch.jpeg";
-import vs from "@/images/Street_Fighter_VS_logo.png";
-import swing from "@/images/swing.jpeg";
-import F1tenth from "@/images/F1tenth.jpeg";
-import UAV from "@/images/UAV.jpeg";
-import ZIMS from "@/images/ZIMS.jpeg";
-import ACE from "@/images/ACE.jpeg";
-import ACE_model from "@/images/ACE_model.png";
-import ACE_chassis from "@/images/ACE_chassis.jpeg";
-import F1tenth_car from "@/images/F1tenth_car.jpeg";
-import lofiGirl from "@/images/lofi.gif";
-import {
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-} from "@/components/ui/popover";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -28,9 +8,29 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import ACE from "@/images/ACE.jpeg";
+import ACE_chassis from "@/images/ACE_chassis.jpeg";
+import ACE_model from "@/images/ACE_model.png";
+import calmindon from "@/images/Calmindon.jpeg";
+import calmindon_lightswitch from "@/images/Calmindon_switch.jpeg";
+import F1tenth from "@/images/F1tenth.jpeg";
+import F1tenth_car from "@/images/F1tenth_car.jpeg";
+import calmindon_outside from "@/images/IMG_0024.jpeg";
+import isengard from "@/images/IMG_0025.jpeg";
+import towers from "@/images/IMG_0031.jpeg";
+import lofiGirl from "@/images/lofi.gif";
+import vs from "@/images/Street_Fighter_VS_logo.png";
+import swing from "@/images/swing.jpeg";
+import UAV from "@/images/UAV.jpeg";
+import ZIMS from "@/images/ZIMS.jpeg";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 
 export default function Decameron() {
   // Reference to the "Calmindon" section
