@@ -14,6 +14,7 @@ import { useEffect, useRef, useState } from "react";
 import OASIS from "@/images/OASIS.webp";
 import ATLAGenocide from "@/images/atla_genocide.jpg";
 import SowerGenocide from "@/images/sower_genocide.png";
+import { GripVertical } from "lucide-react";
 
 const Monocraft = localFont({
   src: "../../fonts/Monocraft.otf",
@@ -64,6 +65,30 @@ export default function Sower() {
   useEffect(() => {
     localStorage.setItem("showVideo", JSON.stringify(showVideo));
   }, [showVideo]);
+
+  // State and handlers for the before/after slider
+  const [insetGenocide, setInsetGenocide] = useState<number>(50);
+  const [onMouseDownGenocide, setOnMouseDownGenocide] =
+    useState<boolean>(false);
+
+  const onMouseMoveGenocide = (
+    e: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>
+  ) => {
+    if (!onMouseDownGenocide) return;
+
+    const target = e.currentTarget;
+    const rect = target.getBoundingClientRect();
+    let x = 0;
+
+    if ("touches" in e && e.touches.length > 0) {
+      x = e.touches[0].clientX - rect.left;
+    } else if ("clientX" in e) {
+      x = e.clientX - rect.left;
+    }
+
+    const percentage = (x / rect.width) * 100;
+    setInsetGenocide(Math.min(Math.max(percentage, 0), 100));
+  };
 
   return (
     <div className="relative flex justify-center min-h-[calc(100vh-69px)]">
@@ -309,8 +334,52 @@ export default function Sower() {
         >
           Avatar: The Last Airbender
         </h2>
-        <Image src={ATLAGenocide} alt="ATLA genocide" className="mx-auto mt-6 rounded-sm"></Image>
-        <Image src={SowerGenocide} alt="Sower genocide" className="mx-auto mt-6 rounded-sm"></Image>
+        <div
+          className="mx-auto mt-6 relative aspect-video w-full h-auto overflow-hidden rounded-md border select-none"
+          onMouseMove={onMouseMoveGenocide}
+          onMouseUp={() => setOnMouseDownGenocide(false)}
+          onTouchMove={onMouseMoveGenocide}
+          onTouchEnd={() => setOnMouseDownGenocide(false)}
+        >
+          <div
+            className="bg-muted h-full w-1 absolute z-20 top-0 -ml-1"
+            style={{
+              left: insetGenocide + "%",
+            }}
+          >
+            <button
+              className="bg-muted rounded hover:scale-110 transition-all w-5 h-10 select-none -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-ew-resize flex justify-center items-center"
+              onTouchStart={(e) => {
+                setOnMouseDownGenocide(true);
+                onMouseMoveGenocide(e);
+              }}
+              onMouseDown={(e) => {
+                setOnMouseDownGenocide(true);
+                onMouseMoveGenocide(e);
+              }}
+              onTouchEnd={() => setOnMouseDownGenocide(false)}
+              onMouseUp={() => setOnMouseDownGenocide(false)}
+            >
+              <GripVertical className="h-4 w-4 select-none" />
+            </button>
+          </div>
+          <Image
+            src={ATLAGenocide}
+            alt="ATLA genocide"
+            fill
+            className="absolute left-0 top-0 z-10 object-cover"
+            style={{
+              clipPath: `inset(0 0 0 ${insetGenocide}%)`,
+            }}
+          />
+          <Image
+            src={SowerGenocide}
+            alt="Sower genocide"
+            fill
+            className="absolute left-0 top-0 object-cover"
+          />
+        </div>
+
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Reading <span className="italic">Parable of the Sower</span> caught my
           attention because of the striking similarity (and also some stark
