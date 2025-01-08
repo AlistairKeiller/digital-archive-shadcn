@@ -36,7 +36,7 @@ export function ProfileCard() {
           <CardDescription
             className={`${atla.className} text-xl text-gray-500`}
           >
-            The last CS nerd for fun (jk)
+            The last CS nerd for fun /j
           </CardDescription>
         </CardHeader>
 
